@@ -1,25 +1,24 @@
 Tutorial
     {
-    SHARED1                 "To start developing software, designers need to piece together a design document. This document describes how the software should be developed and structured, to make sure everyone is on the same page.
-	
-The design phase is split up into iterations. Each iteration increases the potential end quality and decreases the speed and amount of bugs in your project. There are 2 ways to tackle the design phase:
-	•You can finish 1 iteration and handle any issues in the development phase
-	•You can finish all iterations and have less issues in the development phase
-	
-The first method is very effective, but makes it hard to estimate how long development will take, however the second method is guaranteed to extend the design phase exponentially.
+    SHARED1                 "ソフトウェアの開発を開始するために、設計者は設計文書をつなぎ合わせる必要があります。この文書では、全員が同じ認識を持っていることを確認するために、ソフトウェアを開発して構造化する方法について説明します。
 
-Press {H:continue} to advance the tutorial."
-    SHARED2                 "When doing a review you have to choose how many reviews you want. The more reviews you have, the better accuracy you get.
-			
-You also have to decide who you want to carry out the review, which affects the final price.
+設計フェーズはバージョンに分けられます。 バージョンごとに最終的な品質が向上し、プロジェクトのバグの速度と量が減少します。 設計フェーズに取り組むには2つの方法があります:
+	•1つのバージョンを完了し、全ての問題を開発フェーズで処理する方法
+	•全てのバージョンを完了し、より少ない問題を開発フェーズで処理する方法
 
-Finally, you have to decide which parts of the software to review. If you have already gotten good scores from a past review, you can save time and money by skipping those areas for the current review.
+1番目の方法は非常に効果的ですが、開発にかかる時間を見積もることは困難です。しかし、2番目の方法は設計フェーズが指数関数的に拡張することが保証されています。
+{H:続ける}をクリックするとチュートリアルを進めます。"
+    SHARED2                 "レビューを行うときは必要なレビューの数を選択する必要があります。レビューが多いほど、精度が高くなります。
 
-Pres {H:OK} when you are ready to continue."
+また、最終的な価格に影響を与える、レビューを実行するユーザーを決定する必要があります。
+
+最後に、レビューするソフトウェアの部分を決定する必要があります。過去のレビューですでに良いスコアを取得している場合は、現在のレビューでそれらの領域をスキップすることにより、時間と費用を節約できます。
+
+続ける準備ができたら{H:OK}をクリックしてください。"
     SHARED3                 "Reviews will pour in as time goes on. You can finish it prematurely if you want, but if you want high accuracy, you should wait until all reviews are in.
 
 Note that reviews will be based on a version of the project that existed when you first clicked review, so any subsequent changes wont be accounted for.
-			
+
 Click the {H:End} button on the review when the progress bar has filled up."
     SHARED4                 "If the review score is unsatisfactory, you can click the iterate button to pause development and let your designers rework the design document. This will tighten up any loose ends, but also set back your project progress a bit.
 
@@ -39,7 +38,7 @@ If you are happy with your score, just close the review window and continue deve
     SHARED9                 "テーブルを並べて配置すると、上に何もない場合はグループ化されます。グループ化されたテーブルは会議に使用できます。テーブルを1つ選択するとそのグループが青で強調表示され、グループ化されているテーブルを確認することができます。
 
 作業環境の騒音レベルをコントロールすることが重要です。騒音オーバーレイを有効にして、どの家具が騒音を発生させているか確認してみましょう。"
-    SHARED10                "創業者であるあなたは、疲れ、空腹、寒さ、孤独、ストレス、トイレ休憩を必要とせず、また一般的にイライラすることもありませんが、新しい従業員を雇う場合、彼らはそうなります。新しい従業員を雇う前に、少なくとも1台の自動販売機、コーヒーマシン、冷却器、換気装置、個別のトイレを必ず追加しましょう。
+    SHARED10                "創業者であるあなたは、疲れ、空腹、寒さ、孤独、ストレスを感じず、トイレ休憩を必要とせず、また一般的にイライラすることもありませんが、新しい従業員を雇う場合、彼らはそうなります。新しい従業員を雇う前に、少なくとも1台の自動販売機、コーヒーマシン、冷却器、換気装置、個別のトイレを必ず追加しましょう。
 
 騒音オーバーレイを切り替えると先に進みます。"
     SHARED11                "次に、部屋をチームに割り当てましょう。他のチームの従業員は、その部屋を使用したり、通過したりすることはできません。
@@ -187,20 +186,20 @@ Click Continue when you are ready to continue."
 
 When you are ready to continue, exit build mode."
     BUILDMODE18             "When you are ready, open the employees window to start managing your employees."
-    CONTRACTS1              "Start by opening the contract window."
-    CONTRACTS2              "This is a list of available contracts. New contracts will be added as older ones are completed.
+    CONTRACTS1              "まず、契約作業ウィンドウを開きましょう。"
+    CONTRACTS2              "これは利用可能な契約のリストです。古い契約が完了すると、新しい契約が追加されます。
 
-Contracts have an upfront payment you will receive for accepting the work, and a bigger payment for completing it. You complete a contract by delivering a product with the requested progress and quality.
+契約には、作業を受け入れる時に受け取る前払いと、作業を完了した時のより大きな支払いがあります。 要求された進捗状況と品質で製品を提供することにより、契約を完了します。
 
-Try selecting a contract in the list now."
-    CONTRACTS3              "The final payout will be subtracted from, for not completing the contract, for not completing it on time and for any unfixed bugs.
+一覧から契約を選択してみましょう。"
+    CONTRACTS3             "最終的な支払い額は、契約を完了しなかった場合、期限内に完了しなかった場合、および未修正のバグが発生した場合に差し引かれます。
 
-Not living up to the clients quality expectations will impact your business reputation, but not your payout.
+顧客の品質の期待に応えないことは、ビジネスの評判に影響しますが、支払いには影響しません。
 
-Browse the contracts now and accept one that sounds good to you."
-    CONTRACTS5              "Until an employee actually starts working on the contract, the deadline will not count down.
+契約をざっと見て、あなたにぴったりの契約を受け入れてみましょう。"
+    CONTRACTS5              "従業員が実際に契約に取り掛かるまで、締め切りはカウントダウンされません。
 
-The tutorial will continue once you move to the next phase of development."
+開発の次のフェーズに進むと、チュートリアルを続けます。"
     CONTRACTS6              "When the progressbar reaches the blue line you have lived up to the contract's progress requirements. However, you still need to meet their quality requirements, if you want to increase your business reputation and receive better contracts.
 
 Make sure you do a client review before you move on to the bug fixing stage, to make sure you meet their quality requirements.
@@ -212,7 +211,7 @@ It's impossible to know exactly how many bugs a piece of software has, so just t
 
 Finish your contract work to end the tutorial."
     CUSTOMMAP1              "This tutorial assumes you've already tried build mode and will focus on how the map editor differs.
-		
+
 Click Continue if you're ready to advance."
     CUSTOMMAP2              "The map editor gives you the ability to make a building that you'll be able to lease into when you relocate or make a new company. The map editor does not have the ability to edit normal {H:for sale} buildings.
 
@@ -228,53 +227,53 @@ Try building a room now."
 When you group rooms together, they can only be leased as one single unit. Cloning rooms will carry over the same grouping style, so you can build a layout and quickly duplicate it.
 
 There is a data overlay which allows you to see how rooms have been marked. Enable it now to end the tutorial."
-    CUSTOMIZATION1          "Welcome to the customization screen. Press {H:Continue} to advance the tutorial or {H:Cancel} to exit."
-    CUSTOMIZATION2          "Begin by picking a name for your company."
-    CUSTOMIZATION3          "Then pick a name for your founder in the game."
-    CUSTOMIZATION4          "And a gender.
+    CUSTOMIZATION1          "カスタマイズ画面へようこそ。{H:続ける}を押すとチュートリアルを進めます。{H:キャンセル}を押すと終了します。"
+    CUSTOMIZATION2          "まず、会社の名前を選択しましょう。"
+    CUSTOMIZATION3          "次に、ゲームでの創設者の名前を選択しましょう。"
+    CUSTOMIZATION4          "そして性別です。
 
-You can toggle genders multiple times to randomize your founder's look."
-    CUSTOMIZATION5          "You can use these buttons to choose an aspect of your founder's appearance that you want to change.
-	
-You can change the shape of the face and eyebrows by clicking the first button, and the last button allows you to pick the colors of the skin, hair, accessories and clothes of your founder."
-    CUSTOMIZATION6          "Here you can pick your founder's personality traits.
+性別を複数回切り替えて、創設者の外観をランダム化できます。"
+    CUSTOMIZATION5          "これらのボタンを使用して、変更する創設者の外観の種類を選択できます。
 
-You can choose two traits, which will affect your founder's behavior, listed below, and inter-office relationships."
-    CUSTOMIZATION7          "Here you can pick your founder's skill points which will affect the performance of your founder.
+最初のボタンをクリックすると、顔と眉毛の形を変更できます。最後のボタンでは、創設者の肌、髪の毛、アクセサリー、服の色を選択できます。"
+    CUSTOMIZATION6          "ここでは、創設者の性格特性を選択できます。
 
-Skills are balanced and the maximum amount of skill you can assign to begin with depends on the difficulty you choose."
-    CUSTOMIZATION8          "You can change your employees specialization points by clicking the highlighted stars down here.
-			
-Specialization levels control which tasks your employee can complete. Remember to check the other roles by using the dropdown.
+次に2つの特性を選択しましょう。これらの特性は、その下に並んでいる創設者の行動、オフィス間の関係に影響を与えます。"
+    CUSTOMIZATION7          "ここでは、創設者のパフォーマンスに影響を与えるスキルポイントを選択できます。
 
-Clicking the {H:Random} button will pick random specialization levels for the points you have left.
+スキルはバランス化されており、最初に割り当てることができるスキルの最大量は、選択した難易度によって異なります。"
+    CUSTOMIZATION8          "ここで強調表示されている星をクリックすると、従業員の専門化ポイントを変更できます。
 
-You can further educate and train your founder to gain skill and specializations in the game."
-    CUSTOMIZATION9          "You are now done customizing your founder. Let's begin choosing the rules of the game!"
-    CUSTOMIZATION10         "You can enable any mods here, which will be bound to the game forever.
+専門レベルは従業員が実行できるタスクをコントロールします。ドロップダウンを使用して、他の役割の専門レベルを忘れずに確認しましょう。
 
-You won't be able to enable or disable mods after your game has started, as they fundamentally alter how the game is played, but you can share your save game with others, without having to install the mods again."
-    CUSTOMIZATION11         "Pick how much money you want to start with. You start with {StartingFunds} by default, any additional funds will be taken as loans.
+{H:ランダム}ボタンをクリックすると、専門レベルの残りポイントがランダムに選択されます。
 
-Note that you need at least {StartingPlot} if you would rather purchase an empty plot, than lease rooms in a building."
-    CUSTOMIZATION12         "You can change what year you want to start in here.
-		
-Starting later will give you the full power of modern tech and digital distribution, but your competitors will be more established."
-    CUSTOMIZATION13         "Difficulty can be changed at any point in the game by going to the options menu.
+ゲーム内で、スキルと専門を習得するために創設者をさらに教育、トレーニングできます。"
+    CUSTOMIZATION9          "これで創設者のカスタマイズが完了しました。ゲームルールの選択を始めましょう！"
+    CUSTOMIZATION10         "ここで任意のModを有効にできます。これはゲームに永久に結び付けられます。
 
-Difficulty controls how easy it is to break into the market."
-    CUSTOMIZATION14         "You can pick how many days you want per month.
+Modはゲームのプレイ方法を根本的に変更するため、ゲームの開始後にModを有効、無効にすることはできませんが、Modを再度インストールしなくてもセーブしたゲームを他のユーザーと共有できます。"
+    CUSTOMIZATION11         "開始金額を選択しましょう。デフォルトでは{StartingFunds}から開始し、追加の資金は借入金として取得されます。
 
-1 month lasts for 1 day by default. The game was made with this pace in mind and it is therefore the recommended setting.
+建物の部屋を借りるのではなく空の区画を購入する場合は、少なくとも{StartingPlot}が必要なことに注意しましょう。"
+    CUSTOMIZATION12         "ここで開始する年を変更できます。
 
-If you feel the game is going too fast or you want a couple of days to earn money between having to pay bills, you can increase this setting. Be aware that everything will move slower to match the setting you pick and you can't change it later on."
-    CUSTOMIZATION15         "Click the Pick map button to pick your starting environment"
-    CUSTOMIZATION16         "Here you can see a list of buildings you can buy outright or lease your way into. Next to each picture you can see whether a building is \"For rent\" or \"For sale\".
+遅い年で開始すると最新のテクノロジーとデジタル配信の能力をフルに活用できますが、競争相手はより確立されます。"
+    CUSTOMIZATION13         "設定メニューに移動すると、ゲームのどの時点でも難易度を変更できます。
 
-Note that the \"Building area\" for buildings you can lease into defines the maximum area you can lease as you expand your company."
-    CUSTOMIZATION17         "You can use these buttons to pick whether you want to lease or buy an empty plot.
+難易度は、市場への参入がどの程度簡単かをコントロールします。"
+    CUSTOMIZATION14         "月あたりの日数を選択できます。
 
-Construction is very expensive, so it is recommended that you start off leasing. You can relocate your company any time you want during gameplay."
+デフォルトでは1ヶ月は1日です。ゲームはこのペースを念頭に置いて作成されたため、これが推奨の設定です。
+
+ゲームの速度が速すぎると感じた場合、または請求書を支払う必要がある間に数日間お金を稼ぎたい場合は、この設定を増やすことができます。選択した設定と一致するようすべてがゆっくりと動き、後で変更できないことに注意してください。"
+    CUSTOMIZATION15         "マップを選択ボタンをクリックして、開始時の環境を選択しましょう"
+    CUSTOMIZATION16         "ここでは、購入したり賃貸したりできる建物の一覧を見ることができます。各写真の横に、建物が「貸出中」または「販売中」のどちらであるかが表示されます。
+
+賃貸できる建物の「建物面積」は、会社を拡張するときに賃貸できる最大面積を決めることに注意してください。"
+    CUSTOMIZATION17         "これらのボタンを使用して、空の区画を賃貸するか購入するかを選択できます。
+
+建設はとてもお金がかかるため、賃貸から始めることをお勧めします。 ゲームプレイ中はいつでも会社を移転できます。"
     DESIGNDOCUMENT11        "You can use or create a framework when developing software. Frameworks speed up development, but lock down the maximum tech levels of your features.
 
 Using a framework made by another company will require you pay a license fee from your profits.
@@ -326,9 +325,9 @@ When you click {H:Start education} all applicable employees will start their cla
 
 Note that if you click a star that is more than 1 level above what the employee currently has, they will be sent for multiple classes at once."
     EMPLOYEES1              "まず、従業員ウィンドウを開きましょう。"
-    EMPLOYEES2              "これはすべての従業員の一覧リストで、従業員のステータスを詳しく示しています。
+    EMPLOYEES2              "これは全ての従業員の一覧リストで、従業員のステータスを詳しく示しています。
 
-一番上のバーのオプションをチェックすると、すべての従業員の詳細をさらに確認できます。"
+一番上のバーの設定をチェックすると、全ての従業員の詳細をさらに確認できます。"
     EMPLOYEES3              "一覧で従業員を選択するとその従業員がゲーム内で選択され、ウィンドウの下部で専門分野の詳細を確認できます。
 
 従業員を選択してみましょう。"
@@ -336,13 +335,13 @@ Note that if you click a star that is more than 1 level above what the employee 
 
 次に、任意の場所で{KeyBind:ContextMenu}を押して、選択した従業員のコンテキストメニューを表示しましょう。 {H:チーム変更}ボタンをクリックして、可能なチーム割り当てを調べましょう。"
     EMPLOYEES5              "完了したら、{H:OK}をクリックしてからもう一度{KeyBind:ContextMenu}を押して、今度はレンチのような{H:従業員の役割を変更}ボタンをクリックしましょう。"
-    EMPLOYEES6              "役割ウィンドウで役割をクリックすると、従業員がその役割のみにすぐに割り当てられます。チェックボックスをチェックすると、従業員に複数の役割を割り当てられます。 各役割の横にある2列目のチェックボックスは{H:補助の}オプションです。このオプションでは、従業員は主要な役割で仕事をしていない場合にのみその役割で働きます。
+    EMPLOYEES6              "役割ウィンドウで役割をクリックすると、従業員がその役割のみにすぐに割り当てられます。チェックボックスをチェックすると、従業員に複数の役割を割り当てられます。 各役割の横にある2列目のチェックボックスは{H:補助の}設定です。この設定では、従業員は主要な役割で仕事をしていない場合にのみその役割で働きます。
 
 {H:全ての役割}チェックボックスを切り替えて全ての役割を一度にオンまたはオフにするか、{H:自動割り当て}をクリックして、従業員が最も熟練している役割に従業員を割り当てることもできます。
 
 {H:リーダー}は、従業員がチームに割り当てられており、リーダーが他の役割で全力で活動しない限り、選択できないことに注意してください。
 
-{H:役割}ウィンドウを閉じて{H:続き}をクリックするとチュートリアルを続けます。"
+{H:役割}ウィンドウを閉じて{H:続ける}をクリックするとチュートリアルを続けます。"
     EMPLOYEES7              "従業員を選択した状態で、もう一度{KeyBind:ContextMenu}を押してコンテキストメニューを表示し、人間のような{H:従業員の詳細}ボタンを選択しましょう。"
     EMPLOYEES8              "ここでは、従業員のステータスを確認できます。
 
@@ -426,12 +425,12 @@ You can see and withdraw your current investments in this panel.
 
 後で区画を購入する場合は、ポーズ中のウィンドウで{H:会社を移転}をクリックするか、建設メニューの横にあるボタンを使用して、会社を再配置できます。
 
-準備ができたら続きをクリックしてください。"
+準備ができたら続けるをクリックしてください。"
     LEASING3                "オブジェクトの配置を開始するには、賃貸した部屋がある階に移動する必要があります。"
     LEASING11               "十分なスペースが無いと感じたら、他の部屋を選択して左下隅の賃貸をクリックするか、会社を別のマップに移動することで賃貸できます。
 
 今賃貸できる部屋を選んでみてください。 賃貸可能な部屋は、黒い内装で識別できます。"
-    LEASING12               "現在賃貸している部屋を選択して、賃貸契約を終了することもできます。賃貸を終了すると影響を受ける部屋のすべての家具が売却されますが、元に戻すボタンを使用して家具を元に戻すことができます。
+    LEASING12               "現在賃貸している部屋を選択して、賃貸契約を終了することもできます。賃貸を終了すると影響を受ける部屋の全ての家具が売却されますが、元に戻すボタンを使用して家具を元に戻すことができます。
 
 続ける準備ができたら、建設モードを終了しましょう。"
     LEASING13               "準備ができたら、従業員のウィンドウを開いて従業員の管理を開始しましょう。"
@@ -627,8 +626,8 @@ When you've placed a central temperature unit, you can select it and click on th
 
 このウィンドウが邪魔になる場合は、タイトルバーをクリックしてドラッグすることで別の場所に移動できます。
 
-続きをクリックするとチュートリアルを進めます。"
-    WELCOME2                "カメラを移動するには、{KeyBind:MoveUp}、{KeyBind:MoveLeft}、{KeyBind:MoveDown}、{KeyBind:MoveRight}を押すか、{KeyBind:DragCamera}を押しながらマウスをドラッグするか、マウスを画面端に移動します(オプションメニューでエッジスクロールが有効になっている場合)。
+続けるをクリックするとチュートリアルを進めます。"
+    WELCOME2                "カメラを移動するには、{KeyBind:MoveUp}、{KeyBind:MoveLeft}、{KeyBind:MoveDown}、{KeyBind:MoveRight}を押すか、{KeyBind:DragCamera}を押しながらマウスをドラッグするか、マウスを画面端に移動します(設定メニューでエッジスクロールが有効になっている場合)。
 
 カメラを回転するには、{KeyBind:RotateCamera}を押しながらマウスを動かすか、{KeyBind:TurnUp}、{KeyBind:TurnLeft}、{KeyBind:TurnDown}、{KeyBind:TurnRight}を使用します。
 
