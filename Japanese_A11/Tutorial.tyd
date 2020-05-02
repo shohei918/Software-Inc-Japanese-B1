@@ -15,15 +15,15 @@ Tutorial
 最後に、レビューするソフトウェアの部分を決定する必要があります。過去のレビューですでに良いスコアを取得している場合は、現在のレビューでそれらの領域をスキップすることにより、時間と費用を節約できます。
 
 続ける準備ができたら{H:OK}をクリックしてください。"
-    SHARED3                 "Reviews will pour in as time goes on. You can finish it prematurely if you want, but if you want high accuracy, you should wait until all reviews are in.
+    SHARED3                 "時間が経つにつれレビューが寄せられます。 必要に応じて途中で終了することもできますが、高い精度が必要な場合は、すべてのレビューが完了するまで待つ必要があります。
 
-Note that reviews will be based on a version of the project that existed when you first clicked review, so any subsequent changes wont be accounted for.
+レビューは、最初にレビューをクリックしたときに存在したプロジェクトのバージョンに基づいているため、その後の変更は考慮されないことに注意してください。
 
-Click the {H:End} button on the review when the progress bar has filled up."
-    SHARED4                 "If the review score is unsatisfactory, you can click the iterate button to pause development and let your designers rework the design document. This will tighten up any loose ends, but also set back your project progress a bit.
+プログレスバーがいっぱいになったら、レビューの{H:終了}ボタンをクリックしてください。"
+    SHARED4                 "レビューのスコアが不十分な場合は、バージョンボタンをクリックして開発を一時停止し、デザイナーに設計ドキュメントを再作成させることができます。これは未解決の細目を厳しくしますが、プロジェクトの進捗を少し遅らせます。
 
-If you are happy with your score, just close the review window and continue development."
-    SHARED5                 "オブジェクト、部屋、または従業員の上で{KeyBind:MultipleSelect}を押すと一度に複数を選択できます。その後、{KeyBind:ContextMenu}を任意の場所で押すと、コンテキストメニューが表示されます。{KeyBind:SweepSelect}を押したままにして同じタイプのオブジェクトをすばやく選択するか、{KeyBind:NormalSelection}を押しながらドラッグして長方形内のすべてを選択できます。
+満足のいくスコアであれば、レビューウィンドウを閉じて開発を続けましよう。"
+    SHARED5                 "オブジェクト、部屋、または従業員の上で{KeyBind:MultipleSelect}を押すと一度に複数を選択できます。その後、{KeyBind:ContextMenu}を任意の場所で押すと、コンテキストメニューが表示されます。{KeyBind:SweepSelect}を押したままにして同じタイプのオブジェクトをすばやく選択するか、{KeyBind:NormalSelection}を押しながらドラッグして長方形内の全てを選択できます。
 
 ゲーム内で最低2つのものを選択してみましょう。"
     SHARED6                 "部屋に家具を置いてみましょう。
@@ -31,7 +31,7 @@ If you are happy with your score, just close the review window and continue deve
 {H:家具}ボタンをクリックするか{H:テーブル}を検索してテーブルを設置しましょう。"
     SHARED7                 "次に椅子を追加しましょう。椅子はテーブルにのみ追加できます。
 
-椅子やテーブルなどの一部の家具は、設置後に別のバージョンに交換できることに注意してください。 例えば、選択した部屋で同じタイプのすべての家具を選択することで、コンテキストメニューから一度に多くの家具を簡単に置き換えることができます。"
+椅子やテーブルなどの一部の家具は、設置後に別のバージョンに交換できることに注意してください。 例えば、選択した部屋で同じタイプの全ての家具を選択することで、コンテキストメニューから一度に多くの家具を簡単に置き換えることができます。"
     SHARED8                 "最後にコンピュータを追加しましょう。コンピュータを追加するときは、追加したい場所でクリック、長押しをしてマウスを向く方向にドラッグします。最後に、マウスボタンを放して配置します。
 
 コンピュータはテーブルの上に置かれ、椅子の方を向いていなければなりません。"
@@ -46,72 +46,71 @@ If you are happy with your score, just close the review window and continue deve
 新しい部屋を右クリックして、矢印の付いた丸に似た{H:チーム変更}を選択しましょう。ウィンドウが表示されたら、{H:Core}をクリックして、部屋をCoreチームに割り当てましょう。
 
 従業員をチームに割り当てることも忘れないでください。 従業員のウィンドウから{KeyBind:ContextMenu}を押して{H:チーム変更}を選択するか、雇用ウィンドウで直接行うことができます。"
-    SHARED12                "Start the tutorial by pressing the \"Develop software\" button to bring up the design document."
-    SHARED13                "Continue by going to the first page of the advanced design document."
-    SHARED14                "Welcome to the design document, the heart of Software Inc. This is where you decide what kind of software you want to make.
+    SHARED12                "「ソフトウェア開発」ボタンを押して設計文書を表示し、チュートリアルを開始しましょう。"
+    SHARED13                "詳細な設計文書の最初のページに進んでください。"
+    SHARED14                "Software Inc. の心臓部である設計文書へようこそ。ここで、どんなソフトウェアを作成するか決定します。
 
-Start by picking a software type.
+まず、ソフトウェアの種類を選択しましょう。
 
-Click continue to to advance the tutorial."
-    SHARED15                "If applicable, you can pick a software category. Each category for a software type has different development times, popularity, audience retention, features and its own target audience."
-    SHARED16                "Then pick a name. You can either write one yourself or press the \"Name:\" button to have it generated."
-    SHARED17                "You can also pick a price. If you leave the price field alone, the best price will be picked based on the software and features you've chosen. You can click the Price button to reset the price."
-    SHARED18                "Let's look at the features you can pick for your product. Each feature takes time to develop and satisfies different markets.
+続けるをクリックするとチュートリアルを進めます。"
+    SHARED15                "該当する場合は、ソフトウェアのカテゴリを選択できます。ソフトウェアの種類の各カテゴリにより、開発期間、人気、顧客維持率、機能および自身の対象顧客は異なります。"
+    SHARED16                "次に名前を選択しましょう。自分で作成するか、「名前：」ボタンを押して生成することができます。"
+    SHARED17                "価格を選ぶこともできます。価格欄をそのままにしておくと、選択したソフトウェアと機能に基づいて最適な価格が選択されます。「価格」ボタンをクリックして価格をリセットできます。"
+    SHARED18                "製品に選択できる機能を見てみましょう。 各機能の開発には時間がかかり、異なる市場に対応ています。
 
-Software is divided up into specializations, like 2D, 3D, System, etc. Each specialization is shown as a container in the feature panel and each container has a list of extra features you can add. The extra features require that your employees have the right amount of \"stars\" for the specialization they belong to.
+ソフトウェアは2D、3D、システムなどの専門分野に分けられます。各専門分野は機能パネルのコンテナとして表示され、各コンテナには追加できる追加機能のリストがあります。 追加機能では、従業員が所属する専門分野に適した量の「星」を持っている必要があります。
 
-Features that are highlighted in red are unavailable because you don't have any employees in your selected development teams that have the required amount of stars."
-    SHARED19                "1 star features are simple features that help satisfy submarkets to a lesser degree
+赤で強調表示されている機能は、選択した開発チームに必要な数の星を持った従業員がいないため使用できません。"
+    SHARED19                "1つ星の機能は二次市場を多かれ少なかれ満足させるシンプルな機能です
 
-2 star features are far more effective at satisfying their target audiences than 1 star features, as you'll get more value for the time spent developing them
+2つ星の機能は開発に費やされた時間の価値が高まるので、1つ星の機能よりも対象顧客の満足度を高めるのに遥かに効果的です
 
-3 star features don't satisfy your target audience, but instead modify your software in some way"
-    SHARED20                "As you may have noticed, each main feature has a tech level associated with it. Tech levels can be researched by you or other companies from year to year.
+3つ星の機能は対象顧客を満足させませんが、代わりにソフトウェアを何らかの方法で変更します"
+    SHARED20                "お気づきかもしれませんが、それぞれの主な機能には技術レベルが関連付けられています。技術レベルは、毎年、あなたや他の企業が研究することができます。
 
-Sticking to the latest tech level will increase your target audience satisfaction and the marketability of your product, but increase development time and possible research and license costs associated with its development.
+最新の技術レベルに固執すると対象顧客の満足度と製品の市場性は向上しますが、開発時間とその開発に関連する、可能な研究とライセンスの費用は増加します。
 
-It's worth noting that the maximum tech level is limited by any tools needed during development."
-    SHARED21                "You can make your software a sequel to a product you made previously or which you bought from another company. You do this by clicking the {H:Original IP} button and selecting a product.
+最大の技術レベルは、開発中に必要なツールによって制限されることに注意してください。"
+    SHARED21                "ソフトウェアを、以前に作成した製品または他社から購入した製品の続編にすることができます。これを行うには、{H:自社IP}ボタンをクリックして製品を選択します。
 
-Making a sequel will give a marketing boost and change your fans' expectations depending on the success of its predecessors.
+続編を作成するとマーケティングが後押しされ、前作の成功に応じてファンの期待が変わります。
 
-Features that were implemented in the predecessor product will be highlighted in orange in the feature panel, as these features will be developed faster than normal."
-    SHARED22                "Your product can depend on other software types. As an example, you will need a 2D Editor to make a game with 2D graphics, otherwise your artists wouldn't be able to create the graphical assets needed.
-			
-Furthermore, most software also needs to run on one or more operating systems. It would be wise to pick popular operating systems to support, as they will limit your audience size. But beware that each operating system you decide to support will extend development time.
+先行製品に実装された機能は通常よりも速く開発され、機能パネルでオレンジ色で強調表示されます。"
+    SHARED22                "製品は他のソフトウェアの種類に依存する場合があります。例えば、2Dグラフィックスでゲームを作成するには2Dエディターが必要です。そうでなければ、アーティストは必要なグラフィックアセットを作成できません。
 
-You can port your software to other operating systems after it has been released, if you so desire.
+さらに、ほとんどのソフトウェアは1つ以上のオペレーティング・システムで実行する必要もあります。顧客サイズが制限されるため、サポートするオペレーティング・システムには人気のあるものを選択するのが賢明です。ただし、サポートすることを決めたオペレーティング・システムごとに開発時間が長くなることに注意してください。
 
-Move to the next page when you're ready."
-    SHARED23                "The submarket triangle let's you decide how your marketing and design efforts will be weighted, to target a section of users in the market.
+必要に応じて、発売後に他のオペレーティング・システムにソフトウェアを移植できます。
 
-You could either decide which markets you want to target and pick features that will satisfy those markets, or pick the features you want in your product and balance the markets to fit those features.
+準備ができたら次のページに移動しましょう。"
+    SHARED23                "二次市場の三角形ではマーケティングと設計の取り組みにどう重みを付け、市場のユーザーのどの部分を目標にするかを決定できます。
 
-The 3 bars in the bottom will show you how well your chosen features satisfy each market and how much they require, based on how you balanced the triangle.
+目標とする市場を決定してその市場を満たす機能を選択するか、製品に必要な機能を選択してその機能に適合するように市場のバランスをとることができます。
 
-Only 1 page left to go!"
-    SHARED24                "If you're worried about how to pay your developers, how many physical copies you'll have to order or how much effort to put into your marketing campaign, you can sign up with a publisher and they will handle these details, if you agree to pay royalties off your product's profits."
-    SHARED25                "Before you finish, make sure you inspect the information in this box. This outlines everything you need to develop this product.
-			
-Take special note of the {H:Expected interest} percent, as adding more features after it hits 100% will only increase development time and not your sales.
+下部の3本の棒は、三角形のバランスをどのようにして取ったかに基づいており、選択した機能が各市場の満足度をどの程度満たし、どれだけ必要かを示しています。
 
-Having more than the suggested amount of employees on the development teams will result in diminishing returns, so you're paying more in salaries, but getting a smaller and smaller speed increase in return."
-    SHARED26                "After you've went through the phases of development and you're ready to release your product, remember to see if any popular products have just been released in the same software category as yours.
+残り1ページです！"
+    SHARED24                "開発者への支払い方法、物理的なコピーの注文必要数、どれだけマーケティングキャンペーンに労力を投入するか、などが心配な場合は、パブリッシャーと契約してこれらを処理できますが、製品の利益からロイヤリティを支払うことに同意する必要があります"
+    SHARED25                "完了する前に、このボックスの情報を必ず確認してください。 これは、この製品の開発に必要な全ての概要を示しています。
 
-You can also check out upcoming releases from your competitors to make sure a large company won't outshine your product.
+{H:期待利回り}の率に特に注意してください。100%に達した後で機能を追加しても、開発期間が増えるだけで売上は伸びません。
 
-Timing is everything when you're just starting out!"
-    ADVANCEDDESIGNDOCUMENT3 "The first page of the advanced design document resembles the simple design document, but with an added {H:Framework} panel.
+推奨人数を超える従業員を開発チームに入れると見返りが減少します。給与の支払い額が増えるものの、得られる開発速度の増加はますます小さくなります。"
+    SHARED26                "開発のフェーズを完了し製品を発売する準備ができたら、製品と同じソフトウェアのカテゴリで人気のある製品が直近に発売されたかどうか確認しましょう。
 
-You can use or create a framework when developing software. Frameworks speed up development, but lock down the maximum tech levels of your features.
+競合他社からの今後の発売予定をチェックして、大企業があなたの製品を凌駕しないことを確認することもできます。
 
-Using a framework made by another company will require you pay a license fee from your profits.
+始めたばかりのときはタイミングが全てです！"
+    ADVANCEDDESIGNDOCUMENT3 "詳細な設計文書の最初のページはシンプルな設計文書に似ていますが、{H:Framework}パネルが追加されています。
 
-If you decide to create a new framework, it will extend development slightly, but the new framework can be licensed out to other companies to make some extra money on the side."
-    ADVANCEDDESIGNDOCUMENT4 "The advanced design document has multiple pages. Let's move on to page 2 to continue."
-    ADVANCEDDESIGNDOCUMENT7 "This is the summary page. Here you can look over the final details of your project, decide on which design and development teams to use, and whether you want a {H:Publisher}. Publishers will help fund your project, handle marketing and physical distribution for a cut of your profits.
+ソフトウェアの開発時にフレームワークを使用または作成できます。 フレームワークは開発をスピードアップさせますが、機能の技術レベルの上限を固定します。
+他社製のフレームワークを利用する場合は、利益からライセンス料を支払う必要があります。
 
-Click the develop button when you're ready to begin development."
+新しいフレームワークを作成することに決めた場合、開発は少し延長しますが、新しいフレームワークを他の会社にライセンス供与して、お金を追加で稼ぐことができます。"
+    ADVANCEDDESIGNDOCUMENT4 "詳細な設計文書には複数のページがあります。2ページ目に進みましょう。"
+    ADVANCEDDESIGNDOCUMENT7 "これは概要ページです。ここでは、プロジェクトの最終的な詳細を確認し、使用する設計チームと開発チームを決定し、{H:パブリッシャー}が必要かどうかを決められます。パブリッシャーは、プロジェクトに資金を提供しマーケティングと物流を処理しますが、あなたの利益を減らします。
+
+開発を開始する準備ができたら、開発ボタンをクリックしましょう。"
     ALPHAWORK1              "You need to reach the implementation phase of development before the tutorial can continue"
     ALPHAWORK2              "Your project has now been promoted to implementation.
 
@@ -200,16 +199,16 @@ When you are ready to continue, exit build mode."
     CONTRACTS5              "従業員が実際に契約に取り掛かるまで、締め切りはカウントダウンされません。
 
 開発の次のフェーズに進むと、チュートリアルを続けます。"
-    CONTRACTS6              "When the progressbar reaches the blue line you have lived up to the contract's progress requirements. However, you still need to meet their quality requirements, if you want to increase your business reputation and receive better contracts.
+    CONTRACTS6              "プログレスバーが青い線に達していれば契約の進捗度の要件を満たしています。ただし、ビジネスの評判を高め、より良い契約を獲得したい場合は、品質要件を満たす必要があります。
 
-Make sure you do a client review before you move on to the bug fixing stage, to make sure you meet their quality requirements.
+バグ修正段階に進む前に、顧客レビューを行って、品質要件を満たしていることを確認しましょう
 
-The tutorial will continue once you start a review."
-    CONTRACTS10             "When you are ready, let's move on to the bug fixing stage.
+レビューを開始するとチュートリアルを続けます。"
+    CONTRACTS10             "準備ができたら、バグ修正の段階に移りましょう。
 
-It's impossible to know exactly how many bugs a piece of software has, so just try to fix as many as you can before time runs out.
+ソフトウェアに含まれるバグの数を正確に把握することは不可能なので、時間がなくなる前にできるだけ多くのバグを修正しましょう。
 
-Finish your contract work to end the tutorial."
+契約作業を完了するとチュートリアルを終了します。"
     CUSTOMMAP1              "This tutorial assumes you've already tried build mode and will focus on how the map editor differs.
 
 Click Continue if you're ready to advance."
@@ -266,7 +265,7 @@ Modはゲームのプレイ方法を根本的に変更するため、ゲーム�
 
 デフォルトでは1ヶ月は1日です。ゲームはこのペースを念頭に置いて作成されたため、これが推奨の設定です。
 
-ゲームの速度が速すぎると感じた場合、または請求書を支払う必要がある間に数日間お金を稼ぎたい場合は、この設定を増やすことができます。選択した設定と一致するようすべてがゆっくりと動き、後で変更できないことに注意してください。"
+ゲームの速度が速すぎると感じた場合、または請求書を支払う必要がある間に数日間お金を稼ぎたい場合は、この設定を増やすことができます。選択した設定と一致するよう全てがゆっくりと動き、後で変更できないことに注意してください。"
     CUSTOMIZATION15         "マップを選択ボタンをクリックして、開始時の環境を選択しましょう"
     CUSTOMIZATION16         "ここでは、購入したり賃貸したりできる建物の一覧を見ることができます。各写真の横に、建物が「貸出中」または「販売中」のどちらであるかが表示されます。
 
@@ -274,30 +273,30 @@ Modはゲームのプレイ方法を根本的に変更するため、ゲーム�
     CUSTOMIZATION17         "これらのボタンを使用して、空の区画を賃貸するか購入するかを選択できます。
 
 建設はとてもお金がかかるため、賃貸から始めることをお勧めします。 ゲームプレイ中はいつでも会社を移転できます。"
-    DESIGNDOCUMENT11        "You can use or create a framework when developing software. Frameworks speed up development, but lock down the maximum tech levels of your features.
+    DESIGNDOCUMENT11        "ソフトウェアの開発時にフレームワークを使用または作成できます。フレームワークは開発をスピードアップさせますが、機能の技術の上限を固定します。
 
-Using a framework made by another company will require you pay a license fee from your profits.
+他社製のフレームワークを利用する場合は、利益からライセンス料を支払う必要があります。
 
-If you decide to create a new framework, it will extend development slightly, but the new framework can be licensed out to other companies to make some extra money on the side."
-    DESIGNDOCUMENT12        "Let's check out the {H:Dependencies} page."
-    DESIGNDOCUMENT18        "Click the develop button when you're ready to begin development."
-    DESIGNWORK1             "You need to start a new project before the tutorial can continue"
-    DESIGNWORK3             "While you work on your design document, you should start telling the world about your new project. Start by announcing a release date by pressing the Market button.
+新しいフレームワークを作成することに決めた場合、開発は少し延長しますが、新しいフレームワークを他の会社にライセンス供与して、お金を追加で稼ぐことができます。"
+    DESIGNDOCUMENT12        "{H:依存関係}のページを確認しましょう。"
+    DESIGNDOCUMENT18        "開発を開始する準備ができたら、開発ボタンをクリックしましょう。"
+    DESIGNWORK1             "チュートリアルを続けるには、新しいプロジェクトを開始する必要があります"
+    DESIGNWORK3             "設計文書の作業をしている間、新しいプロジェクトについて世界中に伝え始める必要があります。 まず、市場ボタンをクリックして発売日を発表しましょう。
 
-You'll have to do some guess work when picking a release date, but it will increase the effectiveness of all your future marketing efforts. Just make sure you release it on time!"
-    DESIGNWORK4             "Before you move on to the alpha phase of development, you should make a press release to tell the world about your product.
+発売日の選択には推測する努力が必要ですが、将来の全てのマーケティング活動の効果が高まります。とにかく時間通りに発売するようにしましょう！"
+    DESIGNWORK4             "開発のアルファ段階に進む前に、プレスリリースを作成して、製品について世界に知らせる必要があります。
 
-When you market your product before it's released, you build a following. A project's followers are guaranteed to buy the final product when it releases, however they might not all buy it straight away or they might refund it, if it is very buggy.
+製品が発売される前にマーケティングを行うとフォロワーが増えます。プロジェクトのフォロワーは、リリース時に最終製品を購入することが保証されていますが、非常にバグが多い場合は、全員がすぐに購入するわけではなく、返金する場合もあります。
 
-Your employees will have to work on making the press release, so if you think it'll take a while, you can pause your design work by pressing the play button.
+従業員はプレスリリースを作成する必要があるため、時間がかかると思われる場合は、再生ボタンをクリックして設計作業を一時停止できます。
 
-Start by bringing up the marketing window again."
-    DESIGNWORK5             "Make sure you read the text in the marketing window, as it tells you how to handle the different marketing actions available to you."
-    DESIGNWORK6             "Click the Develop button to begin development when you are ready.
+再びマーケティングウィンドウを表示して始めましょう。"
+    DESIGNWORK5             "利用可能なさまざまなマーケティングの取り扱い方法を説明しているので、必ずマーケティングウィンドウの文章を読んでください。"
+    DESIGNWORK6             "準備ができたら、開発ボタンをクリックして開発を開始しましょう。
 
-Right click the title bar of the work item to toggle between normal and collapsed view.
+作業項目のタイトルバーを右クリックすると、通常のビューと折りたたみビューを切り替えます。
 
-Left click the title bar and drag to re-arrange your work items."
+タイトルバーを左クリックしてドラッグすると、作業項目を並び替えられます。"
     DIGITALDISTRIBUTION1    "Open the distribution window to begin the tutorial."
     DIGITALDISTRIBUTION2    "To start selling products through your own digital online store, you can click the highlighted button in the distribution window and pick a server to run the store on. Note that running your own store requires a lot of bandwidth, especially if a product is selling well.
 
@@ -342,7 +341,7 @@ Note that if you click a star that is more than 1 level above what the employee 
 {H:リーダー}は、従業員がチームに割り当てられており、リーダーが他の役割で全力で活動しない限り、選択できないことに注意してください。
 
 {H:役割}ウィンドウを閉じて{H:続ける}をクリックするとチュートリアルを続けます。"
-    EMPLOYEES7              "従業員を選択した状態で、もう一度{KeyBind:ContextMenu}を押してコンテキストメニューを表示し、人間のような{H:従業員の詳細}ボタンを選択しましょう。"
+    EMPLOYEES7              "従業員を選択した状態で、もう一度{KeyBind:ContextMenu}を押してコンテキストメニューを表示し、人型の{H:従業員の詳細}ボタンを選択しましょう。"
     EMPLOYEES8              "ここでは、従業員のステータスを確認できます。
 
 左上隅に従業員の性格特性が表示され、その下に、各役割における従業員の専門化の進捗状況が表示されます。 従業員が進捗メーターを満たしたとき、新しい星を獲得するための教育を受けることができます。役割をクリックすると、その役割に従業員を割り当てることもできます。"
@@ -360,27 +359,27 @@ Note that if you click a star that is more than 1 level above what the employee 
 従業員が突然ゆっくりと作業を始めた場合や、まったく作業を開始しなかった場合の問題をこれで確認できます。"
     EMPLOYEES13             "ゲームの初めに、短期間でお金をいくらか稼ぐ必要があるでしょう。
 
-契約業務のウィンドウを開いて何か作業を受けてみましょう。"
-    HIRING1                 "Start by opening the hire window"
-    HIRING2                 "Before you can hire anyone, you need to put out a search for employees. Start by choosing which role your new employee should be good at."
-    HIRING3                 "You should also pick a specialization you want them to be good at."
-    HIRING4                 "Then you need to decide how much money you want to give your potential employee per month. It is very important that you make sure you have enough money to actually pay them or you'll go bankrupt very quickly.
+契約作業のウィンドウを開いて何か作業を受けてみましょう。"
+    HIRING1                 "雇用ウィンドウを開いて始めましょう"
+    HIRING2                 "誰かを雇う前に、従業員を探す必要があります。 まず新入社員が得意な役割を選択します。"
+    HIRING3                 "また、得意とする専門分野を選ぶ必要もあります。"
+    HIRING4                 "次に、将来の従業員に毎月支払う金額を決める必要があります。実際に支払うのに十分なお金があることを確認することは非常に重要です。そうしないと、すぐに倒産してしまうでしょう。
 
-The quality of applicants will depend on how high you set the salary and your company benefits, among other things. Very high skilled employees only have a chance to appear in the highest salary bracket."
-    HIRING5                 "You can also choose to interview employees in specific areas upfront. You can wait to interview employees before you hire them, but that might be more expensive, depending on how many you intend to hire.
+応募者の質は、給与や会社の福利厚生の設定などによって異なります。非常に高度なスキルを持つ従業員は、最高の給与額の範囲を選んだ時にのみ現れる可能性があります。"
+    HIRING5                 "また、特定の分野について事前に従業員に面接することもできます。従業員を採用する前に面接をするともできますが、採用する予定の人数によっては、より費用がかかる場合があります。
 
-Each interview option will increase the final cost of your employee search."
-    HIRING6                 "Finally, you need to decide how much money you want to spend searching for applicants. The more money you spend, the more potential employees you will reach, but you're guaranteed to receive at least one application.
+面接オプションごとに、従業員を探すのにかかる最終的な費用が増加します。"
+    HIRING6                 "最後に、応募者の探すのに費やす金額を決定する必要があります。費やす金額が多ければ多いほどより多くの潜在的な従業員を見つけられますが、少なくとも1人の応募者が来ることは保証されています。
 
-Press {H:Begin looking} to start your reviewing applicants."
-    HIRING7                 "This is a list of employees that applied to the open position in your company. You can select employees to inspect them and press the {H:Hire} button to hire them.
+{H:探し始める}をクリックして、応募者の審査を開始しましょう。"
+    HIRING7                 "これはあなたの会社の求人に応募した人の一覧です。従業員を選択すると審査し、{H:雇用}ボタンを押すと雇用できます。
 
-Employees are expensive and you should probably wait before you hire any if you are just starting out.
+従業員は高価なため、ちょうど始めたばかりなら雇う前に待つべきでしょう。
 
-Try selecting an employee on the list."
-    HIRING8                 "You can easily navigate the applications by using the arrow keys on your keyboard and pressing enter to hire.
+一覧から従業員を選択してみましょう。"
+    HIRING8                 "キーボードの矢印キーを使用して従業員を選んでEnterキーを押すと、応募者を簡単に雇用できます。
 
-When you are done, simply close the window."
+完了したら、ウィンドウを閉じましょう。"
     HR1                     "To manage HR settings open the team window"
     HR2                     "With the team window open, select a team in the list and click on the {H:HR management} button."
     HR3                     "The HR management tasks you have at your disposal depend on the team leader's HR specialization level. The stars above each section are highlighted depending on whether the team leader has the necessary training.
@@ -433,7 +432,7 @@ You can see and withdraw your current investments in this panel.
     LEASING12               "現在賃貸している部屋を選択して、賃貸契約を終了することもできます。賃貸を終了すると影響を受ける部屋の全ての家具が売却されますが、元に戻すボタンを使用して家具を元に戻すことができます。
 
 続ける準備ができたら、建設モードを終了しましょう。"
-    LEASING13               "準備ができたら、従業員のウィンドウを開いて従業員の管理を開始しましょう。"
+    LEASING13               "準備ができたら、従業員ウィンドウを開いて従業員の管理を開始しましょう。"
     MARKETING1              "Marketing is crucial in Software Inc. Your products simply won't sell without marketing.
 
 You can start a marketing campaign by opening your release window, selecting a product and clicking the market button"
@@ -545,11 +544,11 @@ You can also pick a fallback server, which will handle a server group's processe
 If this happens you should click the {H:View unsupported processes} button and redelegate all processes to other servers.
 
 Press End to finish the tutorial."
-    SIMPLEDESIGNDOCUMENT13  "While you made your choices, the game made some choices on your behalf in the background.
+    SIMPLEDESIGNDOCUMENT13  "あなたが選択を行っている間、バックグラウンドであなたに代わっていくつかの選択を行いました。
 
-The game's choices might not be optimal, but you can safely start development at this point.
+ゲームの選択は最適ではないかもしれませんが、この時点では安全に開発を開始できます。
 
-If you want to dive deeper into dependencies, frameworks and market targeting, you can switch to the advanced version of the design document by clicking {H:Advanced}, otherwise just click {H:Develop}."
+依存関係、フレームワーク、マーケティング目標をさらに詳しく知りたい場合は、{H:詳細}をクリックして設計文書の詳細版に切り替えることができます。そうでない場合は{H:開発}をクリックしましょう。"
     STAFF1                  "Begin by opening the staff window."
     STAFF2                  "This is the staff window. At the top you will see a list of your currently employed staff, whether permanent or temporary."
     STAFF3                  "With the buttons under \"Permanent:\" you can hire staff permanently to clean, fix your furniture, etc. You can see their salary by hovering over the buttons. They will show up once a day until you dismiss them.
