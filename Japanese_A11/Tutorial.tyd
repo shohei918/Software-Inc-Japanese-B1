@@ -2,7 +2,7 @@ Tutorial
     {
     SHARED1                 "ソフトウェアの開発を開始するために、設計者は設計文書をつなぎ合わせる必要があります。この文書では、全員が同じ認識を持っていることを確認するために、ソフトウェアを開発して構造化する方法について説明します。
 
-設計フェーズはバージョンに分けられます。 バージョンごとに最終的な品質が向上し、プロジェクトのバグの速度と量が減少します。 設計フェーズに取り組むには2つの方法があります:
+設計フェーズはバージョンに分けられます。バージョンごとに最終的な品質が向上し、プロジェクトのバグの速度と量が減少します。設計フェーズに取り組むには2つの方法があります:
 	•1つのバージョンを完了し、全ての問題を開発フェーズで処理する方法
 	•全てのバージョンを完了し、より少ない問題を開発フェーズで処理する方法
 
@@ -12,15 +12,15 @@ Tutorial
 
 また、最終的な価格に影響を与える、レビューを実行するユーザーを決定する必要があります。
 
-最後に、レビューするソフトウェアの部分を決定する必要があります。過去のレビューですでに良いスコアを取得している場合は、現在のレビューでそれらの領域をスキップすることにより、時間と費用を節約できます。
+最後に、レビューするソフトウェアの部分を決定する必要があります。過去のレビューで既に良いスコアを取得している場合は、現在のレビューでそれらの領域をスキップすることにより、時間と費用を節約できます。
 
 続ける準備ができたら{H:OK}をクリックしてください。"
-    SHARED3                 "時間が経つにつれレビューが寄せられます。 必要に応じて途中で終了することもできますが、高い精度が必要な場合は、すべてのレビューが完了するまで待つ必要があります。
+    SHARED3                 "時間が経つにつれレビューが寄せられます。必要に応じて途中で終了することもできますが、高い精度が必要な場合は、すべてのレビューが完了するまで待つ必要があります。
 
 レビューは、最初にレビューをクリックしたときに存在したプロジェクトのバージョンに基づいているため、その後の変更は考慮されないことに注意してください。
 
 プログレスバーがいっぱいになったら、レビューの{H:終了}ボタンをクリックしてください。"
-    SHARED4                 "レビューのスコアが不十分な場合は、バージョンボタンをクリックして開発を一時停止し、デザイナーに設計ドキュメントを再作成させることができます。これは未解決の細目を厳しくしますが、プロジェクトの進捗を少し遅らせます。
+    SHARED4                 "レビューのスコアが不十分な場合は、「バージョン」ボタンをクリックして開発を一時停止し、デザイナーに設計ドキュメントを再作成させることができます。これは未解決の細目を厳しくしますが、プロジェクトの進捗を少し遅らせます。
 
 満足のいくスコアであれば、レビューウィンドウを閉じて開発を続けましよう。"
     SHARED5                 "オブジェクト、部屋、または従業員の上で{KeyBind:MultipleSelect}を押すと一度に複数を選択できます。その後、{KeyBind:ContextMenu}を任意の場所で押すと、コンテキストメニューが表示されます。{KeyBind:SweepSelect}を押したままにして同じタイプのオブジェクトをすばやく選択するか、{KeyBind:NormalSelection}を押しながらドラッグして長方形内の全てを選択できます。
@@ -31,7 +31,7 @@ Tutorial
 {H:家具}ボタンをクリックするか{H:テーブル}を検索してテーブルを設置しましょう。"
     SHARED7                 "次に椅子を追加しましょう。椅子はテーブルにのみ追加できます。
 
-椅子やテーブルなどの一部の家具は、設置後に別のバージョンに交換できることに注意してください。 例えば、選択した部屋で同じタイプの全ての家具を選択することで、コンテキストメニューから一度に多くの家具を簡単に置き換えることができます。"
+椅子やテーブルなどの一部の家具は、設置後に別のバージョンに交換できることに注意してください。例えば、選択した部屋で同じタイプの全ての家具を選択することで、コンテキストメニューから一度に多くの家具を簡単に置き換えることができます。"
     SHARED8                 "最後にコンピュータを追加しましょう。コンピュータを追加するときは、追加したい場所でクリック、長押しをしてマウスを向く方向にドラッグします。最後に、マウスボタンを放して配置します。
 
 コンピュータはテーブルの上に置かれ、椅子の方を向いていなければなりません。"
@@ -45,8 +45,8 @@ Tutorial
 
 新しい部屋を右クリックして、矢印の付いた丸に似た{H:チーム変更}を選択しましょう。ウィンドウが表示されたら、{H:Core}をクリックして、部屋をCoreチームに割り当てましょう。
 
-従業員をチームに割り当てることも忘れないでください。 従業員のウィンドウから{KeyBind:ContextMenu}を押して{H:チーム変更}を選択するか、雇用ウィンドウで直接行うことができます。"
-    SHARED12                "「ソフトウェア開発」ボタンを押して設計文書を表示し、チュートリアルを開始しましょう。"
+従業員をチームに割り当てることも忘れないでください。従業員のウィンドウから{KeyBind:ContextMenu}を押して{H:チーム変更}を選択するか、雇用ウィンドウで直接行うことができます。"
+    SHARED12                "「ソフトウェア開発」ボタンをクリックして設計文書を表示し、チュートリアルを開始しましょう。"
     SHARED13                "詳細な設計文書の最初のページに進んでください。"
     SHARED14                "Software Inc. の心臓部である設計文書へようこそ。ここで、どんなソフトウェアを作成するか決定します。
 
@@ -54,11 +54,11 @@ Tutorial
 
 続けるをクリックするとチュートリアルを進めます。"
     SHARED15                "該当する場合は、ソフトウェアのカテゴリを選択できます。ソフトウェアの種類の各カテゴリにより、開発期間、人気、顧客維持率、機能および自身の対象顧客は異なります。"
-    SHARED16                "次に名前を選択しましょう。自分で作成するか、「名前：」ボタンを押して生成することができます。"
+    SHARED16                "次に名前を選択しましょう。自分で作成するか、「名前」ボタンをクリックして生成することができます。"
     SHARED17                "価格を選ぶこともできます。価格欄をそのままにしておくと、選択したソフトウェアと機能に基づいて最適な価格が選択されます。「価格」ボタンをクリックして価格をリセットできます。"
-    SHARED18                "製品に選択できる機能を見てみましょう。 各機能の開発には時間がかかり、異なる市場に対応ています。
+    SHARED18                "製品に選択できる機能を見てみましょう。各機能の開発には時間がかかり、異なる市場に対応ています。
 
-ソフトウェアは2D、3D、システムなどの専門分野に分けられます。各専門分野は機能パネルのコンテナとして表示され、各コンテナには追加できる追加機能のリストがあります。 追加機能では、従業員が所属する専門分野に適した量の「星」を持っている必要があります。
+ソフトウェアは2D、3D、システムなどの専門分野に分けられます。各専門分野は機能パネルのコンテナとして表示され、各コンテナには追加できる追加機能のリストがあります。追加機能では、従業員が所属する専門分野に適した量の「星」を持っている必要があります。
 
 赤で強調表示されている機能は、選択した開発チームに必要な数の星を持った従業員がいないため使用できません。"
     SHARED19                "1つ星の機能は二次市場を多かれ少なかれ満足させるシンプルな機能です
@@ -73,7 +73,7 @@ Tutorial
 最大の技術レベルは、開発中に必要なツールによって制限されることに注意してください。"
     SHARED21                "ソフトウェアを、以前に作成した製品または他社から購入した製品の続編にすることができます。これを行うには、{H:自社IP}ボタンをクリックして製品を選択します。
 
-続編を作成するとマーケティングが後押しされ、前作の成功に応じてファンの期待が変わります。
+続編を作成するとマーケティングが後押しされ、前作の成功度に応じてファンの期待が変わります。
 
 先行製品に実装された機能は通常よりも速く開発され、機能パネルでオレンジ色で強調表示されます。"
     SHARED22                "製品は他のソフトウェアの種類に依存する場合があります。例えば、2Dグラフィックスでゲームを作成するには2Dエディターが必要です。そうでなければ、アーティストは必要なグラフィックアセットを作成できません。
@@ -90,8 +90,8 @@ Tutorial
 下部の3本の棒は、三角形のバランスをどのようにして取ったかに基づいており、選択した機能が各市場の満足度をどの程度満たし、どれだけ必要かを示しています。
 
 残り1ページです！"
-    SHARED24                "開発者への支払い方法、物理的なコピーの注文必要数、どれだけマーケティングキャンペーンに労力を投入するか、などが心配な場合は、パブリッシャーと契約してこれらを処理できますが、製品の利益からロイヤリティを支払うことに同意する必要があります"
-    SHARED25                "完了する前に、このボックスの情報を必ず確認してください。 これは、この製品の開発に必要な全ての概要を示しています。
+    SHARED24                "開発者への支払い方法、物理コピーの注文必要数、どれだけマーケティングキャンペーンに労力を投入するか、などが心配な場合は、パブリッシャーと契約してこれらを処理できますが、製品の利益からロイヤリティを支払うことに同意する必要があります"
+    SHARED25                "完了する前に、このボックスの情報を必ず確認してください。これは、この製品の開発に必要な全ての概要を示しています。
 
 {H:期待利回り}の率に特に注意してください。100%に達した後で機能を追加しても、開発期間が増えるだけで売上は伸びません。
 
@@ -101,94 +101,94 @@ Tutorial
 競合他社からの今後の発売予定をチェックして、大企業があなたの製品を凌駕しないことを確認することもできます。
 
 始めたばかりのときはタイミングが全てです！"
-    ADVANCEDDESIGNDOCUMENT3 "詳細な設計文書の最初のページはシンプルな設計文書に似ていますが、{H:Framework}パネルが追加されています。
+    ADVANCEDDESIGNDOCUMENT3 "詳細な設計文書の最初のページはシンプルな設計文書に似ていますが、{H:フレームワーク}パネルが追加されています。
 
-ソフトウェアの開発時にフレームワークを使用または作成できます。 フレームワークは開発をスピードアップさせますが、機能の技術レベルの上限を固定します。
+ソフトウェアの開発時にフレームワークを使用または作成できます。フレームワークは開発をスピードアップさせますが、機能の技術レベルの上限を固定します。
 他社製のフレームワークを利用する場合は、利益からライセンス料を支払う必要があります。
 
 新しいフレームワークを作成することに決めた場合、開発は少し延長しますが、新しいフレームワークを他の会社にライセンス供与して、お金を追加で稼ぐことができます。"
     ADVANCEDDESIGNDOCUMENT4 "詳細な設計文書には複数のページがあります。2ページ目に進みましょう。"
-    ADVANCEDDESIGNDOCUMENT7 "これは概要ページです。ここでは、プロジェクトの最終的な詳細を確認し、使用する設計チームと開発チームを決定し、{H:パブリッシャー}が必要かどうかを決められます。パブリッシャーは、プロジェクトに資金を提供しマーケティングと物流を処理しますが、あなたの利益を減らします。
+    ADVANCEDDESIGNDOCUMENT7 "これは要約ページです。ここでは、プロジェクトの最終的な詳細を確認し、使用する設計チームと開発チームを決定し、{H:パブリッシャー}が必要かどうかを決められます。パブリッシャーは、プロジェクトに資金を提供しマーケティングと物流を処理しますが、あなたの利益を減らします。
 
-開発を開始する準備ができたら、開発ボタンをクリックしましょう。"
-    ALPHAWORK1              "You need to reach the implementation phase of development before the tutorial can continue"
-    ALPHAWORK2              "Your project has now been promoted to implementation.
+開発を開始する準備ができたら、「開発」ボタンをクリックしましょう。"
+    ALPHAWORK1              "チュートリアルを続行するには、開発の実装フェーズに到達する必要があります"
+    ALPHAWORK2              "プロジェクトが実装フェーズに昇格しました。
 
-The implementation phase has two stages:
-	•{H:Alpha}: in which developers and artists create the product according to the design specifications and requirements.
-	•{H:Beta}: in which bugs are uncovered by your programmers and hopefully fixed before the final release."
-    ALPHAWORK3              "You will see the progress bar fill as your employees work on the project and you can hover over the task to get a detailed breakdown of progress on each area of the implementation.
-		
-Progress tells nothing of the actual quality of the project, however. To get an idea of how good your employees' work is, you need to do a peer review. Start by pressing the review button."
-    ALPHAWORK7              "Make sure you do a press release during the implementation phase, as you hopefully did during the design phase.
+実装フェーズには2つの段階があります:
+	•{H:アルファ}:設計仕様と要件に従って、開発者とアーティストが製品を作成します。
+	•{H:ベータ}:プログラマーがバグを発見し、うまくいけば最終リリースの前に修正します。"
+    ALPHAWORK3              "従業員がプロジェクトに取り組むと、プログレスバーがいっぱいになるのが確認できます。タスクにカーソルを合わせると、実装の各領域の進行状況の詳細な内訳を取得できます。
 
-During the implementation phase you also have the option to send out a press build, so the press can try your software. Press builds require no work on your part, but make sure you have good ratings in your peer reviews and some followers before you send one out.
+ただし、進捗状況はプロジェクトの実際の品質を示すものではありません。従業員の仕事がいかに優れているかを理解するには、ピア・レビューを行う必要があります。「レビュー」ボタンをクリックして開始しましょう。"
+    ALPHAWORK7              "設計フェーズでおそらく行ったように、実装フェーズでも必ずプレスリリースを行いましょう。
 
-The tutorial will continue once you send out a press build. Take all the time you need."
-    ALPHAWORK8              "Press the Promote button to move on to the beta phase when you are ready."
-    ALPHAWORK9              "The beta phase is theoretically endless, but you'll have to release your project at some point, especially if you've already announced a release date.
+実装フェーズではプレス用ビルドを送信する方法もあり、プレスはソフトウェアを試すことができます。プレス用ビルドではあなたの側で何もする必要はありませんが、送る前にピア・レビューといくつかのフォロワーで良い評価を得ていることを確認しましょう。
 
-It's a good idea to fix as many bugs as possible, as buggy products will lead to refunds, but don't aim to fix every possible bug in your product. When your product is released you'll be able to fix more bugs, as your customers get in contact with your support team.
+プレスビルドを送信すると、チュートリアルを続けます。必要なだけ時間をかけてください。"
+    ALPHAWORK8              "準備ができたら、「昇格」ボタンをクリックしてベータフェーズに進みましょう。"
+    ALPHAWORK9              "ベータ段階は理論的には無限ですが、特に発売日を既に発表している場合は、プロジェクトをいつかはリリースする必要があります。
 
-It's important to note that the amount of bugs an employee can fix depends on the most skilled programmer on their team. So your employees might not be able to fix all bugs and one team might stop fixing bugs while a second team carries on."
-    ALPHAWORK10             "Press the release button when you're ready.
-		
-When you release your product you'll have to buy or print physical copies of it to sell. Later on, online software distribution will become more popular, but it is very important to have physical copies of your product before and during the 90s.
-		
-You can either print physical copies yourself or order some for immediate distribution at a higher price. The game will remind you of this when you release a product."
-    BENEFITS1               "Start by opening the benefit window"
-    BENEFITS2               "Employee benefits will passively increase employee satisfaction for all your employees, which can be very helpful if you want to lower their salaries or make sure they don't just quit when they get bored.
+バグのある製品は返品につながるため、できるだけ多くのバグを修正するのは良い考えですが、製品に起こり得るすべてのバグを修正しようとはしないでください。製品が発売されると、顧客がサポートチームに連絡し、より多くのバグを修正できるようになります。
 
-Some employee benefits can have a huge and immediate financial impact, while others might result in large satisfaction increases without having any immediate consequences.
+従業員が修正できるバグの量は、チームで最も熟練したプログラマーに依存することに注意することが重要です。そのため、従業員がすべてのバグを修正できない場合があり、1つのチームがバグの修正を中止し、2つ目のチームが続行する場合があります。"
+    ALPHAWORK10             "準備ができたら、「リリース」ボタンをクリックしてください。
 
-You can safely play with the sliders and see their impact since changes aren't put in effect until you hit Apply.
+製品を発売するときは、物理コピーを購入または印刷して販売する必要があります。将来的にはオンラインでソフトウェアを配布することが一般的になるでしょうが、90年代以前と90年代では製品の物理コピーを作成することが非常に重要です。
 
-Press continue to advance the tutorial."
-    BENEFITS3               "If you check the checkbox next to a benefit and hit Apply, any employee with custom benefits will have it reset to the company default.
-		
-You can change benefits for employees individually in the employee overview window. Try opening it now, select one or more employees and click \"Change benefits\"."
-    BENEFITS4               "To override a company benefit for individual employees, you need to check the checkbox next to the benefit."
-    BUILDMODE1              "Start by entering {H:Build mode} by clicking the Build-button."
-    BUILDMODE2              "The game is always paused in build mode.
+物理コピーを自分で印刷するか、価格はより高くなりますがすぐに配布できるように注文することができます。ゲームは、製品を発売する時に印刷について確認します。"
+    BENEFITS1               "福利厚生ウィンドウを開いて開始しましょう"
+    BENEFITS2               "従業員の福利厚生は、全ての従業員の従業員の満足度を受動的に高めます。これは、給与を下げたい場合や、従業員が退屈したときにそのまま辞めないようにするのに非常に役立ちます。
 
-Let's start by building a room. You have two choices for how you want to build a room.
+従業員の福利厚生には、財務にすぐに大きな影響を与えるものもあれば、すぐに影響を与えずに満足度を大幅に向上させるものもあります。
 
-Click on the {H:Rectangle rooms} button in the build panel to build a simple rectangle room or click the {H:Free angle rooms} button to build rooms in any shape you want, one wall at a time.
+変更は「適用」ををクリックするまで有効にならないので、スライダーを安全に動かしてその影響を確認できます。
 
-You can also use the {H:Free angle rooms} option to split rooms into two separate rooms, by simply building a wall through an existing room."
-    BUILDMODE3              "Now click somewhere inside the area you own, which has a grid, and then click somewhere else to finish your new room. Keep an eye on the cost while moving the cursor."
-    BUILDMODE4              "You might have noticed that you were limited to the grid when you built your room. You can change the grid and building angles if you want, by moving the grid gizmo to a wall or piece of furniture. This might come in handy if you want to build tables along a diagonal wall for example.
+続けるをクリックするとチュートリアルを進めます。"
+    BENEFITS3               "福利厚生の横にあるチェックボックスをオンにして「適用」をクリックすると、個別に設定した全ての従業員の福利厚生の設定が会社のデフォルトにリセットされます。
 
-If you don't like how your room looks, you can use the undo button or {KeyBind:Undo} to undo your changes.
+従業員の一覧ウィンドウで、従業員の福利厚生を個別に変更できます。1人以上の従業員を選択して、「福利厚生の変更」ボタンをクリックしてみましょう。"
+    BENEFITS4               "個々の従業員に対する会社の福利厚生を上書きするには、福利厚生の横にあるチェックボックスをオンにする必要があります。"
+    BUILDMODE1              "まず、建設ボタンをクリックして{H:建設モード}に入りましょう。"
+    BUILDMODE2              "建設モードではゲームは常にポーズ中になります。
 
-Click Continue when you are ready."
-    BUILDMODE5              "You can move up and down floors by pressing {KeyBind:FloorUp} and {KeyBind:FloorDown}.
+部屋を建ててみましょう。部屋の作り方には2つの方法があります。
 
-Now let's add windows and doors. You can either select a category or search for {H:window} or {H:door} in the build panel."
-    BUILDMODE6              "Notice how the room lights up when you add windows, make sure to add enough so that your employees can see.
+建設パネルの{H:長方形の部屋}ボタンをクリックしてシンプルな長方形の部屋を作成するか、{H:角度自由の部屋}ボタンをクリックして、任意の形状の部屋を作成しましょう。一度に扱える壁は1つです。
 
-You can inspect lighting, environment, temperature and noise conditions by clicking on and selecting the room."
-    BUILDMODE14             "You can also change the color of your rooms and furniture.
+また、{H:角度自由の部屋}を使用して既存の部屋に壁を作ると、簡単に部屋を2つの部屋に分割することもできます。"
+    BUILDMODE3              "次に、グリッドがあるエリア内のどこかをクリックしてから、別の場所をクリックして新しい部屋を完成させましょう。変動する費用に注意しつつ、カーソルを動かしましょう。"
+    BUILDMODE4              "部屋を建てたとき、グリッドに限定されていたことにお気づきかもしれません。必要に応じて、グリッド変更ツールを壁や家具に移動してグリッドと建物の角度を変更できます。このツールはたとえば、対角壁に沿ってテーブルを建設する場合に便利です。
 
-Try changing the color of your room by pressing {KeyBind:ContextMenu} on it and then click the {H:Room colors} button that resembles a brush."
-    BUILDMODE15             "You can change the color of multiple things at once and the color window will suggest colors that are currently in use.
+部屋の外観が気に入らない場合は、「元に戻す」ボタンまたは{KeyBind:Undo}で変更を元に戻すことができます。
 
-If you like the style you have given a room, you can save it by clicking {H:Save style} in the context menu for rooms, and {H:Set as default style} for furniture.
+準備ができたら続けるをクリックしてください。"
+    BUILDMODE5              "{KeyBind:FloorUp}か{KeyBind:FloorDown}を押すと上下に階を移動できます。
 
-Click Apply when you are ready or close the window if you want to cancel your changes."
-    BUILDMODE16             "You can merge rooms by using the {H:Destroy wall} tool, or by selecting the rooms you want to merge and then clicking the {H:Merge rooms} option from the context menu.
-			
-You can also create curvy wall sections using the {H:Curve tool} and clicking on a wall that does not have anything on it and dragging the mouse out.
+次に、窓とドアを追加しましょう。建設パネルでカテゴリを選択するか、{H:窓}または{H:ドア}と検索しましょう。"
+    BUILDMODE6              "窓を追加すると部屋がどのように照らされるか注意しましょう。従業員が見ることができるように十分に追加してください。
 
-Click Continue when you are ready to continue."
-    BUILDMODE17             "建物に十分なスペースがなくなったと感じたら、区画モードに切り替えて新しい区画エリアを購入できます。
+部屋をクリックして選択することで、照明、環境、温度、騒音状態を検査できます。"
+    BUILDMODE14             "部屋や家具の色を変えることもできます。
 
-When you are ready to continue, exit build mode."
-    BUILDMODE18             "When you are ready, open the employees window to start managing your employees."
+部屋の上で{KeyBind:ContextMenu}を押して、ブラシに似た{H:部屋の色を変更}ボタンをクリックしてみてください。"
+    BUILDMODE15             "一度に複数のものの色を変えることができます。色ウィンドウは現在使用中の色を示しています。
+
+部屋に指定したスタイルが気に入った場合は、部屋はコンテキストメニューで{H:スタイルを保存}をクリック、家具は{H:標準のスタイルに設定}をクリックして保存できます。
+
+準備ができたら「適用」をクリックするか、変更をキャンセルする場合はウィンドウを閉じてください。"
+    BUILDMODE16             "{H:壁を破壊}ツールを使用するか、結合する部屋を選択して、コンテキストメニューから{H:部屋を結合}をクリックすると、部屋を結合できます。
+
+{H:曲線ツール}を使用して曲線の壁の部分を作成し、何も設置されていない壁をクリックしてマウスをドラッグして外に出すこともできます。
+
+準備ができたら続けるをクリックしてください。"
+    BUILDMODE17             "建物に十分なスペースがなくなったと感じたら、区画ビューに切り替えて新しい区画エリアを購入できます。
+
+続ける準備ができたら、建設モードを終了しましょう。"
+    BUILDMODE18             "準備ができたら、従業員のウィンドウを開いて、従業員の管理を開始しましょう。"
     CONTRACTS1              "まず、契約作業ウィンドウを開きましょう。"
     CONTRACTS2              "これは利用可能な契約のリストです。古い契約が完了すると、新しい契約が追加されます。
 
-契約には、作業を受け入れる時に受け取る前払いと、作業を完了した時のより大きな支払いがあります。 要求された進捗状況と品質で製品を提供することにより、契約を完了します。
+契約には、作業を受け入れる時に受け取る前払いと、作業を完了した時のより大きな支払いがあります。要求された進捗状況と品質で製品を提供することにより、契約を完了します。
 
 一覧から契約を選択してみましょう。"
     CONTRACTS3             "最終的な支払い額は、契約を完了しなかった場合、期限内に完了しなかった場合、および未修正のバグが発生した場合に差し引かれます。
@@ -201,32 +201,32 @@ When you are ready to continue, exit build mode."
 開発の次のフェーズに進むと、チュートリアルを続けます。"
     CONTRACTS6              "プログレスバーが青い線に達していれば契約の進捗度の要件を満たしています。ただし、ビジネスの評判を高め、より良い契約を獲得したい場合は、品質要件を満たす必要があります。
 
-バグ修正段階に進む前に、顧客レビューを行って、品質要件を満たしていることを確認しましょう
+バグ修正のフェーズに進む前に、顧客レビューを行って、品質要件を満たしていることを確認しましょう
 
 レビューを開始するとチュートリアルを続けます。"
-    CONTRACTS10             "準備ができたら、バグ修正の段階に移りましょう。
+    CONTRACTS10             "準備ができたら、バグ修正のフェーズに移りましょう。
 
 ソフトウェアに含まれるバグの数を正確に把握することは不可能なので、時間がなくなる前にできるだけ多くのバグを修正しましょう。
 
 契約作業を完了するとチュートリアルを終了します。"
-    CUSTOMMAP1              "This tutorial assumes you've already tried build mode and will focus on how the map editor differs.
+    CUSTOMMAP1              "このチュートリアルでは、建設モードを既に試していることを前提としており、マップエディタでの違いに焦点を当てます。
 
-Click Continue if you're ready to advance."
-    CUSTOMMAP2              "The map editor gives you the ability to make a building that you'll be able to lease into when you relocate or make a new company. The map editor does not have the ability to edit normal {H:for sale} buildings.
+進める準備ができたら続けるをクリックしてください。"
+    CUSTOMMAP2              "マップエディタを使用すると、移転または新しい会社を設立するときに賃貸できる建物を作成できます。マップエディタで通常の{H:販売中}の建物を編集することはできません。
 
-In the map editor, you have an unlimited supply of money and the ability to place environment objects. Try opening the environment tab now."
-    CUSTOMMAP3              "You can hover over the different types of environment objects to get more details.
+マップエディタではお金は無限で無制限に環境オブジェクトを配置できます。環境タブを開いてみましょう。"
+    CUSTOMMAP3              "さまざまなタイプの環境オブジェクトにカーソルを合わせると、詳細を確認できます。
 
-Another important aspect of rentable buildings is that you can provide some amenities for the tenant and you have to provide heating and cooling.
-Make sure you place enough heating and cooling for the entire building. The tenant will not be able to interact with any furniture you place in the map editor.
+賃貸可能な建物のもう1つの重要な点は、借主にいくつかの設備を提供できることと、冷暖房を提供する必要があることです。
+建物全体に十分な冷暖房を配置してください。借主は、マップエディタで配置された家具を操作できません。
 
-Try building a room now."
-    CUSTOMMAP4              "When you select your room and open the context menu, you'll notice a couple of new options, namely the ability to group rooms, mark them for renting and mark them as player owned rooms.
+部屋を建設してみましょう。"
+    CUSTOMMAP4              "部屋を選択してコンテキストメニューを開くと、いくつか新しい設定が表示されます。つまり、部屋をグループ化し、賃貸用にマークし、プレーヤーが所有する部屋としてマークする機能です。
 
-When you group rooms together, they can only be leased as one single unit. Cloning rooms will carry over the same grouping style, so you can build a layout and quickly duplicate it.
+部屋をグループ化すると、1つのユニットとしてのみリースできます。部屋の複製を作成しても同じグループ化のスタイルが引き継がれるので、レイアウトを作成してすばやく複製できます。
 
-There is a data overlay which allows you to see how rooms have been marked. Enable it now to end the tutorial."
-    CUSTOMIZATION1          "カスタマイズ画面へようこそ。{H:続ける}を押すとチュートリアルを進めます。{H:キャンセル}を押すと終了します。"
+部屋がどのようにマークされているかを確認できるデータオーバーレイがあります。有効にするとチュートリアルを終了します。"
+    CUSTOMIZATION1          "カスタマイズ画面へようこそ。{H:続ける}をクリックするとチュートリアルを進めます。{H:キャンセル}をクリックすると終了します。"
     CUSTOMIZATION2          "まず、会社の名前を選択しましょう。"
     CUSTOMIZATION3          "次に、ゲームでの創設者の名前を選択しましょう。"
     CUSTOMIZATION4          "そして性別です。
@@ -266,63 +266,67 @@ Modはゲームのプレイ方法を根本的に変更するため、ゲーム�
 デフォルトでは1ヶ月は1日です。ゲームはこのペースを念頭に置いて作成されたため、これが推奨の設定です。
 
 ゲームの速度が速すぎると感じた場合、または請求書を支払う必要がある間に数日間お金を稼ぎたい場合は、この設定を増やすことができます。選択した設定と一致するよう全てがゆっくりと動き、後で変更できないことに注意してください。"
-    CUSTOMIZATION15         "マップを選択ボタンをクリックして、開始時の環境を選択しましょう"
+    CUSTOMIZATION15         "「マップを選択」ボタンをクリックして、開始時の環境を選択しましょう"
     CUSTOMIZATION16         "ここでは、購入したり賃貸したりできる建物の一覧を見ることができます。各写真の横に、建物が「貸出中」または「販売中」のどちらであるかが表示されます。
 
 賃貸できる建物の「建物面積」は、会社を拡張するときに賃貸できる最大面積を決めることに注意してください。"
     CUSTOMIZATION17         "これらのボタンを使用して、空の区画を賃貸するか購入するかを選択できます。
 
-建設はとてもお金がかかるため、賃貸から始めることをお勧めします。 ゲームプレイ中はいつでも会社を移転できます。"
+建設は非常に高価なため、賃貸から始めることをお勧めします。ゲームプレイ中はいつでも会社を移転できます。"
     DESIGNDOCUMENT11        "ソフトウェアの開発時にフレームワークを使用または作成できます。フレームワークは開発をスピードアップさせますが、機能の技術の上限を固定します。
 
 他社製のフレームワークを利用する場合は、利益からライセンス料を支払う必要があります。
 
 新しいフレームワークを作成することに決めた場合、開発は少し延長しますが、新しいフレームワークを他の会社にライセンス供与して、お金を追加で稼ぐことができます。"
     DESIGNDOCUMENT12        "{H:依存関係}のページを確認しましょう。"
-    DESIGNDOCUMENT18        "開発を開始する準備ができたら、開発ボタンをクリックしましょう。"
-    DESIGNWORK1             "チュートリアルを続けるには、新しいプロジェクトを開始する必要があります"
-    DESIGNWORK3             "設計文書の作業をしている間、新しいプロジェクトについて世界中に伝え始める必要があります。 まず、市場ボタンをクリックして発売日を発表しましょう。
+    DESIGNDOCUMENT18        "開発を開始する準備ができたら、「開発」ボタンをクリックしましょう。"
+    DESIGNWORK1             "チュートリアルを続けるには、新しいプロジェクトを開始する必要があります
+
+「ソフトウェア開発」から自社のソフトウェアを設計しましょう"
+    DESIGNWORK3             "設計文書の作業をしている間、新しいプロジェクトについて世界中に伝え始める必要があります。まず、「マーケティング」ボタンをクリックして発売日を発表しましょう。
 
 発売日の選択には推測する努力が必要ですが、将来の全てのマーケティング活動の効果が高まります。とにかく時間通りに発売するようにしましょう！"
-    DESIGNWORK4             "開発のアルファ段階に進む前に、プレスリリースを作成して、製品について世界に知らせる必要があります。
+    DESIGNWORK4             "開発のアルファフェーズに進む前に、プレスリリースを作成して、製品について世界に知らせる必要があります。
 
 製品が発売される前にマーケティングを行うとフォロワーが増えます。プロジェクトのフォロワーは、リリース時に最終製品を購入することが保証されていますが、非常にバグが多い場合は、全員がすぐに購入するわけではなく、返金する場合もあります。
 
 従業員はプレスリリースを作成する必要があるため、時間がかかると思われる場合は、再生ボタンをクリックして設計作業を一時停止できます。
 
 再びマーケティングウィンドウを表示して始めましょう。"
-    DESIGNWORK5             "利用可能なさまざまなマーケティングの取り扱い方法を説明しているので、必ずマーケティングウィンドウの文章を読んでください。"
+    DESIGNWORK5             "利用可能なさまざまなマーケティングの取り扱い方法について説明していますので、必ずマーケティングウィンドウの文章を読みましょう。
+
+「OK」ボタンをクリックするとチュートリアルを続けます。" #Added explanations to proceed
     DESIGNWORK6             "準備ができたら、開発ボタンをクリックして開発を開始しましょう。
 
-作業項目のタイトルバーを右クリックすると、通常のビューと折りたたみビューを切り替えます。
+作業項目のタイトルバーを右クリックすると、通常のビューと折りたたみビューを切り替えられます。
 
 タイトルバーを左クリックしてドラッグすると、作業項目を並び替えられます。"
-    DIGITALDISTRIBUTION1    "Open the distribution window to begin the tutorial."
-    DIGITALDISTRIBUTION2    "To start selling products through your own digital online store, you can click the highlighted button in the distribution window and pick a server to run the store on. Note that running your own store requires a lot of bandwidth, especially if a product is selling well.
+    DIGITALDISTRIBUTION1    "流通ウィンドウを開いてチュートリアルを開始しましょう。"
+    DIGITALDISTRIBUTION2    "自社のデジタルオンラインストアで製品の販売を開始するには、流通ウィンドウで強調表示されているボタンをクリックして、デジタルストアを運営するサーバーを選択します。自分のストアを運営するには、特に製品の売れ行きが良い場合、多くの帯域幅が必要になることに注意してください。
 
-Press continue to learn about selling other companies' products."
-    DIGITALDISTRIBUTION3    "If you want to make some extra income by distributing other companies' products on your server, you can enable it using the highlighted toggle.
+続けるをクリックすると、他社製品の販売について学びます。"
+    DIGITALDISTRIBUTION3    "サーバー上で他社の製品を配布して追加収入を得たい場合は、強調表示されたチェックボックスを使用して有効にすることができます。
 
-Your digital market share and business reputation, combined with the cut you decide to take of your clients' products, will determine how many are willing to sign up to your digital store.
+あなたのデジタル市場でのシェアとビジネスの評判は、顧客の製品からの取り分の決定と合わせて、どれだけの人がデジタルストアへの登録を希望するかを決めます。
 
-Companies will automatically start signing up to your service each month. Active sellers are listed below the toggle.
+企業は毎月自動的にサービスへの登録を開始します。アクティブな販売者はチェックボックスの下に並んでいます。
 
-Finally, you should note that you'll need extra bandwidth to handle selling all those extra products."
-    EDUCATION1              "You need an employee who is ready for education before you can begin the education tutorial.
+最後に、これら全ての追加製品の販売を処理するには、追加の帯域幅が必要になることに注意してください。"
+    EDUCATION1              "教育のチュートリアルを開始する前に、教育を受ける準備ができている従業員が必要です。
 
-Employees will be eligible for education when they gain enough experience working on different tasks."
-    EDUCATION2              "Begin the tutorial by opening the {H:Employee window}, selecting the employees you want to educate and press the {H:Educate} button or by selecting one or more of your employees, press {KeyBind:ContextMenu} anywhere on the screen to bring up the context menu, and then pick {H:Educate employee}.
-			
-You can see which employees are ready for education in the Employee window by looking for green icons in the {H:role} column."
-    EDUCATION3              "In the education window you can pick a role and a specialization you want to educate your employees in. After they finish their class, employees will gain one star in the specialization you picked.
+従業員は、さまざまなタスクに取り組み十分な経験を積んだときに、教育を受ける資格があります。"
+    EDUCATION2              "チュートリアルを開始するには、{H:従業員ウィンドウ}を開いて、教育する従業員を選択して{H:教育}ボタンを押すか、1人以上の従業員を選択して画面上の任意の場所で{KeyBind:ContextMenu}を押すか、コンテキストメニューを表示し、{H:従業員を教育}を選択します。
 
-Based on the employees and specialization you have picked, you can see how much time and money it will require for your employees to finish their classes."
-    EDUCATION4              "At the top you can see which of your chosen employees are applicable for the education you have picked.
+{H:役割}の列で緑色のアイコンを探すと、従業員ウィンドウでどの従業員が教育を受ける準備ができているかを確認できます。"
+    EDUCATION3              "教育ウィンドウでは、従業員を教育したい役割と専門分野を選択できます。クラスを終了すると、従業員は選択した専門分野で1つ星を獲得します。
 
-When you click {H:Start education} all applicable employees will start their classes. If there are any employees left, you can then decide what they will be educated in. You can queue up classes for an employee by starting education for the employee several times."
-    EDUCATION5              "You can also click directly on the highlighted stars if you want to quickly pick classes for the selected employee.
+選択した従業員と専門分野に基づいて、従業員がクラスを完了するために必要な時間と費用を確認できます。"
+    EDUCATION4              "上部には、選択した従業員のうち、選択した教育に該当する従業員が表示されます。
 
-Note that if you click a star that is more than 1 level above what the employee currently has, they will be sent for multiple classes at once."
+{H:教育を開始}をクリックすると、該当するすべての従業員がクラスを開始します。従業員が残っている場合は、次に何を教育するかを決定できます。従業員の教育を複数回開始することで、従業員のクラスの予約をすることができます。"
+    EDUCATION5              "選択した従業員のクラスをすぐに選択したい場合は、強調表示されている星を直接クリックすることもできます。
+
+従業員が現在持っているレベルより1つ以上高い星をクリックすると、一度に複数のクラスに送信されることに注意してください。"
     EMPLOYEES1              "まず、従業員ウィンドウを開きましょう。"
     EMPLOYEES2              "これは全ての従業員の一覧リストで、従業員のステータスを詳しく示しています。
 
@@ -332,9 +336,9 @@ Note that if you click a star that is more than 1 level above what the employee 
 従業員を選択してみましょう。"
     EMPLOYEES4              "複数の従業員を選択するには、ShiftキーまたはCtrlキーを押しながら、従業員ウィンドウで名前をクリックします。
 
-次に、任意の場所で{KeyBind:ContextMenu}を押して、選択した従業員のコンテキストメニューを表示しましょう。 {H:チーム変更}ボタンをクリックして、可能なチーム割り当てを調べましょう。"
+次に、任意の場所で{KeyBind:ContextMenu}を押して、選択した従業員のコンテキストメニューを表示しましょう。{H:チーム変更}ボタンをクリックして、可能なチーム割り当てを調べましょう。"
     EMPLOYEES5              "完了したら、{H:OK}をクリックしてからもう一度{KeyBind:ContextMenu}を押して、今度はレンチのような{H:従業員の役割を変更}ボタンをクリックしましょう。"
-    EMPLOYEES6              "役割ウィンドウで役割をクリックすると、従業員がその役割のみにすぐに割り当てられます。チェックボックスをチェックすると、従業員に複数の役割を割り当てられます。 各役割の横にある2列目のチェックボックスは{H:補助の}設定です。この設定では、従業員は主要な役割で仕事をしていない場合にのみその役割で働きます。
+    EMPLOYEES6              "役割ウィンドウで役割をクリックすると、従業員がその役割のみにすぐに割り当てられます。チェックボックスをチェックすると、従業員に複数の役割を割り当てられます。各役割の横にある2列目のチェックボックスは{H:補助の}設定です。この設定では、従業員は主要な役割で仕事をしていない場合にのみその役割で働きます。
 
 {H:全ての役割}チェックボックスを切り替えて全ての役割を一度にオンまたはオフにするか、{H:自動割り当て}をクリックして、従業員が最も熟練している役割に従業員を割り当てることもできます。
 
@@ -344,8 +348,8 @@ Note that if you click a star that is more than 1 level above what the employee 
     EMPLOYEES7              "従業員を選択した状態で、もう一度{KeyBind:ContextMenu}を押してコンテキストメニューを表示し、人型の{H:従業員の詳細}ボタンを選択しましょう。"
     EMPLOYEES8              "ここでは、従業員のステータスを確認できます。
 
-左上隅に従業員の性格特性が表示され、その下に、各役割における従業員の専門化の進捗状況が表示されます。 従業員が進捗メーターを満たしたとき、新しい星を獲得するための教育を受けることができます。役割をクリックすると、その役割に従業員を割り当てることもできます。"
-    EMPLOYEES9              "ウィンドウの左下部分には、従業員の専門分野が表示されます。これは、さまざまな科目で従業員がどの程度教育を受けているかを示しています。
+左上隅に従業員の性格特性が表示され、その下に、各役割における従業員の専門化の進捗状況が表示されます。従業員がプログレスメーターを満たしたとき、新しい星を獲得するための教育を受けることができます。役割をクリックすると、その役割に従業員を割り当てることもできます。"
+    EMPLOYEES9              "ウィンドウの左下部分には、従業員の専門分野が表示されます。これは、さまざまなクラスで従業員がどの程度教育を受けているかを示しています。
 
 専門分野は従業員が実行できるタスクの種類をコントロールします。{H:基本スキル}は、その役割における従業員の経験であり、さまざまな状況での作業の速度と品質をコントロールします。"
     EMPLOYEES10             "ウィンドウの右上隅では従業員の特徴を見ることができます。これらの特性は従業員の2つの性格特性によってコントールされます。
@@ -361,18 +365,18 @@ Note that if you click a star that is more than 1 level above what the employee 
 
 契約作業のウィンドウを開いて何か作業を受けてみましょう。"
     HIRING1                 "雇用ウィンドウを開いて始めましょう"
-    HIRING2                 "誰かを雇う前に、従業員を探す必要があります。 まず新入社員が得意な役割を選択します。"
+    HIRING2                 "誰かを雇う前に、従業員を探す必要があります。まず新入社員が得意な役割を選択します。"
     HIRING3                 "また、得意とする専門分野を選ぶ必要もあります。"
     HIRING4                 "次に、将来の従業員に毎月支払う金額を決める必要があります。実際に支払うのに十分なお金があることを確認することは非常に重要です。そうしないと、すぐに倒産してしまうでしょう。
 
 応募者の質は、給与や会社の福利厚生の設定などによって異なります。非常に高度なスキルを持つ従業員は、最高の給与額の範囲を選んだ時にのみ現れる可能性があります。"
     HIRING5                 "また、特定の分野について事前に従業員に面接することもできます。従業員を採用する前に面接をするともできますが、採用する予定の人数によっては、より費用がかかる場合があります。
 
-面接オプションごとに、従業員を探すのにかかる最終的な費用が増加します。"
+面接設定ごとに、従業員を探すのにかかる最終的な費用が増加します。"
     HIRING6                 "最後に、応募者の探すのに費やす金額を決定する必要があります。費やす金額が多ければ多いほどより多くの潜在的な従業員を見つけられますが、少なくとも1人の応募者が来ることは保証されています。
 
 {H:探し始める}をクリックして、応募者の審査を開始しましょう。"
-    HIRING7                 "これはあなたの会社の求人に応募した人の一覧です。従業員を選択すると審査し、{H:雇用}ボタンを押すと雇用できます。
+    HIRING7                 "これはあなたの会社の求人に応募した人の一覧です。従業員を選択すると審査し、{H:雇用}ボタンをクリックすると雇用できます。
 
 従業員は高価なため、ちょうど始めたばかりなら雇う前に待つべきでしょう。
 
@@ -380,43 +384,43 @@ Note that if you click a star that is more than 1 level above what the employee 
     HIRING8                 "キーボードの矢印キーを使用して従業員を選んでEnterキーを押すと、応募者を簡単に雇用できます。
 
 完了したら、ウィンドウを閉じましょう。"
-    HR1                     "To manage HR settings open the team window"
-    HR2                     "With the team window open, select a team in the list and click on the {H:HR management} button."
-    HR3                     "The HR management tasks you have at your disposal depend on the team leader's HR specialization level. The stars above each section are highlighted depending on whether the team leader has the necessary training.
+    HR1                     "人事の設定を管理するには、チームウィンドウを開きます"
+    HR2                     "チームウィンドウを開いた状態で、一覧からチームを選択し、{H:人事管理}ボタンをクリックしてください。"
+    HR3                     "あなたが自由に使える人事管理タスクは、チームリーダーの人事の専門化レベルに依存します。各部分の上の星印は、チームリーダーが必要なトレーニングを受けているかどうかに応じて強調表示されます。
 
-By default the selected HR options do nothing. The HR options you select for a team will not change when a new team leader is assigned, but which and how well HR tasks are carried out will depend on the leader's skill and specialization level."
-    HR4                     "The first two labels tell you how much this team costs in salaries and how much money was spent on HR tasks last month."
-    HR5                     "You can make your leader send off employees for education autonomously.
-			
-The education level sets the maximum amount of stars a leader will send an employee for. Employees will always be sent for education in the specialization they have the most stars in."
-    HR6                     "The last text fields allow your leader to automatically hire enough employees, such that the team always has the specified amount in the specified roles. The leader will be in charge of the application process.
+デフォルトでは、選択した人事設定では何もしません。チームに選択した人事設定は新しいチームリーダーが割り当てられても変更されませんが、人事タスクがどのように実行されるかは、リーダーのスキルと専門化レベルによって異なります。"
+    HR4                     "最初の2つのラベルは、このチームの給与と、先月の人事タスクに費やされた金額を示しています。"
+    HR5                     "リーダーに自動的に、従業員を教育に送らせることができます。
 
-You can hover over some of the options to get further details. Close the window when you are done to end the tutorial."
-    INVESTMENTS1            "Start by opening the insurance window"
-    INVESTMENTS2            "You can make money off your money in two ways: By investing in stocks or bonds.
+教育レベルは、リーダーが従業員を教育に送る星の最大数を設定します。従業員は常に、最も多くの星を獲得している専門分野の教育に送られます。"
+    HR6                     "最後の文字入力欄を使用すると、リーダーは十分な数の従業員を自動的に雇うことができます。これにより、チームは常に指定された役割、指定された数の従業員を獲得できます。リーダーは申し込みのプロセスを担当します。
 
-Let's start by going over bonds investments. Click {H:Continue} when you are ready."
-    INVESTMENTS3            "Investing in bonds means loaning out your money and earning money off the yearly {SavingsInterest} interest. It is an easy, risk-free way to make a small steady income, with the downside that you can't be withdraw the money your invest for a while without losing the interest.
+オプションの一部にカーソルを合わせると、詳細を確認できます。チュートリアルが終了したら、ウィンドウを閉じましょう。"
+    INVESTMENTS1            "まず、投資ウィンドウを開きましょう"
+    INVESTMENTS2            "2つの方法でお金からお金を稼ぐことができます: 株式への投資と債権への投資です。
 
-You can deposit and withdraw money by using this slider."
-    INVESTMENTS4            "The amount of time that has to pass before you can withdraw money depends on how much money you have deposited within the same financial year. You can see locked deposits in this panel.
+まず、債券投資について見ていきましょう。準備ができたら、{H:続ける}をクリックしてください。"
+    INVESTMENTS3            "債券への投資とは、あなたのお金を貸し出して、毎年{SavingsInterest}の利息からお金を稼ぐことを意味します。簡単でリスクのない、小さな着実な収入を作る方法ですが、その一方で、しばらくの間は利息を失わずに投資したお金を引き出すことができないという欠点があります。
 
-When you decide to withdraw money, the bank will start by trying to withdraw any money on your savings account that won't incur an interest fee.
+このスライダーを使ってお金を預けたり引き出したりすることができます。"
+    INVESTMENTS4            "出金できるようになるまでの時間は、同じ会計年度に預け入れた金額によって異なります。このパネルでロックされた預金を確認できます。
 
-Please note that interest is not deposited directly into your bank account. You have to withdraw it using this window.
+あなたがお金を引き出すことを決めると、銀行は利息が発生しない普通預金口座のお金を引き出そうとすることから始めます。
 
-Press the stock button to continue"
-    INVESTMENTS5            "Stocks are a much more risky way of investing your money, but it can also earn you a lot more than bonds investments.
+利息は銀行口座に直接入金されないことに注意してください。このウィンドウを使用して払い戻しをする必要があります。
 
-You'll need to keep track of the stock market every month to make the most off your investments, so you can't just deposit and forget, in the same way you can with bonds investments.
+「株式」ボタンをクリックすると続けます"
+    INVESTMENTS5            "株式は債券投資よりもはるかに危険な投資方法ですが、はるかに多くのお金を稼ぐことができます。
 
-To invest in a stock, just type in the amount you want to deposit, pick a stock and click {H:Invest}.
+投資を最大限に活用するには、毎月株式市場を追跡する必要があります。そのため、債券投資の場合と同じように、単に預金して忘れることはできません。
 
-You can see and withdraw your current investments in this panel.
+株式に投資するには、預金する金額を入力し、株式を選んで{H:投資}をクリックします。
 
-{H:Remember to buy high and sell low!}
+このパネルでは、現在の投資を確認して、払い戻すことができます。
 
-... Yes, that sounds right."
+{H:高く買って低く売ることを忘れないでください！} #reverse intentionally ?
+
+…はい、あってそうですね。"
     LEASING1                "建設ボタンをクリックして{H:建設モード}に入りましょう。"
     LEASING2                "建設モードではゲームは常にポーズ中になります。
 
@@ -428,199 +432,200 @@ You can see and withdraw your current investments in this panel.
     LEASING3                "オブジェクトの配置を開始するには、賃貸した部屋がある階に移動する必要があります。"
     LEASING11               "十分なスペースが無いと感じたら、他の部屋を選択して左下隅の賃貸をクリックするか、会社を別のマップに移動することで賃貸できます。
 
-今賃貸できる部屋を選んでみてください。 賃貸可能な部屋は、黒い内装で識別できます。"
+今賃貸できる部屋を選んでみてください。賃貸可能な部屋は、黒い内装で識別できます。"
     LEASING12               "現在賃貸している部屋を選択して、賃貸契約を終了することもできます。賃貸を終了すると影響を受ける部屋の全ての家具が売却されますが、元に戻すボタンを使用して家具を元に戻すことができます。
 
 続ける準備ができたら、建設モードを終了しましょう。"
     LEASING13               "準備ができたら、従業員ウィンドウを開いて従業員の管理を開始しましょう。"
-    MARKETING1              "Marketing is crucial in Software Inc. Your products simply won't sell without marketing.
+    MARKETING1              "Software Inc. ではマーケティングが非常に重要です。あなたの製品は、マーケティングなしでは売れません。
 
-You can start a marketing campaign by opening your release window, selecting a product and clicking the market button"
-    MARKETING2              "This is the marketing window.
-		
-Marketing your product is a potentially endless money sink. The more money you use, the bigger advantage you get over competing products. Bigger software products will need more marketing to compete.
+自社のソフトウェアウィンドウを開き、製品を選択して、「マーケティング」ボタンをクリックすると、マーケティングキャンペーンを開始できます。"
+    MARKETING2              "これがマーケティングウィンドウです。
 
-Note that spending more money on marketing than your competitors will prompt them to do the same."
-    MARKETING3              "You can set a budget, which puts an upper limit to the spending for this marketing task. \"0\" means there is no limit.
-		
-Increasing your marketing budget will not increase marketing efforts. You will need a lot of talented marketers to effectively use your budget.
+製品のマーケティングは潜在的には無限のお金の流し台です。使用する金額が多ければ多いほど、競合製品よりも大きなメリットを得られます。より大きなソフトウェア製品は、競争するためにより多くのマーケティングを必要とします。
 
-If you are happy with the team selection, press {H:OK} to start your campaign."
-    MARKETING4              "Your new marketing plan will appear as a work item on the right.
+競合他社よりも多くのお金をマーケティングに費やすと、同じことをするよう促すことに注意しましょう。"
+    MARKETING3              "予算を設定して、このマーケティングのタスクの支出に上限を設けることができます。「0」は制限がないことを意味します。
 
-After the first day, the work item will start filling up to indicate how much money you are spending compared to yesterday's marketing efforts.
+マーケティング予算を増やしても、マーケティング活動は増えません。予算を効果的に使用するには、多くの才能のあるマーケティング担当者が必要です。
 
-Press {H:Finish} to end the tutorial."
-    OFFICEDANGERS1          "{H:Beware!} Your offices are susceptible to burglaries and fires! And once the ball is rolling, there ain't no stopping it.
+チームの選択に問題がなければ、{H:OK}をクリックしてキャンペーンを開始しましょう。"
+    MARKETING4              "新しいマーケティングの計画は右側の作業項目として表示されます。
 
-If you want to be on the safe side, you should take preventative measures and reduce consequences.
+最初の日の後、作業項目は、昨日のマーケティング活動と比較してどれだけの費用を費やしているかを示すように満たされ始めます。
 
-To start off, you should cover any potential loss with {H:Contents insurance}. Start by opening the {H:Insurance window}."
-    OFFICEDANGERS2          "With contents insurance, you'll pay a monthly fee, but get a payout to cover any furniture you lose in a fire or a burglary.
-			
-The more furniture you have, the higher the premium will be.
+{H:終了}をクリックするとチュートリアルを終わります。"
+    OFFICEDANGERS1          "{H:注意してください！}あなたのオフィスは泥棒や火災の影響を受けやすくなっています！そして、ボールが転がり始めたらそれを止めることはできません。
 
-Close the insurance window when you're ready, and we'll cover how to best prevent burglaries."
-    OFFICEDANGERS3          "Burglaries will increase in scale and frequency as your company scales up. The simple and cheapest way to fight burglaries is to buy {H:Security cameras}. Security cameras will alert police whenever a burglar enters their cone of vision, to halt a burglary early. You should place them strategically near building entrances.
-			
-Sadly, the Software Inc. Police Department is slow working and bureaucratic, so don't expect to get any of your stolen property back. Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to, and scare off would-be burglars when they get too close.
+安全を期するには、予防策を講じて重大性を減らす必要があります。
 
-You can hire multiple security guards to cover a 24-hour period and still skip time when only security guards are present.
+最初に、{H:コンテンツ保険}で潜在的な損失に保険をかける必要があります。まず、{H:保険ウィンドウ}を開きましょう。"
+    OFFICEDANGERS2          "コンテンツ保険では月額料金を支払いますが、火災や強盗で失った家具を補償するための支払いを受け取れます。
 
-Press {H:Continue} to learn about fires."
-    OFFICEDANGERS4          "Fires start when combustible furniture breaks. The chance of combustible furniture starting a fire when they break is shown as a {H:Flammability} score in the build menu. To completely prevent fires, you should hire enough {H:Maintanence} and {H:IT-support} staff to keep your furniture from breaking.
+家具が多ければ多いほど、掛け金は高くなります。
 
-It is very important to note that {H:Elevators don't work during fires}. You should always make sure to have stairs throughout your building, so your employees can escape.
+準備ができたら保険ウィンドウを閉じてください。盗難を防ぐ最善の方法を説明します。"
+    OFFICEDANGERS3          "強盗は、会社が拡大するにつれて規模と頻度が増加します。強盗と戦う最も簡単で安価な方法は、{H:防犯カメラ}を購入することです。防犯カメラは強盗が視野に入ると警察に警告し、強盗を早期に阻止します。建物の入り口近くに戦略的に配置する必要があります。
 
-In case your luck is out, you should make sure to have {H:Sprinklers} in your rooms to douse the fire faster, and {H:Fire alarms} in rooms with combustible furniture, to alert all employees in the building when a fire breaks out."
-    PHYSICALDISTRIBUTION1   "You can order physical copies of your products by going to your releases, selecting a product and clicking the Order copies button."
-    PHYSICALDISTRIBUTION2   "Software is sold both physically in stores and digitally online. As time progresses people will move towards digital purchases and the two platforms even out at some point.
-		
-This is the copy order window. It will show you some details that affect how many copies you should order.
+悲しいことに、Software Inc.の警察は仕事が遅く、官僚的です。そのため、盗難にあった資産を取り戻すことは期待しないでください。代わりに、{H:スタッフウィンドウ}で{H:警備員}を雇うことにより、強盗を完全に防ぐことができます。警備員はあなたの建物の入り口やあなたがそれらに割り当てた部屋をパトロールし、彼らが近づきすぎると強盗予備軍を追い払います。
 
-You'll have to balance the amount you order with how many you expect to sell to avoid a loss. You can always order a few copies now and order more next month.
+複数の警備員を雇うと24時間警備をすることが出来、警備員のみが存在する場合でも時間をスキップできます。
 
-Close the window to continue"
-    PHYSICALDISTRIBUTION3   "You can also print copies of your product yourself, which is a lot cheaper long term, but requires a lot more work from you. You'll need printers, storage and couriers to transport your copies to stores.
-		
-If you have all the necessary logistics, you can click the \"Start printing\" button in the \"Your releases\" window with a product selected to start a printing task.
+{H:続ける}をクリックすると、火事について学びます。"
+    OFFICEDANGERS4          "可燃性の家具が壊れると火災が発生します。可燃性の家具が壊れたときに火災が発生する可能性は、建設メニューで{H:可燃性}として表示されます。火災を完全に防ぐには、家具が壊れないように十分な{H:メンテナンス}と{H:ITサポート}のスタッフを雇う必要があります。
 
-Go to build mode to see how you build printers and pallets."
-    PHYSICALDISTRIBUTION4   "You'll find printers and pallets in the furnish menu.
-		
-Exit build mode when you are ready."
-    PHYSICALDISTRIBUTION5   "In the staff window you can either hire couriers to come once every day and pick up copies or call a courier to pick up as many copies as possible immediately. Calling couriers is a lot more expensive and should be reserved for emergencies.
-		
-When you are ready, open the distribution window to see how you can run your own digital distribution store."
-    PROJECTMANAGEMENT1      "Start by opening the project management window."
-    PROJECTMANAGEMENT2      "Project management let's you delegate a release cycle to a leader in your company, so they control everything from creating a design to supporting the product once it's released.
+{H:エレベーターは火災時には機能しない}ことに注意することは非常に重要です。従業員が脱出できるように、建物全体に階段があることを常に確認する必要があります。
 
-A project management team needs a leader, with at least 1 star in the {H:Automation} specialization. The leader will dedicate all their time to keeping the project running, so it might be worthwhile to keep the leader in their own team.
+運が悪かった場合に備えて、部屋に{H:スプリンクラー}を置いてより速く消火できるようにし、可燃性の家具がある部屋に{H:火災報知器}を用意して、建物内のすべての従業員に火災が発生したときに警告するようにしましょう。"
+    PHYSICALDISTRIBUTION1   "製品の物理コピーを注文するには、自社のソフトウェアに移動し、製品を選択して、「コピーを注文」ボタンをクリックします。"
+    PHYSICALDISTRIBUTION2   "ソフトウェアは実店舗とデジタルオンラインの両方で販売されます。時が経つにつれ人々はデジタル購入に移行し、ある時点で2つのプラットフォームは拮抗するでしょう。
 
-Start by selecting a leader to run the project and name your team."
-    PROJECTMANAGEMENT3      "Now look through each of the options to control how the projects should be handled. You can hover over each label to get a detailed description.
+これはコピーの注文画面です。注文する必要があるコピー数に影響する詳細が表示されます。
 
-Note that some options might be greyed out, because your leader doesn't have the necessary Automation level. You can see what each Automation level unlocks by hovering over the stars in the specialization overview for leaders in the Employee window, Team window or Employee detail window.
-		
-Click OK when you're ready."
-    PROJECTMANAGEMENT4      "Now open the project management detail window for your new project."
-    PROJECTMANAGEMENT5      "You'll notice a new panel that tells you how many actions points the leader has accumulated.
-		
-Action points are used to start new projects, complete marketing tasks and move through the development stages. Some actions cost more points than others. Your leader will continually work to accumulate these points.
+損失を回避するには、注文数と販売予定数のバランスをとる必要があります。いつでも今すぐ数部を注文でき、来月にさらに注文することができます。
 
-Leader skill determines how many points can be gathered and role specific skills control how quickly they will be gathered for each category."
-    PROJECTMANAGEMENT6      "The bottom panel tells you which projects are currently queued and lets you cancel or take them over.
+ウィンドウを閉じると続けます。"
+    PHYSICALDISTRIBUTION3   "自分で製品のコピーを印刷することもできます。これは長期的にははるかに安価ですが、より多くの作業が必要になります。コピーを店舗に運ぶには、プリンター、保管庫、輸送する宅配業者が必要です。
 
-Before the project can begin you have to either pick a product you've released to use as a prototype for future projects or assign a project directly from the design document window.
+物流に必要なものがすべて揃っている場合は、「自社のソフトウェア」ウィンドウの「印刷を開始」ボタンをクリックして、選択した製品の印刷タスクを開始できます。
 
-Go to the {H:Design document window}."
-    PROJECTMANAGEMENT7      "When you are done making your design, click the {H:Project management} button, instead of the {H:Develop} button, to assign your new design to the project queue."
-    RESEARCH1               "Start the tutorial by pressing the {H:Research} button to bring up the research window."
-    RESEARCH2               "The research window allows you to research a specialization to unlock a new tech level.
+建設モードに移動して、プリンターとパレットの作成方法を確認しましょう。"
+    PHYSICALDISTRIBUTION4   "プリンターとパレットは家具メニューにあります。
 
-The newest tech level will always be inaccessible until you've researched it, but they will unlock as you or your competitors research the next tech level.
+準備ができたら建設モードを終了しましょう。"
+    PHYSICALDISTRIBUTION5   "スタッフのウィンドウでは、宅配業者を雇って毎日1回コピーを受け取りに来させるか、配達業者を呼び出してできるだけ多くのコピーをすぐに受け取らせることができます。配達業者の呼び出しははるかに費用がかかるので、緊急時のみにする必要があります。
 
-Try clicking one of the specializations in the left panel."
-    RESEARCH3               "To the right you will now see a list of all tech levels currently researched for the chosen specialization and whether they have a patent owner.
+準備ができたら、流通ウィンドウを開いて、自分のデジタル配信ストアを実行する方法を確認しましょう。"
+    PROJECTMANAGEMENT1      "まず、プロジェクト管理ウィンドウを開きましょう。"
+    PROJECTMANAGEMENT2      "プロジェクト管理を使用すると、リリースサイクルを社内のリーダーに委任し、設計の作成から発売後の製品サポートまで全てをコントロールできます。
 
-At the bottom you can see a button to start researching this specialization, which requires designers with a level 3 specialization of the type you want to research. 
+プロジェクト管理チームには、{H:自動化}の専門分野で少なくとも1つ星のリーダーが必要です。リーダーは、プロジェクトの実行を維持するためにすべての時間を費やすので、リーダーを自分のチームに留めておくことは価値があるかもしれません。
+まず、プロジェクトを実行するリーダーを選択し、チームに名前を付けましょう。"
+    PROJECTMANAGEMENT3      "次に、プロジェクトの処理方法ををコントロールする各オプションを確認しましょう。各ラベルにカーソルを合わせると、詳細な説明が表示されます。
 
-Researching new tech before anyone else will allow you to apply for a patent using {H:Service} employees with the level 3 {H:Law} specialization. If you own the patent to a tech level, all companies using it will have to pay a royalty fee off their sales."
-    SERVER1                 "You can connect or disconnect servers in wire mode by clicking on a server and then on another server. You can also select all the servers you want to connect using {KeyBind:MultipleSelect}, {KeyBind:SweepSelect} or dragging a rectangle with {KeyBind:NormalSelection} and then press {KeyBind:ContextMenu} and press {H:Connect servers}.
+リーダーが必要な自動化レベルを持っていないために、一部のオプションがグレー表示される場合があることに注意してください。従業員ウィンドウ、チームウィンドウ、または従業員詳細ウィンドウのリーダーの専門分野の概要で星にカーソルを合わせると、各自動化レベルがアンロックするものを確認できます。
 
-The load you put on a group of connected servers will be distributed among every server in the group. If one server in a group breaks down, the entire group stops working.
+準備ができたら、OKをクリックしてください"
+    PROJECTMANAGEMENT4      "次に、新しいプロジェクトのプロジェクト管理の詳細ウィンドウを開きましょう。"
+    PROJECTMANAGEMENT5      "リーダーが蓄積したアクションポイントの数を示す新しいパネルに気付くでしょう。
 
-Open the server wiring interface by clicking the wire button."
-    SERVER2                 "Outside of connecting servers, you can use wire mode to get an overview of your server connections.
-		
-Exit wire mode and bring up the server window when you are ready."
-    SERVER3                 "From here you can manage your servers and check if they are overheating.
+アクションポイントは、新しいプロジェクトの開始、マーケティングタスクの完了、開発段階の進行に使用されます。一部のアクションは他のアクションよりも多くのポイントがかかります。あなたのリーダーはこれらのポイントを蓄積するために継続的に取り組みます。
 
-If you select a server group, you can see a list of all processes running on that server group. You can then move those processes to other servers by pressing {H:Move Selected Processes}.
+リーダースキルは収集できるポイントの数を決定し、役割固有のスキルは、各カテゴリでポイントが収集される速度をコントロール制御します。"
+    PROJECTMANAGEMENT6      "下部のパネルには現在キューに入れられているプロジェクトが表示され、それらのキャンセルまたは引き継ぎができます。
 
-You can also pick a fallback server, which will handle a server group's processes if the group breaks down."
-    SERVER4                 "If you destroy a server group completely, all processes will be unsupported, which can have major consequences.
-		
-If this happens you should click the {H:View unsupported processes} button and redelegate all processes to other servers.
+プロジェクトを開始する前に、将来のプロジェクトの試作品として使用するために発売済みの製品を選択するか、設計文書ウィンドウから直接プロジェクトを割り当てる必要があります。
 
-Press End to finish the tutorial."
+{H:設計文書ウィンドウ}。"
+    PROJECTMANAGEMENT7      "設計が完了したら、{H:開発}ボタンの代わりに{H:プロジェクト管理}ボタンをクリックして、新しい設計をプロジェクトキューに割り当てられます。"
+    RESEARCH1               "{H:研究}ボタンをクリックして研究ウィンドウを表示するとチュートリアルを開始します。"
+    RESEARCH2               "研究ウィンドウでは、専門分野を研究して新しい技術レベルのロックを解除できます。
+
+最新の技術レベルは調査するまで常にアクセスできませんが、自社または競合他社が次の技術レベルを調査するとロックが解除されます。
+
+左側のパネルの専門分野の1つをクリックしてみてください。"
+    RESEARCH3               "右側に、選択した専門分野で現在研究されている全ての技術レベル、特許所有者の有無の一覧が表示されます。
+
+下部に、この専門分野の研究を開始するためのボタンが表示されます。これには研究するタイプのレベル3の専門分野を持つデザイナーが必要です。
+
+誰よりも先に新しい技術を研究することで、レベル3の{H:法律}の専門分野を持つ{H:サービス}の従業員を使用して特許を申請できます。あなたが技術レベルの特許を所有している場合、それを使用するすべての企業は彼らの売上からロイヤリティ料を支払う必要があります。"
+    SERVER1                 "ワイヤーモードでサーバーをクリックしてから別のサーバーをクリックすると、サーバーを接続または切断できます。{KeyBind:MultipleSelect}、{KeyBind:SweepSelect}を使用するか、{KeyBind:NormalSelection}で長方形をドラッグして接続するすべてのサーバーを選択し、{KeyBind:ContextMenu}を押して{H:サーバー接続}をクリックすることもできます。
+
+接続されたサーバーのグループにかける負荷はグループ内のすべてのサーバーに分散されます。グループ内の1つのサーバーが故障すると、グループ全体が機能しなくなります。
+
+「ワイヤーモード」ボタンをクリックして、サーバーのワイヤー接続インターフェイスを開きましょう。"
+    SERVER2                 "サーバーの接続に加えて、ワイヤーモードを使用してサーバー接続の概要を見ることができます。
+
+準備ができたら、ワイヤーモードを終了し、サーバーウィンドウを表示しましょう。"
+    SERVER3                 "ここからサーバーを管理し、サーバーがオーバーヒートしているかどうかを確認できます。
+
+サーバーグループを選択すると、そのサーバーグループで実行されているすべてのプロセスの一覧が表示されます。そして{H:選択したプロセスを移動}をクリックすると、これらのプロセスを他のサーバーに移動できます。
+
+グループが故障した場合にサーバーグループのプロセスを処理する予備サーバーを選択することもできます。"
+    SERVER4                 "サーバーグループを完全に破棄すると全てのプロセスがサポートされなくなり、大きな影響が生じる可能性があります。
+
+これが発生した場合は、{H:サポートされていないプロセスを表示}ボタンをクリックして、全てのプロセスを他のサーバーに再委託する必要があります。
+
+「終了する」をクリックすると、チュートリアルを終わります。"
     SIMPLEDESIGNDOCUMENT13  "あなたが選択を行っている間、バックグラウンドであなたに代わっていくつかの選択を行いました。
 
 ゲームの選択は最適ではないかもしれませんが、この時点では安全に開発を開始できます。
 
 依存関係、フレームワーク、マーケティング目標をさらに詳しく知りたい場合は、{H:詳細}をクリックして設計文書の詳細版に切り替えることができます。そうでない場合は{H:開発}をクリックしましょう。"
-    STAFF1                  "Begin by opening the staff window."
-    STAFF2                  "This is the staff window. At the top you will see a list of your currently employed staff, whether permanent or temporary."
-    STAFF3                  "With the buttons under \"Permanent:\" you can hire staff permanently to clean, fix your furniture, etc. You can see their salary by hovering over the buttons. They will show up once a day until you dismiss them.
+    STAFF1                  "まず、スタッフウィンドウを開きましょう。"
+    STAFF2                  "これがスタッフウィンドウです。上部には、現在雇用されているスタッフが常駐か臨時かに関わらず一覧に表示されます。"
+    STAFF3                  "「常駐」の下のボタンを使用すると、家具の掃除や修理などを行うスタッフを無期限で雇うことができます。ボタンの上にカーソルを置くと給与を確認できます。スタッフはあなたが解雇するまで1日1回現れます。
 
-You can change their working hours using the buttons in the list."
-    STAFF4                  "With the buttons under \"Temporary:\" you can hire staff temporarily. They will stay until their job is done or until you dismiss them. Hovering over the buttons will show you their terms.
+一覧のボタンを使用して勤務時間を変更できます。"
+    STAFF4                  "「臨時」の下にあるボタンを使用すると、スタッフを一時的に雇うことができます。彼らは仕事が完了するまで、またはあなたが解雇するまで残ります。ボタンにカーソルを合わせると契約条件が表示されます。
 
-Press \"End\" to end the tutorial."
-    STOCKS1                 "Start by opening your company detail window to view your stocks."
-    STOCKS2                 "In the upper right corner of the company window, there's panel that allows you to sell shares in your company. Your company's value depends on how well your company is doing selling services and products, which determines how much of your company you can sell.
+「終了する」をクリックすると、チュートリアルを終わります。"
+    STOCKS1                 "まず、会社の詳細ウィンドウを開いて株式を表示しましょう。"
+    STOCKS2                 "会社ウィンドウの右上隅には会社の株を売ることができるパネルがあります。あなたの会社の価値は、会社がどれだけうまくサービスと製品を売っているのかに依存し、会社をいくらで売ることができるかを決定します。
 
-The first time you sell shares is called in {H:Initial Public Offering}, and all your money and the money you are raising will be separated into approximately {Currency:100} shares, which will be distributed among yourself and your investors.
+最初の株式売却は{H:新規株式公開}と呼ばれ、全てのあなたのお金と調達したお金は約{Currency:100}の株に分けられ、自分と投資家に分配されます。
 
-Below this panel you will see a list of stocks you can buy and sell, depending on whether the company is {H:Publicly listed}, i.e. whether they are selling any shares at all.
+このパネルの下には、会社が{H:上場している}かどうか、つまり株式を売っているのかどうかに応じて、売買できる株式の一覧が表示されます。
 
-Try opening another company's detail window, to see how many stocks they have. You can check the {H:Listed} column in the company window, to see how many percent of a company is up for sale."
-    STOCKS3                 "Owning share in a company will earn you {H:Dividends}, which means you will get a percentage of the company's profits each month, depending on how much of the company you own. Note that you also have to pay dividends to your shareholders.
+他の会社の詳細ウィンドウを開いて、株式の保有数を確認してみましょう。会社ウィンドウの{H:公開株式}の列をチェックして、会社の何パーセントが売りに出されているかを確認できます。
 
-If you own more than {H:10%} of a company, you get to use their research before anyone else and if you own more than {H:25%} you don't have to pay royalties when using this company's tools, operating systems, frameworks or patents. Again, this also works the other way.
+会社を選択して、「詳細」ボタンをクリックしてください。" #Add explanation to proceed
+    STOCKS3                 "会社の株式を所有すると{H:配当}が得られます。つまり、所有している会社の規模に応じて、毎月会社の利益の一部を得ることができます。自分の株主にも配当を支払わなければならないことに注意してください。
 
-When you own more than {H:50%} of a company, you have a chance to buy them out. Buying a company out allows you to take over all their assets or make them a subsidiary. Subsidiaries will continue to operate as normal, but you can control their releases and ask them to do certain tasks for you.
+会社の{H:10%}以上を所有している場合は、他の誰よりも先に彼らの研究を利用できます。また、{H:25%}を超える場合は、この会社のオペレーティング・システム、フレームワーク、特許などのツールを使用するときに使用料を支払う必要がありません。繰り返しになりますが、これも逆にも働きます。
 
-If another company owns more than 50% of your company, they might start a {H:Hostile takeover}, which gives you 6 months to get them below 25% before your company is dissolved.
+会社の{H:50%}以上を所有している場合は、それらを買収するチャンスがあります。会社を買収すると、資産をすべて引き継ぐか子会社にすることができます。子会社は引き続き通常どおりに動作しますが、彼らのリリースをコントロールして、特定のタスクを実行するよう依頼することができます。
 
-When a company goes bankrupt, all its assets will be distributed among its majority shareholders."
-    SUBSIDIARY1             "To begin the tutorial, make sure you have a subsidiary and have their company detail window open."
-    SUBSIDIARY2             "You control subsidiaries mainly in the company detail window.
-		
-You can use the slider to withdraw and deposit money, just like your savings account. Withdrawing all money from a subsidiary will close down the company, giving you all their assets.
+別の会社があなたの会社の50%以上を所有している場合、彼らは{H:敵対的買収}を開始する可能性があります。6ヶ月以内に彼らのシェアを25%未満にしないと会社は解散します。
 
-The detail window also gives you an overview of their planned releases and the ability to cancel them.
+企業が倒産すると、その全ての資産が大株主に分配されます。"
+    SUBSIDIARY1             "チュートリアルを開始するには、子会社があり、会社の詳細ウィンドウが開いていることを確認してください。"
+    SUBSIDIARY2             "主に会社の詳細ウィンドウで子会社を管理します。
 
-Press Continue when you're ready."
-    SUBSIDIARY3             "Developing takes up resources for a subsidiary, if you want them to work on specific tasks, or you want to control their release schedule, you can disable their autonomy, to make sure they don't spend time doing other things.
-		
-You can only assign projects that the subsidiary normally develops, so pay attention to their past and future releases. Try opening the design document and picking the software type they normally work on."
-    SUBSIDIARY4             "Some tasks can be assigned to subsidiaries as well. This is expensive and takes up a lot of the subsidiary's resources. Keep an eye out for the company option when you are selecting teams for a task.
-		
-End the tutorial when you are ready"
-    SUPPORTWORK1            "Before the support tutorial can continue, you need to have a product released and start support for it.
+スライダーを使用し、普通預金口座と同じようにお金を引き出したり入金したりできます。子会社からすべてのお金を引き出すと会社は閉鎖され、全ての資産が与えられます。
 
-You can open the {H:Your releases} window and start support from there, if you have any products."
-    SUPPORTWORK2            "When you release a new piece of software it will spawn a support work item. Through this work item you will receive support tickets from your customers, assuming you have any.
+詳細ウィンドウには、子会社の販売計画の概要とそれらをキャンセルする機能も表示されます。
 
-Support for a product never ends by itself, so you'll have to end it when you think support isn't necessary anymore. Keep an eye on the active user count to help guide you."
-    SUPPORTWORK3            "Support tickets should be answered as quickly as possible to avoid consumer backlash and a loss of market recognition.
-			
-An employee's {H:Service} skill determines how quickly they can answer support tickets and having at least one star in the {H:Support} specialization will allow them to report bugs. {H:Programmers} on the support team will fix bugs as they are verified to help reduce further tickets and refunds."
-    TEAMMANAGEMENT1         "Begin by opening the team window."
-    TEAMMANAGEMENT2         "In this window you can manage and create teams.
-		
-You can add a new team by typing a name and clicking the button in the bottom."
-    TEAMMANAGEMENT3         "When you select one or more teams in the list you can see the average skill and counts of each specialization level of all employees in the selected teams.
-		
-You can change your teams' arrival and departure times by typing your desired hours in the left input fields with one or more teams selected."
-    TEAMMANAGEMENT4         "You can set when vacation starts for your teams and how wide vacations should be spread. A vacation range of 2 means the vacation of all employees on a team will be split in 2 over 2 months, so you'll always have at least half of the employees at work.
+準備ができたら続けるをクリックしてください。"
+    SUBSIDIARY3             "子会社に特定のタスクに取り組んでもらいたい場合、またはリリース予定をコントロールしたい場合、開発は子会社のリソースを消費します。自律性を無効にして、他のことに時間を費やさないようにすることができます。
 
-You can enable crunch on a team to force your employees to work faster at the cost of their well-being."
-    TEAMMANAGEMENT5         "To get an overview of your teams role assignments you can click the {H:Manage roles} button.
-			
-You can also set {H:Secondary tasks} for each team. Employees will only work on secondary tasks if they have no assigned primary task, which by default is every task."
-    TEMPERATUREREGULATION1  "Start by entering {H:Build mode} by clicking the Build-button."
-    TEMPERATUREREGULATION2  "Offices and reception areas need to have some temperature regulation to make sure employees and guests are comfortable in their environment.
+子会社が通常開発するプロジェクトのみ割り当てることができるため、過去と将来のリリースに注意してください。設計文書を開いて、通常開発しているソフトウェアの種類を選択してみてください。"
+    SUBSIDIARY4             "一部のタスクは子会社にも割り当てることができます。これは高価であり、子会社のリソースの多くを占めます。タスクのチームを選択するときは、会社のオプションに注意してください。
 
-Rooms can be heated and cooled in two ways: Either on a room-by-room basis or using a distributed system of pipes and vents.
+準備ができたらチュートリアルを終わります"
+    SUPPORTWORK1            "サポートのチュートリアルを続ける前に、製品をリリースして、サポートを開始する必要があります。
 
-To regulate the temperature in small offices, you can place down {H: Small Heaters, Ceiling Fans, Electric Radiators and AC Units}, which will immediately start changing the temperature in a room. Regulating the temperature in this way requires a lot of maintenance and will quickly drive up expenses in larger buildings.
+製品がある場合は、{H:自社のソフトウェア}ウィンドウを開いて、そこからサポートを開始できます。"
+    SUPPORTWORK2            "新しいソフトウェアを発売すると、サポートの作業項目が生成されます。この作業項目を通じて、顧客からサポートチケットを受け取ります。
 
-Click {H:Continue} to hear about the distributed solution."
-    TEMPERATUREREGULATION3  "You can use {H:Central Heating} and {H:Roof ACs} to distribute hot and cold air throughout a building using {H:Radiators} and {H:Ventilation} in each room. Since Radiators and Ventilation don't require maintenance, it will heavily reduce the workload for your staff.
+製品のサポートはそれ自体で終了することはないため、サポートが不要になった場合は終了する必要があります。あなたを導くのを助ける、アクティブユーザー数から目を離さないでください。"
+    SUPPORTWORK3            "消費者の反発や市場の認知度の低下を回避するために、サポートチケットにはできるだけ早く回答する必要があります。
 
-When you've placed a central temperature unit, you can select it and click on the {H:Auto-buy temperature outputs} in the bottom left corner to place ventilation and radiators in offices and reception areas automatically."
+従業員の{H:サービス}スキルは、サポートチケットにどれだけ迅速に回答できるかを決定し、{H:サポート}の専門分野で少なくとも1つの星を持つことでバグを報告できるようになります。サポートチームの{H:プログラマー}は確認したバグを修正し、チケットと返金の削減を支援します。"
+    TEAMMANAGEMENT1         "まず、チームウィンドウを開きましょう。"
+    TEAMMANAGEMENT2         "このウィンドウでは、チームを管理と作成ができます。
+
+名前を入力して下部のボタンをクリックすると、新しいチームを追加できます。"
+    TEAMMANAGEMENT3         "一覧からチームを1つ以上選択すると、選択したチームの全ての従業員の平均スキルと専門分野のレベルの数を確認できます。
+
+1つ以上のチームを選択して左側の入力欄に希望の時間を入力すると、チームの出勤時間と退勤時間を変更できます。"
+    TEAMMANAGEMENT4         "チームが休暇をいつ開始するか、休暇をどの程度分散させるかを設定できます。休暇の範囲が2の場合、チームの全従業員の休暇が2ヶ月で2分割されるので、常に従業員の少なくとも半分が勤務します。
+
+チームの高速作業を有効にして、従業員の幸福を犠牲にしてより速く働くように強制できます。"
+    TEAMMANAGEMENT5         "チームの役割割り当ての概要を確認するには、{H:役割を管理}ボタンをクリックします。
+
+チームごとに{H:補助タスク}を設定することもできます。従業員は割り当てられた主要タスク(デフォルトでは全てのタスク)がない場合にのみ、補助タスクに取り組みます。"
+    TEMPERATUREREGULATION1  "まず、建設ボタンをクリックして{H:建設モード}に入りましょう。"
+    TEMPERATUREREGULATION2  "オフィスと受付エリアでは、従業員とゲストが快適に過ごせるように、温度調節が必要です。
+
+部屋は2つの方法で加熱および冷却できます: 部屋ごとに行う方法と、パイプと通気孔での分散システムを使用する方法です。
+
+小規模のオフィスの温度を調整するために{H:小型ヒーター、天井ファン、電気ラジエーター、空調ユニット}を設置することが出来、室内の温度がすぐに変化し始めます。この方法での温度調整は多くのメンテナンスが必要で、大規模な建物では費用がすぐに増加します。
+
+{H:続ける}をクリックして分散システムについて聞いてください。"
+    TEMPERATUREREGULATION3  "{H:集中暖房}と{H:屋根空調}を使用すると、各部屋の{H:冷却器}と{H:換気扇}を使用して、建物全体に温風と冷風を分配できます。冷却器と換気扇はメンテナンスを必要としないため、スタッフの作業負荷を大幅に削減できます。
+
+集中温度温度ユニットを配置したら、それを選択して左下隅の{H:温度出力を自動購入}をクリックすると、オフィスと受付エリアに換気装置と冷却器を自動的に配置できます。"
     WELCOME1                "Software Inc.にようこそ
 
 このウィンドウが邪魔になる場合は、タイトルバーをクリックしてドラッグすることで別の場所に移動できます。
@@ -638,7 +643,7 @@ When you've placed a central temperature unit, you can select it and click on th
 日付をクリックすると、従業員とスタッフのスケジュールの概要を確認できます。"
     WELCOME6                "ここの上の数字はファンの数を示しています。
 
-バーにカーソルを合わせると、各ソフトウェア市場での市場認知度がわかります。各ソフトウェアカテゴリでより多くの製品を販売するには、優れた製品を作成してマーケティングすることにより、市場で認知される必要があります。"
+バーにカーソルを合わせると、各ソフトウェア市場での市場認知度がわかります。各ソフトウェアのカテゴリでより多くの製品を販売するには、優れた製品を作成してマーケティングすることにより、市場で認知される必要があります。"
     WELCOME7                "その下にある星印は、現在のビジネスの評判を示しています。
 
 バーにカーソルを合わせると、評判に現在影響しているものがある場合はそれを確認できます。
