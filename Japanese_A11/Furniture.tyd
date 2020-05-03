@@ -193,7 +193,7 @@ Furniture
         ]
     ServerRack             [ "サーバーラック"; "1つのコンピューターでは足りない時に"; "Casing"; "Support" ]
     BigServerRack          [ "大型サーバーラック"; "サーバーが足りない時に"; "Casing"; "Casing"; "LED" ]
-    Phone                  [ "電話"; "誰に電話しよう？サポートだ！"; "Base"; "Handle" ]
+    Phone                  [ "電話"; "誰に電話する？サポートだ！"; "Base"; "Handle" ]
     DrawingTablet
         [
         "描画タブレット"
