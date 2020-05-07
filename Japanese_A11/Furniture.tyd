@@ -105,7 +105,7 @@ Furniture
     DeskLamp
         [
         "電気スタンド"
-        "局部の照明の改善のために"
+        "局所の照明改善のために"
         "Plastic"
         "Metal"
         "Lighting"
@@ -172,8 +172,8 @@ Furniture
     Bookshelf              [ "本棚"; "本付きです！" ]
     Receptiondesk          [ "受付デスク"; "" ]
     FloorPlant             [ "床置き植物"; "かわいい床置き植物" ]
-    TablePlant             [ "テーブル置き植物"; "低ポリゴンの盆栽" ]
-    TableCactus            [ "テーブル置きサボテン"; "" ]
+    TablePlant             [ "卓上植物"; "低ポリゴンの盆栽" ]
+    TableCactus            [ "卓上サボテン"; "" ]
     BigPlant
         [
         "大きな植物"
