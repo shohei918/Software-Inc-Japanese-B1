@@ -14,6 +14,8 @@ Furniture
     GlassTable             [ "ガラステーブル"; "仕事をしながら脚の眺めを堪能できます" ]
     2mEndTable             [ "2mエンドテーブル"; "ほぼ丸いです" ]
     3mEndTable             [ "3mエンドテーブル"; "さらに丸いです" ]
+    Desk                   [ "デスク"; "" ]
+    MordernDesk            [ "モダンなデスク"; "" ]
     CheapChair             [ "安い椅子"; "不快なプラスチック製の椅子です"; "Seat"; "Support" ]
     OfficeChair
         [
@@ -24,8 +26,12 @@ Furniture
         "Support"
         ]
     ExecutiveChair         [ "重役用椅子"; "最高の椅子を得るために"; "Seat"; "Back"; "Support" ]
+    ErgoChair              [ "エルゴノミックチェア"; ""; "Seat"; "Frame" ]
+    YogaBall               [ "ヨガボール"; "" ]
     WaitingChairs          [ "待合室用椅子"; ""; "Frame"; "Seat" ]
     Couch                  [ "ソファー"; "リビングルーム株式会社" ]
+    ModernCouch            [ "モダンなソファー"; "" ]
+    LeatherCouch           [ "革張りのソファー"; "" ]
     Bench                  [ "ベンチ"; "ベンチです"; "Base"; "Support" ]
     SmallHeater            [ "小型ヒーター"; "基本的なオフィスニーズに対応する控えめな暖房ユニット" ]
     CeilingFan
@@ -55,11 +61,13 @@ Furniture
         "冷却器"
         "集中暖房ユニットは部屋を暖めるためにこれを通して温水を送ります"
         ]
+    HeatingFloorGrill      [ "床暖房グリル"; "" ]
     Ventilation
         [
         "換気扇"
         "集中冷却ユニットは部屋を冷やすためにこれで空気を送ります"
         ]
+    CoolingFloorGrill      [ "床冷房グリル"; "" ]
     Industrialventilation
         [
         "業務用換気扇"
@@ -88,11 +96,7 @@ Furniture
         "ホロコンピューター"
         "未来へようこそ！ 全てが少し便利ではないところへ"
         ]
-    Cubiclewall
-        [
-        "仕切り壁"
-        "これらの壁を賢く配置すると作業スペース周辺の騒音を減らせます。 仕切り壁は従業員の孤立を高めることに注意してください。"
-        ]
+    Cubiclewall            [ "仕切り壁"; "" ]
     Lamp
         [
         "ランプ"
@@ -149,6 +153,7 @@ Furniture
         "配膳用トレー"
         "従業員が食べられるように, 料理人は配膳用トレーを完成した食品でいっぱいにします"
         ]
+    ServingTable           [ "配膳用テーブル"; "" ]
     InstantCoffee
         [
         "インスタントコーヒー"
@@ -179,8 +184,15 @@ Furniture
         "大きな植物"
         "広いスペースを占有しますがきれいなので, スペース分を補っていると従業員は同意しています"
         ]
+    SquareCarpet           [ "カーペット四角"; "" ]
+    CornerCarpet           [ "カーペット角"; "" ]
+    RoundedCarpet          [ "カーペット丸角"; "" ]
+    InvRoundedCarpet       [ "カーペット逆角"; "" ]
+    BigCarpet              [ "大きなカーペット"; "" ]
+    RoundCarpet            [ "丸いカーペット"; "" ]
     Smalltree              [ "小さな木"; "" ]
     Smallpinetree          [ "小さな松の木"; "" ]
+    MoneyTree              [ "金のなる木"; "あなたのお金を投資する別の方法です" ]
     Clock                  [ "時計"; "タイムマシーン！ (ホンモノのタイムマシーンではありません)" ]
     SmallServer            [ "小型サーバー"; "通常のコンピューターですが, もっとインターネットがついてます" ]
     MediumServer           [ "中型サーバー"; "小型サーバーに似ていますが, もっと中型です" ]
@@ -193,20 +205,19 @@ Furniture
         ]
     ServerRack             [ "サーバーラック"; "1つのコンピューターでは足りない時に"; "Casing"; "Support" ]
     BigServerRack          [ "大型サーバーラック"; "サーバーが足りない時に"; "Casing"; "Casing"; "LED" ]
-    Phone                  [ "電話"; "誰に電話する？ サポートだ！"; "Base"; "Handle" ]
+    Phone                  [ "電話"; "誰に電話する？ サポートだ！; ""; "Tertiary" ]
     DrawingTablet
         [
         "描画タブレット"
         "ピクセル座標を手で入力するよりもはるかに簡単です"
-        "Base"
-        "Pad"
         ]
-    Calculator             [ "電卓"; "電卓はプログラマーの親友です"; "Base"; "Keys" ]
+    Calculator             [ "電卓"; "電卓はプログラマーの親友です" ]
     Inbox
         [
-        "未処理書類入れ"
+        "書類入れ"
         "従業員をまとめるのに役立ちます。 特に, 電子メールなど聞いたこともない人に役立ちます。"
         ]
+    Headphones             [ "ヘッドフォン"; "" ]
     SmallProductPrinter
         [
         "小型製品プリンター"
@@ -223,11 +234,11 @@ Furniture
         "パレット"
         "最大27箱のコピーを置けます。 プリンターと同じ部屋に置く必要があります"
         ]
-    CompanyLogo            [ "会社のロゴ"; "" ]
-    CompanyLogoBig         [ "会社のロゴ大"; "" ]
-    CompanyLogoHigh        [ "会社のロゴ高"; "" ]
-    MoneyTree              [ "金のなる木"; "1ドルが100万ドルになるかも" ]
-    SolarPanel             [ "ソーラーパネル"; "" ]
+    BoxChute               [ "ボックスシュート"; "コピーの箱を1階下に自動的に送ります" ]
+    CompanyLogo            [ "会社のロゴ"; ""; "Text"; "Outline"; "Shadow" ]
+    CompanyLogoBig         [ "会社のロゴ大"; ""; "Text"; "Outline"; "Shadow" ]
+    CompanyLogoHigh        [ "会社のロゴ高"; ""; "Text"; "Outline"; "Shadow" ]
+    SolarPanel             [ "ソーラーパネル"; "電気代を節約しましょう" ]
     Standarddoor           [ "標準のドア"; "ドアです…" ]
     Casedopening           [ "覆い付き入り口"; "" ]
     Slidingglassdoor       [ "スライド式ガラス製ドア"; "窓の二倍の大きさのドアです" ]
