@@ -19,14 +19,6 @@ Software
                 "一度に複数のアプリケーションを開いて, ユーザーがマルチタスクできるように見せかけます"
                 ]
             }
-        Feature
-            {
-            Touch
-                [
-                "タッチ機能"
-                "表面に脂っこい指紋を付けきれません"
-                ]
-            }
         Feature { Useraccounts "ユーザーアカウント" }
         Feature
             {
@@ -81,6 +73,44 @@ Software
             }
         Feature { Appstore "アプリストア" }
         Feature { Cloudbackup "クラウドバックアップ" }
+        Feature { Hardware "ハードウェア" }
+        Feature
+            {
+            Touch
+                [
+                "タッチ機能"
+                "表面に脂っこい指紋を付けきれません"
+                ]
+            }
+        Feature
+            {
+            Vibration [ "バイブレーション"; "ブルルルとなる機器" ]
+            }
+        Feature { Fingerprintscanner "指紋スキャナー" }
+        Feature
+            {
+            Motiondetection
+                [
+                "モーション検知"
+                "ジョイスティックをテレビに埋め込んでほしくない人なんていません"
+                ]
+            }
+        Feature
+            {
+            Externaldrive
+                [
+                "外付けドライブ"
+                "ゲームのセーブをメモリーカードに入れ、ゲームをハードドライブにセーブします"
+                ]
+            }
+        Feature
+            {
+            Superoptimization
+                [
+                "超最適化"
+                "ハードウェアを注文するときにお金を節約するために、ソフトウェアを開発するときに時間を費やします（製品プリントを注文するときに余分なコストを取り除きます）"
+                ]
+            }
         ]
     Categories
         [
@@ -96,6 +126,23 @@ Software
             {
             Phone [ "電話"; "ポケットに" ]
             }
+        ]
+    Components
+        [
+        Component { Gyroscope "ジャイロスコープ" }
+        Component { Rumbleunit "ランブルユニット" }
+        Component { Plastic "プラスチック" }
+        Component { Board "基板" }
+        Component { Joystick "ジョイスティック" }
+        Component { Drivebay "ドライブベイ" }
+        Component { Controller "コントローラー" }
+        Component { Console "コンソール" }
+        Component { Touchsensor "タッチセンサー" }
+        Component { Vibration "バイブレーション" }
+        Component { Screen "スクリーン" }
+        Component { Phoneassembly "電話アセンブリ" }
+        Component { Fingerprintscanner "指紋スキャナー" }
+        Component { Case "ケース" }
         ]
     }
 
@@ -651,4 +698,17 @@ Software
         Feature { Hardwareinterface "ハードウェアインターフェース" }
         Feature { Userinterface "ユーザーインターフェース" }
         ]
+    Components
+        [
+        Component { Thermostat "サーモスタット" }
+        Component { Camera "カメラ" }
+        Component { Speaker "スピーカー" }
+        Component { Motor "モーター" }
+        Component { Display "ディスプレイ" }
+        Component { GPS "GPS" }
+        Component { USB "USB" }
+        Component { Board "基板" }
+        Component { Case "ケース" }
+        ]
     }
+
