@@ -5,18 +5,21 @@ Furniture
         "エレベーター"
         "異なる階の部屋をつなぐために, エレベーターを上に重ねて配置しましょう"
         ]
-    Stairs                 [ "階段"; "" ]
-    LeftQuarterTurnStairs  [ "左回り90度の階段"; "" ]
-    RightQuarterTurnStairs [ "右回り90度の階段"; "" ]
-    LeftTurnStairs         [ "左回りの階段"; "" ]
-    RightTurnStairs        [ "右回りの階段"; "" ]
-    Table                  [ "テーブル"; "上に物を置き, 周りに椅子を置きましょう" ]
-    GlassTable             [ "ガラステーブル"; "仕事をしながら脚の眺めを堪能できます" ]
-    2mEndTable             [ "2mエンドテーブル"; "ほぼ丸いです" ]
-    3mEndTable             [ "3mエンドテーブル"; "さらに丸いです" ]
-    Desk                   [ "デスク"; "" ]
-    MordernDesk            [ "モダンなデスク"; "" ]
-    CheapChair             [ "安い椅子"; "不快なプラスチック製の椅子です"; "Seat"; "Support" ]
+    BigElevator                 [ "大きなエレベーター"; "" ]
+    BiggerElevator              [ "より大きなエレベーター"; "" ]
+    Stairs                      [ "階段"; "" ]
+    LeftQuarterTurnStairs       [ "左回り90度の階段"; "" ]
+    RightQuarterTurnStairs      [ "右回り90度の階段"; "" ]
+    LeftTurnStairs              [ "左回りの階段"; "" ]
+    RightTurnStairs             [ "右回りの階段"; "" ]
+    Table                       [ "テーブル"; "上に物を置き, 周りに椅子を置きましょう" ]
+    CornerTable                 [ "コーナーテーブル"; "" ]
+    GlassTable                  [ "ガラステーブル"; "仕事をしながら脚の眺めを堪能できます" ]
+    2mEndTable                  [ "2mエンドテーブル"; "ほぼ丸いです" ]
+    3mEndTable                  [ "3mエンドテーブル"; "さらに丸いです" ]
+    Desk                        [ "デスク"; "" ]
+    MordernDesk                 [ "モダンなデスク"; "" ]
+    CheapChair                  [ "安い椅子"; "不快なプラスチック製の椅子です"; "Seat"; "Support" ]
     OfficeChair
         [
         "事務用椅子"
@@ -25,15 +28,15 @@ Furniture
         "Back"
         "Support"
         ]
-    ExecutiveChair         [ "重役用椅子"; "最高の椅子を得るために"; "Seat"; "Back"; "Support" ]
-    ErgoChair              [ "エルゴノミックチェア"; ""; "Seat"; "Frame" ]
-    YogaBall               [ "ヨガボール"; "" ]
-    WaitingChairs          [ "待合室用椅子"; ""; "Frame"; "Seat" ]
-    Couch                  [ "ソファー"; "リビングルーム株式会社" ]
-    ModernCouch            [ "モダンなソファー"; "" ]
-    LeatherCouch           [ "革張りのソファー"; "" ]
-    Bench                  [ "ベンチ"; "ベンチです"; "Base"; "Support" ]
-    SmallHeater            [ "小型ヒーター"; "基本的なオフィスニーズに対応する控えめな暖房ユニット" ]
+    ExecutiveChair              [ "重役用椅子"; "最高の椅子を得るために"; "Seat"; "Back"; "Support" ]
+    ErgoChair                   [ "エルゴノミックチェア"; ""; "Seat"; "Frame" ]
+    YogaBall                    [ "ヨガボール"; "" ]
+    WaitingChairs               [ "待合室用椅子"; ""; "Frame"; "Seat" ]
+    Couch                       [ "ソファー"; "リビングルーム株式会社" ]
+    ModernCouch                 [ "モダンなソファー"; "" ]
+    LeatherCouch                [ "革張りのソファー"; "" ]
+    Bench                       [ "ベンチ"; "ベンチです"; "Base"; "Support" ]
+    SmallHeater                 [ "小型ヒーター"; "基本的なオフィスニーズに対応する控えめな暖房ユニット" ]
     CeilingFan
         [
         "天井ファン"
@@ -41,8 +44,8 @@ Furniture
         "Base"
         "Blades"
         ]
-    ElectricRadiator       [ "電気ラジエーター"; "オフィス用のトースターです" ]
-    ACUnit                 [ "空調ユニット"; "このユニットは, 1つの部屋を冷やします"; "Case"; "Fans" ]
+    ElectricRadiator            [ "電気ラジエーター"; "オフィス用のトースターです" ]
+    ACUnit                      [ "空調ユニット"; "このユニットは, 1つの部屋を冷やします"; "Case"; "Fans" ]
     CentralHeating
         [
         "集中暖房"
@@ -61,13 +64,13 @@ Furniture
         "冷却器"
         "集中暖房ユニットは部屋を暖めるためにこれを通して温水を送ります"
         ]
-    HeatingFloorGrill      [ "床暖房グリル"; "" ]
+    HeatingFloorGrill           [ "床暖房グリル"; "" ]
     Ventilation
         [
         "換気扇"
         "集中冷却ユニットは部屋を冷やすためにこれで空気を送ります"
         ]
-    CoolingFloorGrill      [ "床冷房グリル"; "" ]
+    CoolingFloorGrill           [ "床冷房グリル"; "" ]
     Industrialventilation
         [
         "業務用換気扇"
@@ -75,28 +78,20 @@ Furniture
         "Base"
         "Blades"
         ]
-    OldComputer
-        [
-        "古いコンピューター"
-        "片手では数え切れないピクセル！"
-        "Casing"
-        "Keys"
-        ]
-    90sComputer            [ "90年代のコンピューター"; ""; "Casing"; "Monitor"; "Keys" ]
-    Laptop                 [ "ノートパソコン"; ""; "Casing"; "Keys" ]
+    OldComputer                 [ "古いコンピューター"; "片手では数え切れないピクセル！"]
+    90sComputer                 [ "90年代のコンピューター"; ""]
+    Laptop                      [ "ノートパソコン"; ""]
     ModernComputer
         [
         "現代のコンピューター"
         "現代のコンピューターの全てのニーズに対応する現代のコンピューターです"
-        "Base"
-        "Keys"
         ]
     HoloComputer
         [
         "ホロコンピューター"
         "未来へようこそ！ 全てが少し便利ではないところへ"
         ]
-    Cubiclewall            [ "仕切り壁"; "" ]
+    Cubiclewall                 [ "仕切り壁"; "" ]
     Lamp
         [
         "ランプ"
@@ -105,7 +100,7 @@ Furniture
         "Support"
         "Lighting"
         ]
-    WallLamp               [ "壁ランプ"; "" ]
+    WallLamp                    [ "壁ランプ"; "" ]
     DeskLamp
         [
         "電気スタンド"
@@ -114,7 +109,7 @@ Furniture
         "Metal"
         "Lighting"
         ]
-    FloorLamp              [ "フロアランプ"; "明るくなりますが, 邪魔になります"; "Shade"; "Support" ]
+    FloorLamp                   [ "フロアランプ"; "明るくなりますが, 邪魔になります"; "Shade"; "Support" ]
     Fluorescentlamp
         [
         "蛍光灯"
@@ -136,8 +131,8 @@ Furniture
         "火災警報器"
         "同じ部屋で火災が発生した場合, 建物内の全員に警告します"
         ]
-    Sprinkler              [ "スプリンクラー"; "" ]
-    Securitycamera         [ "防犯カメラ"; "" ]
+    Sprinkler                   [ "スプリンクラー"; "" ]
+    Securitycamera              [ "防犯カメラ"; "" ]
     MiniFridge
         [
         "ミニ冷蔵庫"
@@ -145,15 +140,15 @@ Furniture
         "Base"
         "Handle"
         ]
-    VendingMachine         [ "自動販売機"; "食料生産機" ]
-    Fridge                 [ "冷蔵庫"; "料理人が調理するための食べ物を生産します" ]
-    Stove                  [ "コンロ"; "料理人が食べ物を加熱するために使います。 1人1つです。" ]
+    VendingMachine              [ "自動販売機"; "食料生産機" ]
+    Fridge                      [ "冷蔵庫"; "料理人が調理するための食べ物を生産します" ]
+    Stove                       [ "コンロ"; "料理人が食べ物を加熱するために使います。 1人1つです。" ]
     ServingTray
         [
         "配膳用トレー"
         "従業員が食べられるように, 料理人は配膳用トレーを完成した食品でいっぱいにします"
         ]
-    ServingTable           [ "配膳用テーブル"; "" ]
+    ServingTable                [ "配膳用テーブル"; "" ]
     InstantCoffee
         [
         "インスタントコーヒー"
@@ -161,7 +156,7 @@ Furniture
         "Pot"
         "Handle"
         ]
-    Coffee                 [ "コーヒー"; "標準的なミル付きコーヒーメーカー"; "Base"; "Accent" ]
+    Coffee                      [ "コーヒー"; "標準的なミル付きコーヒーメーカー"; "Base"; "Accent" ]
     EspressoMachine
         [
         "エスプレッソマシン"
@@ -169,84 +164,117 @@ Furniture
         "Base"
         "Accent"
         ]
-    Toilet                 [ "トイレ"; "うんこマシン" ]
-    Sink                   [ "シンク"; "" ]
-    WaterCooler            [ "ウォータークーラー"; "従業員が交流できる場所" ]
-    Painting               [ "絵画"; "オフィスを盛り上げるつまらない絵画" ]
-    TV                     [ "テレビ"; "" ]
-    Bookshelf              [ "本棚"; "本付きです！" ]
-    Receptiondesk          [ "受付デスク"; "" ]
-    FloorPlant             [ "床置き植物"; "かわいい床置き植物" ]
-    TablePlant             [ "卓上植物"; "低ポリゴンの盆栽" ]
-    TableCactus            [ "卓上サボテン"; "" ]
+    Toilet                      [ "トイレ"; "うんこマシン" ]
+    Sink                        [ "シンク"; "" ]
+    WaterCooler                 [ "ウォータークーラー"; "従業員が交流できる場所" ]
+    Painting                    [ "絵画"; "オフィスを盛り上げるつまらない絵画" ]
+    TV                          [ "テレビ"; "" ]
+    Bookshelf                   [ "本棚"; "本付きです！" ]
+    Receptiondesk               [ "受付デスク"; "" ]
+    SecurityDesk                [ "警備デスク"; "最良の結果を得るために戦略的に配置しましょう" ]
+    FloorPlant                  [ "床置き植物"; "かわいい床置き植物" ]
+    TablePlant                  [ "卓上植物"; "低ポリゴンの盆栽" ]
+    TableCactus                 [ "卓上サボテン"; "" ]
     BigPlant
         [
         "大きな植物"
         "広いスペースを占有しますがきれいなので, スペース分を補っていると従業員は同意しています"
         ]
-    SquareCarpet           [ "カーペット四角"; "" ]
-    CornerCarpet           [ "カーペット角"; "" ]
-    RoundedCarpet          [ "カーペット丸角"; "" ]
-    InvRoundedCarpet       [ "カーペット逆角"; "" ]
-    BigCarpet              [ "大きなカーペット"; "" ]
-    RoundCarpet            [ "丸いカーペット"; "" ]
-    Smalltree              [ "小さな木"; "" ]
-    Smallpinetree          [ "小さな松の木"; "" ]
-    MoneyTree              [ "金のなる木"; "あなたのお金を投資する別の方法です" ]
-    Clock                  [ "時計"; "タイムマシーン！ (ホンモノのタイムマシーンではありません)" ]
-    SmallServer            [ "小型サーバー"; "通常のコンピューターですが, もっとインターネットがついてます" ]
-    MediumServer           [ "中型サーバー"; "小型サーバーに似ていますが, もっと中型です" ]
+    SquareCarpet                [ "カーペット四角"; "" ]
+    CornerCarpet                [ "カーペット角"; "" ]
+    RoundedCarpet               [ "カーペット丸角"; "" ]
+    InvRoundedCarpet            [ "カーペット逆角"; "" ]
+    BigCarpet                   [ "大きなカーペット"; "" ]
+    RoundCarpet                 [ "丸いカーペット"; "" ]
+    Smalltree                   [ "小さな木"; "" ]
+    Smallpinetree               [ "小さな松の木"; "" ]
+    MoneyTree                   [ "金のなる木"; "あなたのお金を投資する別の方法です" ]
+    Clock                       [ "時計"; "タイムマシーン！ (ホンモノのタイムマシーンではありません)" ]
+    SmallServer                 [ "小型サーバー"; "通常のコンピューターですが, もっとインターネットがついてます" ]
+    MediumServer                [ "中型サーバー"; "小型サーバーに似ていますが, もっと中型です" ]
     TowerServer
         [
         "タワー型サーバー"
         "高性能なタワー (ホンモノのタワーではありません)"
         "Casing"
-        "Lighting"
+        "Servers"
         ]
-    ServerRack             [ "サーバーラック"; "1つのコンピューターでは足りない時に"; "Casing"; "Support" ]
-    BigServerRack          [ "大型サーバーラック"; "サーバーが足りない時に"; "Casing"; "Casing"; "LED" ]
-    Phone                  [ "電話"; "誰に電話する？ サポートだ！; ""; "Tertiary" ]
+    ServerRack                  [ "サーバーラック"; "1つのコンピューターでは足りない時に"; "Casing"; "Support" ]
+    BigServerRack               
+        [
+        "大型サーバーラック"
+        "サーバーが足りない時に"
+        "Casing"
+        "Frame"
+        "Handle"
+        ]
+    Phone                       [ "電話"; "誰に電話する？ サポートだ！; ""; "Tertiary" ]
     DrawingTablet
         [
         "描画タブレット"
         "ピクセル座標を手で入力するよりもはるかに簡単です"
         ]
-    Calculator             [ "電卓"; "電卓はプログラマーの親友です" ]
+    Calculator                  [ "電卓"; "電卓はプログラマーの親友です" ]
     Inbox
         [
         "書類入れ"
         "従業員をまとめるのに役立ちます。 特に, 電子メールなど聞いたこともない人に役立ちます。"
+        "Box"
         ]
-    Headphones             [ "ヘッドフォン"; "" ]
+    Headphones                  [ "ヘッドフォン"; "" ]
     SmallProductPrinter
         [
         "小型製品プリンター"
         "製品を印刷する小型のフロッピープリンター"
         ]
-    MediumProductPrinter   [ "中型製品プリンター"; "中型のディスクプリンター" ]
+    MediumProductPrinter        [ "中型製品プリンター"; "中型のディスクプリンター" ]
     LargeProductPrinter
         [
         "大型製品プリンター"
         "小さいコピーを印刷するので宅配業者がもっと運べるようになります"
         ]
+    ComponentPrinter            [ "コンポーネントプリンター"; "新しいハードウェアのコンポーネントを製造します" ]
+    ComponentAssembler          [ "コンポーネント組立機"; "製造したコンポーネントを組み立てます" ]
+    ComponentRecycler
+        [
+        "コンポーネントリサイクル機"
+        "未完成の組み立てコンポーネントをリサイクルして、後で再利用できるようにします"
+        "Base"
+        ]
+    ConveyorBelt                [ "コンベアベルト"; "" ]
+    Ceiling-mountedConveyorBelt [ "天井取り付け型コンベアベルト"; "職員を邪魔することなく箱を運びます" ]
+    ConveyorRamp                [ "傾斜コンベア"; "" ]
+    ConveyorSplitter            [ "コンベア分配器"; "入ってくる箱を最大3方向に分割します" ]
+    Wall-mountedConveyorBelt    [ "壁取り付け型コンベアベルト"; "部屋から部屋へ箱を運びます" ]
     Pallet
         [
         "パレット"
         "最大27箱のコピーを置けます。 プリンターと同じ部屋に置く必要があります"
         ]
-    BoxChute               [ "ボックスシュート"; "コピーの箱を1階下に自動的に送ります" ]
-    CompanyLogo            [ "会社のロゴ"; ""; "Text"; "Outline"; "Shadow" ]
-    CompanyLogoBig         [ "会社のロゴ大"; ""; "Text"; "Outline"; "Shadow" ]
-    CompanyLogoHigh        [ "会社のロゴ高"; ""; "Text"; "Outline"; "Shadow" ]
-    SolarPanel             [ "ソーラーパネル"; "電気代を節約しましょう" ]
-    Standarddoor           [ "標準のドア"; "ドアです…" ]
-    Casedopening           [ "覆い付き入り口"; "" ]
-    Slidingglassdoor       [ "スライド式ガラス製ドア"; "窓の二倍の大きさのドアです" ]
-    Doubledoors            [ "両開きドア"; "一度の購入でもっとドアを" ]
-    Doubleglassdoor        [ "両開きガラス製ドア"; "" ]
-    Smallwindow            [ "小さな窓"; "部屋の間に設置すると全く役に立ちません" ]
-    Largewindow            [ "大きな窓"; "もっと窓がほしいときに" ]
-    Widewindow             [ "幅広い窓"; "ワイドスクリーン体験のために" ]
-    Archedgate             [ "アーチ型の門"; "" ]
-    Opengate               [ "開いた門"; "" ]
+    PalletDropPoint
+        [
+        "パレットドロップ地点"
+        "コンベアベルトがいっぱいの場合に、箱をパレットの上に落とします"
+        ]
+    PalletPickupPoint
+        [
+        "パレットピックアップ地点"
+        "コンベアベルトが空の場合に、パレットから箱を受け取ります"
+        ]
+    GaragePort                  [ "ガレージポート"; "宅配業者の正面玄関に箱を直接発送します" ]
+    BoxElevator                 [ "箱エレベーター"; "異なるフロアに箱を運びます" ]
+    CompanyLogo                 [ "会社のロゴ"; ""; "Text"; "Outline"; "Shadow" ]
+    CompanyLogoBig              [ "会社のロゴ大"; ""; "Text"; "Outline"; "Shadow" ]
+    CompanyLogoHigh             [ "会社のロゴ高"; ""; "Text"; "Outline"; "Shadow" ]
+    SolarPanel                  [ "ソーラーパネル"; "電気代を節約しましょう" ]
+    Standarddoor                [ "標準のドア"; "ドアです…" ]
+    Casedopening                [ "覆い付き入り口"; "" ]
+    Slidingglassdoor            [ "スライド式ガラス製ドア"; "窓の二倍の大きさのドアです" ]
+    Doubledoors                 [ "両開きドア"; "一度の購入でもっとドアを" ]
+    Doubleglassdoor             [ "両開きガラス製ドア"; "" ]
+    Smallwindow                 [ "小さな窓"; "部屋の間に設置すると全く役に立ちません" ]
+    Largewindow                 [ "大きな窓"; "もっと窓がほしいときに" ]
+    Widewindow                  [ "幅広い窓"; "ワイドスクリーン体験のために" ]
+    Archedgate                  [ "アーチ型の門"; "" ]
+    Opengate                    [ "開いた門"; "" ]
     }
