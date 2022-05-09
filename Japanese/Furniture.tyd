@@ -316,7 +316,7 @@ Furniture
     Smallwindow                 [ "小さな窓"; "部屋の間に設置すると全く役に立ちません" ]
     Largewindow                 [ "大きな窓"; "もっと窓がほしいときに" ]
     Widewindow                  [ "幅広い窓"; "ワイドスクリーン体験のために" ]
-    Smallprivatewindow          [ "小さな個人用の窓"; "あなたのすべての浴室の必要性のために" ]
+    Smallprivatewindow          [ "小さな個人用の窓"; "あなたのすべてのトイレの必要性のために" ]
     Archedgate                  [ "アーチ型の門"; "" ]
     Opengate                    [ "開いた門"; "" ]
     }
