@@ -1,0 +1,714 @@
+SoftwareCategoryDefault [ "デフォルト"; "" ]
+
+Software
+    {
+    OperatingSystem
+        [
+        "オペレーティング・システム"
+        "オペレーティングシステムは, Software Inc. で最大のソフトウェアです。
+ほとんどのソフトウェアを実行するには, オペレーティングシステムが必要です。人々は一連のオペレーティング・システムの購入をやめると, それ用のソフトウェアの購入もやめるでしょう。"
+        ]
+    Features
+        [
+        Feature { System "システム" }
+        Feature
+            {
+            Multitasking
+                [
+                "マルチタスク"
+                "一度に複数のアプリケーションを開いて, ユーザーがマルチタスクできるように見せかけます"
+                ]
+            }
+        Feature { Useraccounts "ユーザーアカウント" }
+        Feature
+            {
+            Name  "Plug'n'Play"
+            Value
+                [
+                "プラグアンドプレイ"
+                "ユーザーがさまざまな方法でオペレーティング・システムを操作できるようにします"
+                ]
+            }
+        Feature { Fileencryption "ファイル暗号化" }
+        Feature { Systemrecovery "システム復旧" }
+        Feature
+            {
+            Virtualization [ "仮想化"; "あなたのOSにもう1つのOSを入れてみました" ]
+            }
+        Feature { Codesigning "コード署名" }
+        Feature { Interface "インターフェース" }
+        Feature { Customthemes "カスタムテーマ" }
+        Feature { Windowingsystem "ウィンドウシステム" }
+        Feature { Unifiedsearch "統合検索" }
+        Feature { Themes "テーマ" }
+        Feature { Widgets "ヴィジェット" }
+        Feature { Notifications "通知" }
+        Feature { 3Drendering "3Dレンダリング" }
+        Feature { Audio "オーディオ" }
+        Feature { Surroundsound "サラウンド音響" }
+        Feature { Speechrecognition "音声認識" }
+        Feature
+            {
+            Microphonesurveillance
+                [
+                "マイク監視"
+                "ユーザーの会話を聞いて, バグが報告される前にバグを見つけて修正します"
+                ]
+            }
+        Feature
+            {
+            Network
+                [
+                "ネットワーク"
+                "この便利な機能なしでは, 匿名の人々は世界中でお互いに荒らしあうことができません"
+                ]
+            }
+        Feature
+            {
+            Auto-update
+                [
+                "自動アップデート"
+                "バグにパッチを当て, マルウェアから保護し, 保存していない60ページの論文の途中で再起動します"
+                ]
+            }
+        Feature { Appstore "アプリストア" }
+        Feature { Cloudbackup "クラウドバックアップ" }
+        Feature { Hardware "ハードウェア" }
+        Feature
+            {
+            Touch
+                [
+                "タッチ機能"
+                "表面に脂っこい指紋を付けきれません"
+                ]
+            }
+        Feature
+            {
+            Vibration [ "バイブレーション"; "ブルルルとなる機器" ]
+            }
+        Feature { Fingerprintscanner "指紋スキャナー" }
+        Feature
+            {
+            Motiondetection
+                [
+                "モーション検知"
+                "ジョイスティックをテレビに埋め込んでほしくない人なんていません"
+                ]
+            }
+        Feature
+            {
+            Externaldrive
+                [
+                "外付けドライブ"
+                "ゲームのセーブをメモリーカードに入れ、ゲームをハードドライブにセーブします"
+                ]
+            }
+        Feature
+            {
+            Superoptimization
+                [
+                "超最適化"
+                "ハードウェアを注文するときにお金を節約するために、ソフトウェアを開発するときに時間を費やします（製品プリントを注文するときに余分なコストを取り除きます）"
+                ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            Computer [ "コンピューター"; "机に" ]
+            }
+        Category
+            {
+            Console [ "家庭用ゲーム機"; "テレビに" ]
+            }
+        Category
+            {
+            Phone [ "電話"; "ポケットに" ]
+            }
+        ]
+    Components
+        [
+        Component { Gyroscope "ジャイロスコープ" }
+        Component { Rumbleunit "ランブルユニット" }
+        Component { Plastic "プラスチック" }
+        Component { Board "基板" }
+        Component { Joystick "ジョイスティック" }
+        Component { Drivebay "ドライブベイ" }
+        Component { Controller "コントローラー" }
+        Component { Console "コンソール" }
+        Component { Touchsensor "タッチセンサー" }
+        Component { Vibration "バイブレーション" }
+        Component { Screen "スクリーン" }
+        Component { Phoneassembly "電話アセンブリ" }
+        Component { Fingerprintscanner "指紋スキャナー" }
+        Component { Case "ケース" }
+        ]
+    }
+
+Software
+    {
+    2DEditor
+        [
+        "2Dエディタ"
+        "色情報の2次元配列を処理できるプログラム"
+        ]
+    Features
+        [
+        Feature
+            {
+            2Dgraphics [ "2Dグラフィック"; "この種類のソフトウェアにはかなり不可欠のようです" ]
+            }
+        Feature
+            {
+            Vectorgraphics [ "ベクターグラフィック"; "ピクセルの中に線を入れます" ]
+            }
+        Feature
+            {
+            Proceduralshapes [ "手続き型図形"; "長方形を手書きで書こうとする人はいません" ]
+            }
+        Feature { Layers "レイヤー" }
+        Feature { Dynamicbrushes "ダイナミックブラシ" }
+        Feature { Levelsandcurves "階層と曲線" }
+        Feature
+            {
+            Imageeffects [ "画像効果"; "もっと渦巻きが必要です" ]
+            }
+        Feature { Textrendering "文字レンダリング" }
+        Feature { Brushpresets "ブラシのプリセット" }
+        Feature { Brushstrokesmoothing "ブラシ描き平滑化" }
+        Feature { Clipart "クリップアート" }
+        Feature
+            {
+            Liquify [ "液化"; "ピクセルを伸ばして引っ張ります" ]
+            }
+        Feature
+            {
+            Healingbrush
+                [
+                "修復ブラシ"
+                "ニキビ, ぽつぽつ, 反転, 人, 建物などを削除します"
+                ]
+            }
+        Feature
+            {
+            Beautify
+                [
+                "美化"
+                "写真での見栄えを良くすることで媚びを売って, 製品が返品される可能性を低くしましょう"
+                ]
+            }
+        Feature { System "システム" }
+        Feature
+            {
+            RAWimageimport
+                [
+                "RAW画像のインポート"
+                "色からさらに色を引き出す必要がある場合に"
+                ]
+            }
+        Feature { Drawingtabletsupport "描画タブレットのサポート" }
+        ]
+    }
+
+Software
+    {
+    3DEditor [ "3Dエディタ"; "空間の点です, 基本的に" ]
+    Features
+        [
+        Feature { 3Dgraphics "3Dグラフィック" }
+        Feature
+            {
+            Sculpting [ "彫刻"; "点を粘土に見せかけます" ]
+            }
+        Feature
+            {
+            Pathtracing [ "パストレーシング"; "点に光線を当てて写真を作成します" ]
+            }
+        Feature
+            {
+            Skinning [ "スキニング"; "点が自力で動けるようにします" ]
+            }
+        Feature
+            {
+            Proceduralobjects [ "手続き型オブジェクト"; "点を自動的に作成します" ]
+            }
+        Feature
+            {
+            Physicssimulation [ "物理シミュレーション"; "点をインタラクティブにします" ]
+            }
+        Feature
+            {
+            Liquidsimulation [ "液体シミュレーション"; "あちこちに点をばらまきます" ]
+            }
+        Feature
+            {
+            Hairsimulation [ "毛髪シミュレーション"; "点の間に線を引きます" ]
+            }
+        Feature
+            {
+            Particles [ "粒子"; "あちこちに点をスプレーします" ]
+            }
+        Feature
+            {
+            Booleanoperations [ "ブール演算"; "点と点の場合, 点" ]
+            }
+        Feature
+            {
+            Meshsubdivision [ "メッシュサブディビジョン"; "点の間に点を追加します" ]
+            }
+        Feature
+            {
+            Inversekinematics [ "インバースキネマティクス"; "他の点の間に点をきれいに配置します" ]
+            }
+        Feature
+            {
+            Bitmining
+                [
+                "ビットマイニング"
+                "逮捕されるリスクと引き換えに, ユーザーのGPUを使用してビットコインをマイニングして, アクティブユーザーごとに{Currency:0.1}を稼ぎます。"
+                ]
+            }
+        Feature { System "システム" }
+        Feature
+            {
+            GPUrendering [ "GPUレンダリング"; "点ハードウェアを使用して点を高速化します" ]
+            }
+        Feature
+            {
+            Motioncapture [ "モーションキャプチャー"; "実生活の動きを点の動きに変換します" ]
+            }
+        ]
+    }
+
+Software
+    {
+    AudioTool
+        [
+        "オーディオツール"
+        "オーディオツールは, 効果音や音楽を録音およびミキシングするためのものです。"
+        ]
+    Features
+        [
+        Feature
+            {
+            Audio [ "オーディオ"; "音を出します" ]
+            }
+        Feature { Synthesizer "シンセサイザー" }
+        Feature { Delayandreverb "ディレイとリバーブ" }
+        Feature { EQandcompression "イコライザーと圧縮" }
+        Feature { Ampsimulation "アンプシミュレーション" }
+        Feature { Wavepitchandstretch "周波のピッチとストレッチ" }
+        Feature
+            {
+            Autotune [ "オートチューン"; "そういうものです" ]
+            }
+        Feature { Synthesizerpresets "シンセサイザープリセット" }
+        Feature { Soundbank "サウンドバンク" }
+        Feature
+            {
+            Interface [ "インターフェース"; "ユーザーの聴覚に視覚を提供します" ]
+            }
+        Feature { Multi-trackediting "マルチトラック編集" }
+        Feature { Channelmixer "チャンネルミキサー" }
+        Feature { Noteeditor "ノートエディター" }
+        Feature { Spectrumanalyzer "スペクトル分析" }
+        Feature { Racksimulation "ラックシミュレーション" }
+        Feature
+            {
+            System [ "システム"; "基礎となるシステムとの相互作用" ]
+            }
+        Feature { Audiocodecs "オーディオコーデック" }
+        Feature { MIDIdeviceinput "MIDIデバイス入力" }
+        Feature { Effectplug-ins "効果プラグイン" }
+        Feature
+            {
+            Includedsoundcard
+                [
+                "サウンドカード同梱"
+                "物理的な販売では販売価格の50%が追加されますが, コピーの作成では{Currency:10}の追加費用がかかります"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    Game       [ "ゲーム"; "インタラクティブアート" ]
+    Features
+        [
+        Feature { Gamedesign "ゲームデザイン" }
+        Feature { Openworld "オープンワールド" }
+        Feature
+            {
+            Physics [ "物理学"; "弾みます" ]
+            }
+        Feature
+            {
+            Dialogtrees
+                [
+                "ダイアログツリー"
+                "プレイヤーに声を与えて, ゲーム内でキャラクターに少し違う何かを言わせます"
+                ]
+            }
+        Feature
+            {
+            Branchingstory
+                [
+                "分岐するストーリー"
+                "全て同じ行き先につながる複数の異なる道"
+                ]
+            }
+        Feature
+            {
+            Modsupport [ "Modサポート"; "必要に応じて, ゲーム外でこの機能を変更できます" ]
+            }
+        Feature { Customizablecharacter "カスタマイズ可能なキャラクター" }
+        Feature { 2DGraphics "2Dグラフィック" }
+        Feature
+            {
+            AdvancedHUD [ "高度なHUD"; "ゲームにさらにGUIを追加します" ]
+            }
+        Feature
+            {
+            Post-processing [ "後処理"; "\#花盛り" ]
+            }
+        Feature { 3DGraphics "3Dグラフィック" }
+        Feature { Shadows "影" }
+        Feature { Cutscenes "カットシーン" }
+        Feature
+            {
+            VR [ "VR"; "バーチャルリアリティ" ]
+            }
+        Feature { Facialanimations "顔のアニメーション" }
+        Feature { Proceduralgeneration "手続き型生成" }
+        Feature
+            {
+            Wackyphysics
+                [
+                "奇抜な物理学"
+                "物理オブジェクトにいくつかのバグを導入することにより, バイラルビデオでローンチマーケティングを促進します"
+                ]
+            }
+        Feature { Audio "オーディオ" }
+        Feature { Recordeddialog "録音されたダイアログ" }
+        Feature { Adaptivemusic "アダプティブミュージック" }
+        Feature
+            {
+            Digitalexclusivemusic
+                [
+                "デジタル版限定ミュージック"
+                "物理的な売上の一部をデジタルに変換し, その過程で一部の物理的な売上を失います"
+                ]
+            }
+        Feature
+            {
+            Multiplayer
+                [
+                "マルチプレイヤー"
+                "世界中の10代の子どもたちによるわいせつな叫び声を促進します"
+                ]
+            }
+        Feature
+            {
+            MMO [ "MMO"; "多人数参加型オンライン" ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            RPG [ "RPG"; "ロールプレイングゲーム" ]
+            }
+        Category { Adventure "アドベンチャー" }
+        Category
+            {
+            Simulation [ "シミュレーション"; "今プレイ中です！" ]
+            }
+        Category { Sports "スポーツ" }
+        Category
+            {
+            RTS [ "RTS"; "リアルタイムストラテジー" ]
+            }
+        Category
+            {
+            FPS [ "FPS"; "一人称シューティング" ]
+            }
+        ]
+    }
+
+Software
+    {
+    OfficeSoftware [ "オフィス用ソフトウェア"; "あなたのすべてのオフィスニーズのために" ]
+    Features
+        [
+        Feature
+            {
+            Interface [ "インターフェース"; "見れなければオフィス文書は作れません" ]
+            }
+        Feature
+            {
+            Equationrendering
+                [
+                "方程式のレンダリング"
+                "y=(1/(σ·sqrt(2·π)))e^(-(x-μ)^2/(2·σ^2))... 見栄えがしませんか？"
+                ]
+            }
+        Feature
+            {
+            Autopagelayout
+                [
+                "ページの自動レイアウト"
+                "つまり, 画像をその場所に合わせるために30分を費やしています"
+                ]
+            }
+        Feature { Chartsandgraphs "チャートとグラフ" }
+        Feature
+            {
+            Clipart [ "クリップアート"; "*チャートを指す棒グラフ*" ]
+            }
+        Feature
+            {
+            Animations
+                [
+                "アニメーション"
+                "あらゆる方向と角度からスライドと文字を滑らせるだけ"
+                ]
+            }
+        Feature { Slidetemplates "スライドテンプレート" }
+        Feature { Vectorgraphics "ベクターグラフィック" }
+        Feature
+            {
+            Virtualassistant [ "バーチャルアシスタント"; "バグ報告がゆっくりと自力で解決するのに役立ちます" ]
+            }
+        Feature { System "システム" }
+        Feature
+            {
+            Spellcheck [ "スペルチェック"; "誰もがより有能に見えるようにします" ]
+            }
+        Feature
+            {
+            Interactiveslides
+                [
+                "インタラクティブなスライド"
+                "この時点で, あなたはウェブサイトを作ることもできます"
+                ]
+            }
+        Feature
+            {
+            Dictionary [ "辞書"; "誰もが有能に見えるようにします" ]
+            }
+        Feature
+            {
+            Thesaurus [ "類義語辞典"; "誰もが有能に見えるようにします" ]
+            }
+        Feature { Financialmathlibrary "金融数学ライブラリ" }
+        Feature { Geometricmathlibrary "幾何数学ライブラリ" }
+        Feature
+            {
+            Datemanipulation
+                [
+                "日付計算"
+                "今日から10を引いたら…2014年6月？それが見れます"
+                ]
+            }
+        Feature { Scripting "スクリプティング" }
+        Feature { Network "ネットワーク" }
+        Feature { Cloudbackup "クラウドバックアップ" }
+        Feature { Databaseconnections "データベース接続" }
+        Feature { Audioplayback "オーディオ再生" }
+        Feature
+            {
+            Soundeffectlibrary
+                [
+                "効果音ライブラリ"
+                "プレゼンテーションに不要な興奮をもたらします！"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    Antivirus
+        [
+        "ウイルス対策ソフト"
+        "デジタルのトラブルメーカーからコンピューターを保護します, そうすると儲かるようになったので。"
+        ]
+    Features
+        [
+        Feature
+            {
+            Systemscanning [ "システムスキャン"; "ローカルの脅威から保護します" ]
+            }
+        Feature
+            {
+            Filescanner
+                [
+                "ファイルスキャン"
+                "大喜びでランダムにファイルをロックするウイルスをバックグランドでスキャンします"
+                ]
+            }
+        Feature
+            {
+            Applicationscanner
+                [
+                "アプリケーションスキャン"
+                "大喜びでランダムにクラッシュさせるマルウェアをバックグラウンドでスキャンします。"
+                ]
+            }
+        Feature
+            {
+            Anti-theft [ "盗難防止"; "盗まれたときにコンピューターに知らせてください" ]
+            }
+        Feature
+            {
+            Fileencryption
+                [
+                "ファイル暗号化"
+                "その秘密のクッキーのレシピはロックしておくほうがいいです！"
+                ]
+            }
+        Feature
+            {
+            Interface [ "インターフェース"; "ユーザビリティの脅威から保護します" ]
+            }
+        Feature { Malwarealerts "マルウェア警告" }
+        Feature { Hackingalerts "ハッキング警告" }
+        Feature { Filequarantine "ファイル検疫" }
+        Feature
+            {
+            Passwordmanagement
+                [
+                "パスワード管理"
+                "パスワードのリセットでメールボックスが埋まるのを防ぎます"
+                ]
+            }
+        Feature
+            {
+            Networking [ "ネットワーク"; "外部の脅威から保護します" ]
+            }
+        Feature { Portblocking "ポートブロッッキング" }
+        Feature
+            {
+            Applicationaccesscontrol
+                [
+                "アプリケーションアクセス制御"
+                "ソリティア・エキストリームはシステムファイルにアクセスする必要はありません"
+                ]
+            }
+        Feature { IPfiltering "IPフィルタリング" }
+        Feature
+            {
+            Anti-spam
+                [
+                "アンチスパム"
+                "亡くなった遠い親戚から受け取る, 黄金の機会を少なくします"
+                ]
+            }
+        Feature
+            {
+            Adblocker [ "広告ブロック"; "ニュースサイトを読みにくくするものを削除します" ]
+            }
+        Feature
+            {
+            Virusdatabase
+                [
+                "ウイルスデータベース"
+                "ユーザーのウイルス定義を自動的に最新に保ちます"
+                ]
+            }
+        Feature
+            {
+            Datamining
+                [
+                "データマイニング"
+                "逮捕されるリスクと引き換えに, ユーザーのデータを売って, アクティブユーザーごとに{Currency:0.25}を稼ぎます"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    LogisticsApplication "物流アプリケーション"
+    Features
+        [
+        Feature { Commandline "コマンドライン" }
+        Feature { Third-partyintegration "サードパーティ統合" }
+        Feature { Paymentprocessing "支払い手続き" }
+        Feature { Businessoptimizationalgoritms "ビジネス最適化アルゴリズム" }
+        Feature { Userinterface "ユーザーインターフェース" }
+        Feature { Prettyicons "かわいいアイコン" }
+        Feature { Databasemanagement "データベース管理" }
+        Feature { Productdatabase "製品データベース" }
+        Feature { Inventorymanagement "在庫管理" }
+        Feature { Employeemanagement "従業員管理" }
+        ]
+    }
+
+Software
+    {
+    Website  "ウェブサイト"
+    Features
+        [
+        Feature { Staticpages "静的ページ" }
+        Feature { Icons "アイコン" }
+        Feature { Pagelayout "ページレイアウト" }
+        Feature { Pagestyling "ページスタイル" }
+        Feature { Customfont "カスタムフォント" }
+        Feature { Dynamicpages "動的ページ" }
+        Feature { Useraccounts "ユーザーアカウント" }
+        Feature { Messageboard "伝言板" }
+        Feature { Store "ストア" }
+        Feature { Backendapplication "バックエンドアプリケーション" }
+        ]
+    }
+
+Software
+    {
+    GameAssets "ゲームアセット"
+    Features
+        [
+        Feature { 2Dart "2Dアート" }
+        Feature { Userinterfacegraphics "ユーザーインターフェースグラフィック" }
+        Feature { Conceptart "コンセプトアート" }
+        Feature { Soundeffects "音響効果" }
+        Feature { Music "音楽" }
+        Feature { WrittenDialogue "文字のダイアログ" }
+        Feature { 3Dmodels "3Dモデル" }
+        Feature { Textures "テクスチャ" }
+        Feature { Environments "環境" }
+        Feature { Riggingandanimation "帆船の艤装とアニメーション" }
+        ]
+    }
+
+Software
+    {
+    EmbeddedSystem "組み込みシステム"
+    Features
+        [
+        Feature { Clock "時計" }
+        Feature { Thermostat "サーモスタット" }
+        Feature { Camera "カメラ" }
+        Feature { Speaker "スピーカー" }
+        Feature { Motor "モーター" }
+        Feature { Display "ディスプレイ" }
+        Feature { GPS "GPS" }
+        Feature { Hardwareinterface "ハードウェアインターフェース" }
+        Feature { Userinterface "ユーザーインターフェース" }
+        ]
+    Components
+        [
+        Component { Thermostat "サーモスタット" }
+        Component { Camera "カメラ" }
+        Component { Speaker "スピーカー" }
+        Component { Motor "モーター" }
+        Component { Display "ディスプレイ" }
+        Component { GPS "GPS" }
+        Component { USB "USB" }
+        Component { Board "基板" }
+        Component { Case "ケース" }
+        ]
+    }
+
