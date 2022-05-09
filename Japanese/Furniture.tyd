@@ -48,11 +48,16 @@ Furniture
     ACUnit                      [ "空調ユニット"; "このユニットは, 1つの部屋を冷やします"; "Case"; "Fans" ]
     CentralHeating
         [
-        "集中暖房"
-        "建物全体を暖める業務用途の集中暖房ユニットです"
+        "ガスボイラー"
+        "安価なガスを使用して建物全体を暖める業務用途の集中暖房ユニットです"
         "Plate"
         "Container"
         "Base"
+        ]
+    Heatpump
+        [
+        "ヒートポンプ"
+        "電気を使って建物全体を暖める業務用途の集中暖房ユニットです"
         ]
     RoofAC
         [
@@ -61,15 +66,15 @@ Furniture
         ]
     Radiator
         [
-        "冷却器"
-        "集中暖房ユニットは部屋を暖めるためにこれを通して温水を送ります"
+        "ラジエーター"
+        "集中暖房ユニットは、これを通してお湯を汲み上げて部屋を暖めます"
         ]
-    HeatingFloorGrill           [ "床暖房グリル"; "" ]
     Ventilation
         [
         "換気扇"
         "集中冷却ユニットは部屋を冷やすためにこれで空気を送ります"
         ]
+    HeatingFloorGrill           [ "床暖房グリル"; "" ]
     CoolingFloorGrill           [ "床冷房グリル"; "" ]
     Industrialventilation
         [
@@ -86,10 +91,20 @@ Furniture
         "現代のコンピューター"
         "現代のコンピューターの全てのニーズに対応する現代のコンピューターです"
         ]
+    RGBComputer
+        [
+        "RGBコンピューター"
+        "大量のRGB LEDを購入してコンピューターを無料で手に入れよう"
+        "LED"
+        "Base"
+        "Keys"
+        ]
     HoloComputer
         [
         "ホロコンピューター"
         "未来へようこそ！ 全てが少し便利ではないところへ"
+        "Hologram"
+        "Base"
         ]
     Cubiclewall                 [ "仕切り壁"; "" ]
     Lamp
@@ -126,6 +141,7 @@ Furniture
         ""
         "Lighting"
         ]
+    FloorLight                  [ "床照明"; "" ]
     FireAlarm
         [
         "火災警報器"
@@ -164,10 +180,14 @@ Furniture
         "Base"
         "Accent"
         ]
-    Toilet                      [ "トイレ"; "うんこマシン" ]
+    Toilet                      [ "トイレ"; "うんこマシン"; "Base"; "Seat" ]
     Sink                        [ "シンク"; "" ]
+    Shower                      [ "シャワー"; "" ]
     WaterCooler                 [ "ウォータークーラー"; "従業員が交流できる場所" ]
     Painting                    [ "絵画"; "オフィスを盛り上げるつまらない絵画" ]
+    AcousticFoam                [ "音響フォーム"; "" ]
+    AcousticDiamondPanel        [ "音響ダイヤモンドパネル"; "" ]
+    AcousticHexPanel            [ "音響六角パネル"; "" ]
     TV                          [ "テレビ"; "" ]
     Bookshelf                   [ "本棚"; "本付きです！" ]
     Receptiondesk               [ "受付デスク"; "" ]
@@ -189,6 +209,7 @@ Furniture
     Smalltree                   [ "小さな木"; "" ]
     Smallpinetree               [ "小さな松の木"; "" ]
     MoneyTree                   [ "金のなる木"; "あなたのお金を投資する別の方法です" ]
+    CozyTree                    [ "居心地の良い木"; "" ]
     Clock                       [ "時計"; "タイムマシーン！ (ホンモノのタイムマシーンではありません)" ]
     SmallServer                 [ "小型サーバー"; "通常のコンピューターですが, もっとインターネットがついてます" ]
     MediumServer                [ "中型サーバー"; "小型サーバーに似ていますが, もっと中型です" ]
@@ -261,12 +282,32 @@ Furniture
         "パレットピックアップ地点"
         "コンベアベルトが空の場合に、パレットから箱を受け取ります"
         ]
-    GaragePort                  [ "ガレージポート"; "宅配業者の正面玄関に箱を直接発送します" ]
+    GaragePort
+        [
+        "ガレージポート左"
+        "宅配業者の正面玄関に箱を直接発送します"
+        ]
+    GaragePortRight
+        [
+        "ガレージポート右"
+        "宅配業者の正面玄関に箱を直接発送します"
+        ]
+    Helipad
+        [
+        "ヘリポート"
+        "ひと投げ {Currency:6500} で、自動的に最大108箱を成層圏にぶん投げます"
+        ]
     BoxElevator                 [ "箱エレベーター"; "異なるフロアに箱を運びます" ]
     CompanyLogo                 [ "会社のロゴ"; ""; "Text"; "Outline"; "Shadow" ]
     CompanyLogoBig              [ "会社のロゴ大"; ""; "Text"; "Outline"; "Shadow" ]
     CompanyLogoHigh             [ "会社のロゴ高"; ""; "Text"; "Outline"; "Shadow" ]
-    SolarPanel                  [ "ソーラーパネル"; "電気代を節約しましょう" ]
+    SolarPanel
+        [
+        "ソーラーパネル"
+        "電気料金を大幅に削減し、残りを25％でグリッドに売り戻します"
+        ]
+    Battery                     [ "バッテリー"; "節約された1ワットは、販売された1ワット以上の価値があります" ]
+    Windturbine                 [ "風力タービン"; "薄い空気から電気を引き出します" ]
     Standarddoor                [ "標準のドア"; "ドアです…" ]
     Casedopening                [ "覆い付き入り口"; "" ]
     Slidingglassdoor            [ "スライド式ガラス製ドア"; "窓の二倍の大きさのドアです" ]
@@ -275,6 +316,19 @@ Furniture
     Smallwindow                 [ "小さな窓"; "部屋の間に設置すると全く役に立ちません" ]
     Largewindow                 [ "大きな窓"; "もっと窓がほしいときに" ]
     Widewindow                  [ "幅広い窓"; "ワイドスクリーン体験のために" ]
+    Smallprivatewindow          [ "小さな個人用の窓"; "あなたのすべての浴室の必要性のために" ]
     Archedgate                  [ "アーチ型の門"; "" ]
     Opengate                    [ "開いた門"; "" ]
     }
+
+Stairs    "階段"
+Common    "公共"
+Breakroom "休憩所"
+Table     "テーブル"
+Sitting   "居間"
+Reception "受付"
+Outdoors  "屋外"
+Utility   "ユーティリティ"
+Bathroom  "浴室"
+Kitchen   "キッチン"
+Gate      "門"
