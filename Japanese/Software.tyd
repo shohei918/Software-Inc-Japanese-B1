@@ -36,6 +36,48 @@ Software
             Virtualization [ "仮想化"; "あなたのOSにもう1つのOSを入れてみました" ]
             }
         Feature { Codesigning "コード署名" }
+        Feature { Hardware "ハードウェア" }
+        Feature
+            {
+            Touch
+                [
+                "タッチ機能"
+                "表面に脂っこい指紋を付けきれません"
+                ]
+            }
+        Feature { Fingerprintscanner "指紋スキャナー" }
+        Feature
+            {
+            Vibration [ "バイブレーション"; "ブルルルとなる機器" ]
+            }
+        Feature
+            {
+            Wirelesscommunication [ "ワイヤレス通信"; "電磁気学を超えては作動しません" ]
+            }
+        Feature
+            {
+            Removabledrive
+                [
+                "リムーバブルドライブ"
+                "セーブデータをメモリーカードに入れ、ゲームをハードドライブに保存します"
+                ]
+            }
+        Feature
+            {
+            Standardizedinput
+                [
+                "標準化された入力"
+                "ゲーム機でゲームを作成するには、キーボードが必要です"
+                ]
+            }
+        Feature
+            {
+            Superoptimization
+                [
+                "超最適化"
+                "ソフトウェアを開発するときに時間を費やして、ハードウェアを注文するときのお金を節約します（製品プリントを注文するときに余分なコストを取り除きます）"
+                ]
+            }
         Feature { Interface "インターフェース" }
         Feature { Customthemes "カスタムテーマ" }
         Feature { Windowingsystem "ウィンドウシステム" }
@@ -73,20 +115,7 @@ Software
             }
         Feature { Appstore "アプリストア" }
         Feature { Cloudbackup "クラウドバックアップ" }
-        Feature { Hardware "ハードウェア" }
-        Feature
-            {
-            Touch
-                [
-                "タッチ機能"
-                "表面に脂っこい指紋を付けきれません"
-                ]
-            }
-        Feature
-            {
-            Vibration [ "バイブレーション"; "ブルルルとなる機器" ]
-            }
-        Feature { Fingerprintscanner "指紋スキャナー" }
+        Feature { Wireless "ワイヤレス" }
         Feature
             {
             Motiondetection
@@ -95,22 +124,8 @@ Software
                 "ジョイスティックをテレビに埋め込んでほしくない人なんていません"
                 ]
             }
-        Feature
-            {
-            Externaldrive
-                [
-                "外付けドライブ"
-                "ゲームのセーブをメモリーカードに入れ、ゲームをハードドライブにセーブします"
-                ]
-            }
-        Feature
-            {
-            Superoptimization
-                [
-                "超最適化"
-                "ハードウェアを注文するときにお金を節約するために、ソフトウェアを開発するときに時間を費やします（製品プリントを注文するときに余分なコストを取り除きます）"
-                ]
-            }
+        Feature { Built-inspeaker "内蔵スピーカー" }
+        Feature { RGBLighting "RGB照明" }
         ]
     Categories
         [
@@ -126,23 +141,28 @@ Software
             {
             Phone [ "電話"; "ポケットに" ]
             }
+        Category { Joystick "ジョイスティック" }
         ]
     Components
         [
-        Component { Gyroscope "ジャイロスコープ" }
-        Component { Rumbleunit "ランブルユニット" }
         Component { Plastic "プラスチック" }
-        Component { Board "基板" }
-        Component { Joystick "ジョイスティック" }
+        Component { Antenna "アンテナ" }
+        Component { Motherboard "マザーボード" }
         Component { Drivebay "ドライブベイ" }
         Component { Controller "コントローラー" }
-        Component { Console "コンソール" }
+        Component { Case "ケース" }
+        Component { Deviceinput "デバイス入力" }
         Component { Touchsensor "タッチセンサー" }
         Component { Vibration "バイブレーション" }
         Component { Screen "スクリーン" }
-        Component { Phoneassembly "電話アセンブリ" }
         Component { Fingerprintscanner "指紋スキャナー" }
-        Component { Case "ケース" }
+        Component { Gyroscope "ジャイロスコープ" }
+        Component { Smallbatterypack "小型バッテリーパック" }
+        Component { Smallbatterypack "中型バッテリーパック" }
+        Component { Smallbatterypack "大型バッテリーパック" }
+        Component { Rumbleunit "ランブルユニット" }
+        Component { Speaker "スピーカー" }
+        Component { LED "LED" }
         ]
     }
 
@@ -373,6 +393,10 @@ Software
             {
             Post-processing [ "後処理"; "\#花盛り" ]
             }
+        Feature
+            {
+            ReverseUno [ "リバースUno"; "リリース時にデザイナーの知的財産所有権を否定します" ]
+            }
         Feature { 3DGraphics "3Dグラフィック" }
         Feature { Shadows "影" }
         Feature { Cutscenes "カットシーン" }
@@ -413,6 +437,32 @@ Software
             {
             MMO [ "MMO"; "多人数参加型オンライン" ]
             }
+        Feature { Newdialog "新しいダイアログ" }
+        Feature { Newcutscenes "新しいカットシーン" }
+        Feature
+            {
+            Charactercustomization [ "キャラクターカスタマイズ"; "ハゲはヘアスタイルです" ]
+            }
+        Feature { Newstoryline "新しいストーリー展開" }
+        Feature
+            {
+            Sportsteams [ "スポーツチーム"; "スプレッドシートに数行足して仕事はおしまい" ]
+            }
+        Feature { Music "音楽" }
+        Feature
+            {
+            Guns [ "銃"; "もう少しビビビっと1つ足せるかもしれない" ]
+            }
+        Feature { Playablecharacters "プレイ可能キャラクター" }
+        Feature
+            {
+            Map [ "マップ"; "オープンワールドゲームをさらにオープニンにします" ]
+            }
+        Feature { Bossfights "ボス戦" }
+        Feature { Environmentobjects "環境オブジェクト" }
+        Feature { Sprites "スプライト" }
+        Feature { Proceduralparameters "手続き型パラメーター" }
+        Feature { AIarchetypes "AIの原型" }
         ]
     Categories
         [
@@ -433,6 +483,10 @@ Software
         Category
             {
             FPS [ "FPS"; "一人称シューティング" ]
+            }
+        Category
+            {
+            Expansionpack [ "拡張パック"; "うわーっ" ]
             }
         ]
     }
@@ -525,6 +579,32 @@ Software
                 "プレゼンテーションに不要な興奮をもたらします！"
                 ]
             }
+        Feature
+            {
+            Soundeffects
+                [
+                "音響効果"
+                "誰かがこのプレゼンテーションを楽しむつもりです、私ではありません"
+                ]
+            }
+        Feature { Mathlibrary "数学ライブラリ" }
+        Feature
+            {
+            Fonts [ "フォント"; "<b><color=\#FF0000>パピルス</color></b>" ]
+            }
+        Feature { Documenttemplates "文書テンプレート" }
+        Feature
+            {
+            Charts
+                [
+                "チャート"
+                "ツリーマップをこのタイムラインチャートに入れ子にすることで、本当に年次報告書が助かります"
+                ]
+            }
+        ]
+    Categories
+        [
+        Category { ContentPack "コンテントパック" }
         ]
     }
 
@@ -712,3 +792,85 @@ Software
         ]
     }
 
+Hardware
+    {
+    TestJoystick       "ジョイスティック"
+    Height             "高さ"
+    Depth              "奥行き"
+    Width              "幅"
+    LengthMod          "長さMod"
+    SkewBottom         "斜め下"
+    SkewTop            "斜め上"
+    Corners            "角"
+    Curve              "曲線"
+    CurveTop           "曲線上"
+    Bend               "曲げ"
+    IndentationTop     "刻み目上"
+    IndentationBottom  "刻み目下"
+    Bump               "突起"
+    Handles            "取っ手"
+    HandlesThickness   "取っ手厚さ"
+    TriggerBase        "トリガーベース"
+    BackMiddle         "後ろ中央"
+    BackFingerspace    "後ろフィンガースペース"
+    Roundness          "丸み"
+    FaceCurve          "顔の曲線"
+    FaceIndentation    "顔のくぼみ"
+    Buttons            "4ボタン"
+    Size               "サイズ"
+    Scale              "スケール"
+    2Buttons           "2ボタン"
+    DPad               "D-Pad"
+    DPad2              "独立D-Pad"
+    AnalogStick        "アナログスティック"
+    BigButton          "大きなボタン"
+    SelectButton       "セレクトボタン"
+    Taper              "テーパー"
+    Shape              "外形"
+    TouchPad           "タッチパッド"
+    MiddleHandle       "中央取っ手"
+    Length             "長さ"
+    Console            "コンソール"
+    BottomCurve        "下曲線"
+    TopCurve           "上曲線"
+    Skew               "傾斜"
+    Inset              "はめ込み"
+    Step               "ステップ"
+    MiddleMod          "中央Mod"
+    MiddleWidth        "中央幅"
+    ControllerInsert   "コントローラー挿入"
+    CellPhone          "携帯電話"
+    ScreenWidth        "スクリーン幅"
+    ScreenHeight       "スクリーン高さ"
+    ScreenPlacement    "スクリーン配置"
+    CurveSide          "曲線側面"
+    CurveBottom        "曲線下"
+    BulgeTop           "膨らみ上"
+    BulgeFront         "膨らみ前"
+    RoundedBack        "膨らみ後"
+    Bumps              "突起"
+    KeyHeight          "キー高さ"
+    Bend2              "曲げ2"
+    KeyScale           "キースケール"
+    Bevels             "斜角"
+    Elliptical         "楕円"
+    Antenna            "アンテナ"
+    Thin               "薄い"
+    Flat               "平滑"
+    SmartPhone         "スマートフォン"
+    CurveBack          "曲線後"
+    SoftCorners        "柔らかい角"
+    BezelThickness     "ベゼル厚み"
+    RoundedEdge        "丸みを帯びた縁"
+    Bezel              "ベゼル"
+    ScreenHeightBottom "スクリーン高さ下"
+    ScreenHeightTop    "スクリーン高さ上"
+    Notch              "ノッチ"
+    NotchWidth         "ノッチ幅"
+    OldConsole         "旧コンソール"
+    BottomTaper        "下テーパー"
+    TopTaper           "上テーパー"
+    BackBump           "後ろ突起"
+    Belt               "ベルト"
+    Slope              "傾き"
+    }
