@@ -3,6 +3,7 @@ Reward
     Contracts         "契約作業で {Currency:50000} を稼ぐ"
     BuyLand           "自分の土地を購入する"
     BuyLandTip        "建設メニューまたはポーズメニューから会社を移転できます"
+    FirstSoftware     "最初の製品をリリースする"
     Canteen           "食堂とキッチンを建設する"
     CanteenTip        "コンテキストメニュー ({KeyBind:ContextMenu}) を使用して\"部屋の使用制限\"を押すと部屋を食堂としてマークできます"
     Canteen0          "配膳テーブル付きの食堂"
@@ -34,4 +35,6 @@ Reward
     Servers           "3台以上のサーバーを備えたサーバーファームを持つ"
     Servers0          "少なくとも3台のサーバーを購入する"
     Servers1          "3つのサーバーを1つのグループに接続する"
+    OwnLand           "800平方メートルの土地を所有する"
+    OwnLandTip        "建設メニューのプロットツールから、ビルドモードでプロットを購入できます"
     }
