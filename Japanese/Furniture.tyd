@@ -229,7 +229,7 @@ Furniture
         "Frame"
         "Handle"
         ]
-    Phone                       [ "電話"; "誰に電話する？ サポートだ！; ""; "Tertiary" ]
+    Phone                       [ "電話"; "誰に電話する？ サポートだ！"; ""; "Tertiary" ]
     DrawingTablet
         [
         "描画タブレット"
