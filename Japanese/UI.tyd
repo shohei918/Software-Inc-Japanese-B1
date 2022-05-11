@@ -2912,7 +2912,7 @@ Error:"
 	Opacity "不透明度"
 	FullScreenWindowed "ウィンドウ化"
 	FullScreenExclusive "排他"
-	RoomAuraDebuff "この部屋は不気味だだ"
+	RoomAuraDebuff "この部屋は不気味だ"
 	RoomAuraDebuffHint "ネガティブな雰囲気の家具を従業員の作業スペースから移動しましょう"
 	HintDismissNotification "通知を右クリックすると閉じることができます"
 #Missing translations
