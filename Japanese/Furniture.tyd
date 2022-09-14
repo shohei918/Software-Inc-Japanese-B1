@@ -263,7 +263,11 @@ Furniture
         "Base"
         ]
     ConveyorBelt                [ "コンベアベルト"; "" ]
+    ConveyorBelt1                [ "コンベアベルト（ティア2）"; "" ]
+    ConveyorBelt2                [ "コンベアベルト（ティア3）"; "" ]
     Ceiling-mountedConveyorBelt [ "天井取り付け型コンベアベルト"; "職員を邪魔することなく箱を運びます" ]
+    Ceiling-mountedConveyorBelt1 [ "天井取り付け型コンベアベルト（ティア2）"; "" ]
+    Ceiling-mountedConveyorBelt2 [ "天井取り付け型コンベアベルト（ティア3）"; "" ]
     ConveyorRamp                [ "傾斜コンベア"; "" ]
     ConveyorSplitter            [ "コンベア分配器"; "入ってくる箱を最大3方向に分割します" ]
     Wall-mountedConveyorBelt    [ "壁取り付け型コンベアベルト"; "部屋から部屋へ箱を運びます" ]

@@ -792,6 +792,68 @@ Software
         ]
     }
 
+Software
+    {
+    Distributionplatform "配信プラットフォーム"
+    Features
+        [
+        Feature { Platform "プラットフォーム" }
+        Feature
+            {
+            Filemanagement
+                [
+                "ファイル管理"
+                "ユーザーが自分のコンピューターのフォルダ構造を詳しく知る必要がないようにします"
+                ]
+            }
+        Feature
+            {
+            Recommendationsystem
+                [
+                "推奨システム"
+                "<Color=\#0000FF>カラフルな</Color><Color=\#FF0000>計算機</Color><Color=\#00FF00>4</Color>がまだ存在することを知らないというだけで, 人々は購入しないかもしれません"
+                ]
+            }
+        Feature
+            {
+            PlatformSDK [ "プラットフォームSDK"; "他のアプリにあなたのアプリをいじらせてみませんか?" ]
+            }
+        Feature { Interface "インターフェース" }
+        Feature { Librarymanagement "ライブラリ管理" }
+        Feature
+            {
+            Reviewsystem [ "レビューシステム"; "9/10 - 誰にとってもちょっとしたものがあります" ]
+            }
+        Feature { Networking "ネットワーキング" }
+        Feature { Cloudsync "クラウド同期" }
+        Feature
+            {
+            Socialfeatures
+                [
+                "ソーシャル機能"
+                "フレンド, チャット, フォーラム, そして猫の写真を広めるための手段"
+                ]
+            }
+        Feature { Voicechat "ボイスチャット" }
+        Feature
+            {
+            Deltapatching
+                [
+                "差分パッチ"
+                "結局のところ, 変更されたものを更新するだけで済みます"
+                ]
+            }
+        Feature
+            {
+            Remotestreaming
+                [
+                "リモート配信"
+                "高帯域幅テクノロジーにより, ユーザーはお気に入りのスプレッドシートをリビングルームのテレビにフルHDで配信できるようになりました"
+                ]
+            }
+        ]
+    }
+
 Hardware
     {
     TestJoystick       "ジョイスティック"
