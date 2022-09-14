@@ -792,6 +792,68 @@ Software
         ]
     }
 
+Software
+    {
+    Distributionplatform "Distribution platform"
+    Features
+        [
+        Feature { Platform "Platform" }
+        Feature
+            {
+            Filemanagement
+                [
+                "File management"
+                "Make sure users don't have to be intimately aware of their computer's folder structure"
+                ]
+            }
+        Feature
+            {
+            Recommendationsystem
+                [
+                "Recommendation system"
+                "Maybe people aren't buying <Color=\#0000FF>Colorful</Color> <Color=\#FF0000>Calculator</Color> <Color=\#00FF00>4</Color> because they just don't know it exists yet"
+                ]
+            }
+        Feature
+            {
+            PlatformSDK [ "Platform SDK"; "Why not let other apps mess with your app?" ]
+            }
+        Feature { Interface "Interface" }
+        Feature { Librarymanagement "Library management" }
+        Feature
+            {
+            Reviewsystem [ "Review system"; "9/10 - It has a little something for everyone" ]
+            }
+        Feature { Networking "Networking" }
+        Feature { Cloudsync "Cloud sync" }
+        Feature
+            {
+            Socialfeatures
+                [
+                "Social features"
+                "Friends, chat, forums and other means of spreading cat pics"
+                ]
+            }
+        Feature { Voicechat "Voice chat" }
+        Feature
+            {
+            Deltapatching
+                [
+                "Delta patching"
+                "Turns out, you only need to update the things that have changed"
+                ]
+            }
+        Feature
+            {
+            Remotestreaming
+                [
+                "Remote streaming"
+                "High bandwidth technology has finally allowed users to stream their favorite spreadsheets to their living room TV in full HD"
+                ]
+            }
+        ]
+    }
+
 Hardware
     {
     TestJoystick       "Joystick"

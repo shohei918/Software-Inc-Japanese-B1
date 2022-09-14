@@ -344,16 +344,30 @@ Right click the title bar of the work item to toggle between normal and collapse
 
 Left click the title bar and drag to re-arrange your work items."
     DIGITALDISTRIBUTION1    "Open the distribution window to begin the tutorial."
-    DIGITALDISTRIBUTION2    "To start selling products through your own digital online store, you can click the highlighted button in the distribution window and pick a server to run the store on. Note that running your own store requires a lot of bandwidth, especially if a product is selling well.
+    DIGITALDISTRIBUTION4    "This is a list of online stores that distribute software for a cut of the revenue. By default you are selling through all of them.
+
+You can click the checkmarks in the list and uncheck {H:Auto-sign new platforms} to take full control. Note the {H:Consumer reach} number, as selling on too few stores can limit how many people will buy your product digitally.
+
+Press continue to learn about opening your own store."
+    DIGITALDISTRIBUTION2    "To start selling products through your own online store, you need to develop a distribution platform by clicking the highlighted button. Running a distribution platform requires a big support team and a high bandwidth server farm. Even if your store isn't selling much, it might still have a large userbase that will only hang around if you provide constant service.
+
+Once your store is up and running, you should update it regularly to keep up with tech levels and reduce bugs. Make sure to develop a new version of your platform once new features become available on your competitors' platforms.
+
+Please note that online stores don't really take hold until the 21st century, so you might not see much activity in the beginning.
 
 Press continue to learn about selling other companies' products."
-    DIGITALDISTRIBUTION3    "If you want to make some extra income by distributing other companies' products on your server, you can enable it using the highlighted toggle.
+    DIGITALDISTRIBUTION3    "If you want to make some extra income by distributing other companies' products, you can enable it using the highlighted toggle.
 
 Your digital market share and business reputation, combined with the cut you decide to take of your clients' products, will determine how many are willing to sign up to your digital store.
 
-Companies will automatically start signing up to your service each month. Active sellers are listed below the toggle.
+Companies will automatically start signing up to your service each month. It's up to you whether you want to accept all new deals, or let them in one-by-one, by checking the {H:Auto-accept new deals} toggle.
+
+The percentage label on the slider becomes red when you change your cut, to indicate whether the current cut has a chance to make clients cancel their deal entirely.
 
 Finally, you should note that you'll need extra bandwidth to handle selling all those extra products."
+    DIGITALDISTRIBUTION5    "Your store may have a lot of users, but if you don't have any products for them to buy, your market share will stay low and you will fail to attract new clients. Luckily, you can offer other companies time-limited {H:exclusivity deals} for your store, to give your users something to buy.
+
+You can do this by opening any product overview, like {H:All software}, selecting a <b>software</b> product and clicking the {H:Exclusivity deal} button. These won't be cheap, especially for new products, but each sale will drive up the market share of your store."
     EDUCATION1              "You need an employee who is ready for education before you can begin the education tutorial.
 
 Employees will be eligible for education when they gain enough experience working on different tasks."
@@ -513,7 +527,7 @@ Try selecting a {H:software type} and {H:category} that requires hardware manufa
 			
 The top most components need to be printed and will show you how many {H:Component printers} you need, to print as many components as possible per month. These components will determine the cost to manufacture one copy of your product. The rest of the components will be assembled in {H:Component assemblers}, using the printed components, and do not incur a fee.
 
-Try opening the {H:Distribution window} now and check out the {H:Hardware} tab to see active hardware manufacturing jobs."
+Try opening the {H:Manufacturing window} now and check out the {H:Hardware} tab to see active hardware manufacturing jobs."
     MANUFACTURING5          "When you select a printing task in this panel, you will get an overview of the needed components in this window as well. You can click the {H:Pop out} button and enter build mode to view the requirements while you're placing down printers and assemblers.
 
 Once you've finished inspecting the distribution window, open {H:Build mode} to see how you setup your own manufacturing plant."
