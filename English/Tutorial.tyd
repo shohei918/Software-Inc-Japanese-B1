@@ -289,6 +289,7 @@ Specialization levels control which tasks your employee can complete. Remember t
 Clicking the {H:Random} button will pick random specialization levels for the points you have left.
 
 You can further educate and train your founder to gain skill and specializations in the game."
+    CUSTOMIZATIONADVANCED   "You can also skip picking creativity and specializations by disabling advanced mode and just letting the game pick it for you."
     NewCustomTraitTut2      "You can add up to 4 founders, but only 1 represents you and the rest will require a share of the company.
 
 You will have to pay dividends of any profit to other share holders, so each extra founder will reduce your profit margin."
@@ -577,9 +578,9 @@ To start off, you should cover any potential loss with {H:Contents insurance}. S
 The more furniture you have, the higher the premium will be.
 
 Close the insurance window when you're ready, and we'll cover how to best prevent burglaries."
-    OFFICEDANGERS3          "Burglaries will increase in scale and frequency as your company scales up. The simple and cheapest way to fight burglaries is to buy {H:Security cameras}. Security cameras will alert police whenever a burglar enters their cone of vision, to halt a burglary early. You should place them strategically near building entrances.
+    OFFICEDANGERS3          "Burglaries will increase in scale and frequency as your company scales up. Your employees will call the police whenever they witnes a burglary. Sadly, the Software Inc. Police Department is slow working and bureaucratic, so don't expect to get all of your stolen property back.
 			
-Sadly, the Software Inc. Police Department is slow working and bureaucratic, so don't expect to get any of your stolen property back. Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to, and scare off would-be burglars when they get too close.
+Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to and scare off would-be burglars when they get too close. You can also place security cameras strategically at building entrances and a surveillance desk, which allows one security guard to keep track of four places at once.
 
 You can hire multiple security guards to cover a 24-hour period and still skip time when only security guards are present.
 

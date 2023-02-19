@@ -12,6 +12,7 @@ Furniture
     RightQuarterTurnStairs       [ "Right Quarter Turn Stairs"; "" ]
     LeftTurnStairs               [ "Left Turn Stairs"; "" ]
     RightTurnStairs              [ "Right Turn Stairs"; "" ]
+    RoundColumn                  [ "Round Column"; "" ]
     Table                        [ "Table"; "Put stuff on it and chairs around it" ]
     CornerTable                  [ "Corner Table"; "" ]
     GlassTable                   [ "Glass Table"; "Enjoy the view of your feet while you work"; "Frame" ]
@@ -148,7 +149,7 @@ Furniture
         "Alerts everyone in the building if a fire starts in the same room"
         ]
     Sprinkler                    [ "Sprinkler"; "" ]
-    Securitycamera               [ "Security Camera"; "" ]
+    Securitycamera               [ "Security Camera"; "Needs a Surveillance desk to become usable" ]
     MiniFridge
         [
         "Mini Fridge"
@@ -192,6 +193,11 @@ Furniture
     Bookshelf                    [ "Bookshelf"; "Complete with books!" ]
     Receptiondesk                [ "Reception desk"; "" ]
     SecurityDesk                 [ "Security Desk"; "Place strategically for best results" ]
+    SurveillanceDesk
+        [
+        "Surveillance Desk"
+        "Allows one guard to surveil four security cameras at a time"
+        ]
     FloorPlant                   [ "Floor Plant"; "A charming floor plant" ]
     TablePlant                   [ "Table Plant"; "Low-poly bonsai tree" ]
     TableCactus                  [ "Table Cactus"; "" ]
@@ -255,11 +261,15 @@ Furniture
         "Prints smaller copies so couriers can carry more"
         ]
     ComponentPrinter             [ "Component Printer"; "Manufactures new hardware components" ]
-    ComponentAssembler           [ "Component Assembler"; "Assembles manufactured components" ]
+    ComponentAssembler
+        [
+        "Component Assembler"
+        "Assembles manufactured components. Can hold {Constant:AssemblerMaxQueue} assemblies in queue"
+        ]
     ComponentRecycler
         [
         "Component Recycler"
-        "Recycles components from unfinished assemblies for later reuse"
+        "Recycles components from unfinished assemblies that pass through for later reuse. {Warning:Should only be placed after the final component assembler}."
         "Base"
         ]
     ConveyorBelt                 [ "Conveyor Belt"; "" ]
@@ -326,6 +336,7 @@ Furniture
     }
 
 Stairs    "Stairs"
+Column    "Column"
 Common    "Common"
 Breakroom "Breakroom"
 Table     "Table"
